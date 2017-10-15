@@ -1,0 +1,2857 @@
+ PDC Linker 7.0.
+  Module 'Exe\aii.exe' Map. Tue May 30 12:58:06 2017
+
+Frame 001000   Size 034E00.  Name=<   .text>, 	Chars=60000020h. [CER]
+Frame 036000   Size 000600.  Name=<  VIPini>, 	Chars=40000040h. [IR]
+Frame 037000   Size 000040.  Name=<  VIPsym>, 	Chars=40000040h. [IR]
+Frame 038000   Size 000830.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
+Frame 039000   Size 000230.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
+Frame 03A000   Size 015EA0.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+Frame 050000   Size 000020.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
+Frame 051000   Size 0000C0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+
+	--- S e g m e n t s : ---
+
+Frame 001000   Size 034E00.  Name=<   .text>, 	Chars=60000020h. [CER]
+001000:000000 034E00   .text::CODE::<no group> F=4
+   001000   Module 'Obj\main.obj'
+   001480   Module 'Obj\time_api.obj'
+   0025C0   Module 'Obj\systemInformation_api.obj'
+   003D70   Module 'Obj\string8_api.obj'
+   004090   Module 'Obj\runTime_api.obj'
+   006340   Module 'Obj\registry_api.obj'
+   007730   Module 'Obj\memory_api.obj'
+   007760   Module 'Obj\locale_api.obj'
+   0077F0   Module 'Obj\fileSystem_api.obj'
+   0092E0   Module 'Obj\exe_api.obj'
+   009630   Module 'Obj\console_api.obj'
+   0096D0   Module 'Obj\time.obj'
+   011570   Module 'Obj\string8.obj'
+   0118B0   Module 'Obj\string.obj'
+   0173F0   Module 'Obj\stream.obj'
+   0184E0   Module 'Obj\outputStreamSupport.obj'
+   018A40   Module 'Obj\inputStreamSupport.obj'
+   018D70   Module 'Obj\std.obj'
+   019290   Module 'Obj\registry.obj'
+   019F20   Module 'Obj\programControl.obj'
+   01A040   Module 'Obj\namedValue.obj'
+   01ADB0   Module 'Obj\memory.obj'
+   01BD30   Module 'Obj\math.obj'
+   01D1F0   Module 'Obj\list.obj'
+   01F020   Module 'Obj\fileSystem.obj'
+   029530   Module 'Obj\exceptionDump.obj'
+   02ABB0   Module 'Obj\exception.obj'
+   02E500   Module 'Obj\environment.obj'
+   02EAC0   Module 'Obj\core.obj'
+   02F910   Module 'Obj\console.obj'
+   031730   Module 'Obj\binary.obj'
+   035540   Module 'Obj\exe.obj'
+   035C30   Module '.\Release\VIPMain.obj'
+   035CA0   Module '.\Release\VIPDll.obj'
+
+Frame 036000   Size 000600.  Name=<  VIPini>, 	Chars=40000040h. [IR]
+036000:000000 000004   VIPini$A::VIPini$A::VIPini F=4
+   036000   Module 'Obj\main.obj'
+036000:000004 00017C   VIPini$C::VIPini$C::VIPini F=4
+   036004   Module 'Obj\main.obj'
+   036034   Module 'Obj\windowsAPI.obj'
+   036038   Module 'Obj\time_api.obj'
+   036040   Module 'Obj\systemInformation_api.obj'
+   036050   Module 'Obj\string8_api.obj'
+   036058   Module 'Obj\string_api.obj'
+   03606C   Module 'Obj\runTime_api.obj'
+   036070   Module 'Obj\registry_api.obj'
+   036078   Module 'Obj\memory_api.obj'
+   03607C   Module 'Obj\locale_api.obj'
+   036084   Module 'Obj\fileSystem_api.obj'
+   03608C   Module 'Obj\exe_api.obj'
+   036094   Module 'Obj\environment_api.obj'
+   036098   Module 'Obj\console_api.obj'
+   0360A0   Module 'Obj\time.obj'
+   0360CC   Module 'Obj\string8.obj'
+   0360D0   Module 'Obj\string.obj'
+   0360E4   Module 'Obj\stream.obj'
+   0360F0   Module 'Obj\outputStreamSupport.obj'
+   0360F4   Module 'Obj\inputStreamSupport.obj'
+   0360F8   Module 'Obj\std.obj'
+   0360FC   Module 'Obj\registry.obj'
+   036104   Module 'Obj\programControl.obj'
+   036108   Module 'Obj\namedValue.obj'
+   03610C   Module 'Obj\memory.obj'
+   036114   Module 'Obj\math.obj'
+   03611C   Module 'Obj\list.obj'
+   036120   Module 'Obj\fileSystem.obj'
+   036140   Module 'Obj\exceptionDump.obj'
+   036144   Module 'Obj\exception.obj'
+   036158   Module 'Obj\environment.obj'
+   03615C   Module 'Obj\core.obj'
+   036160   Module 'Obj\console.obj'
+   03616C   Module 'Obj\binary.obj'
+   03617C   Module 'Obj\exe.obj'
+036000:000180 000008   VIPini$E::VIPini$E::VIPini F=4
+   036180   Module 'Obj\main.obj'
+
+Frame 037000   Size 000040.  Name=<  VIPsym>, 	Chars=40000040h. [IR]
+037000:000000 000004   VIPsym$A::VIPsym$A::VIPsym F=4
+   037000   Module 'Obj\main.obj'
+037000:000004 000034   VIPsym$C::VIPsym$C::VIPsym F=4
+   037004   Module 'Obj\main.obj'
+   037038   Module 'Obj\windowsAPI.obj'
+   037038   Module 'Obj\time_api.obj'
+   037038   Module 'Obj\systemInformation_api.obj'
+   037038   Module 'Obj\string8_api.obj'
+   037038   Module 'Obj\string_api.obj'
+   037038   Module 'Obj\runTime_api.obj'
+   037038   Module 'Obj\registry_api.obj'
+   037038   Module 'Obj\memory_api.obj'
+   037038   Module 'Obj\locale_api.obj'
+   037038   Module 'Obj\fileSystem_api.obj'
+   037038   Module 'Obj\exe_api.obj'
+   037038   Module 'Obj\environment_api.obj'
+   037038   Module 'Obj\console_api.obj'
+   037038   Module 'Obj\time.obj'
+   037038   Module 'Obj\string8.obj'
+   037038   Module 'Obj\string.obj'
+   037038   Module 'Obj\stream.obj'
+   037038   Module 'Obj\outputStreamSupport.obj'
+   037038   Module 'Obj\inputStreamSupport.obj'
+   037038   Module 'Obj\std.obj'
+   037038   Module 'Obj\registry.obj'
+   037038   Module 'Obj\programControl.obj'
+   037038   Module 'Obj\namedValue.obj'
+   037038   Module 'Obj\memory.obj'
+   037038   Module 'Obj\math.obj'
+   037038   Module 'Obj\list.obj'
+   037038   Module 'Obj\fileSystem.obj'
+   037038   Module 'Obj\exceptionDump.obj'
+   037038   Module 'Obj\exception.obj'
+   037038   Module 'Obj\environment.obj'
+   037038   Module 'Obj\core.obj'
+   037038   Module 'Obj\console.obj'
+   037038   Module 'Obj\binary.obj'
+   037038   Module 'Obj\exe.obj'
+037000:000038 000008   VIPsym$E::VIPsym$E::VIPsym F=4
+   037038   Module 'Obj\main.obj'
+
+Frame 038000   Size 000830.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
+038000:000000 000004   VIPtpl$A::VIPtpl$A::VIPtpl F=4
+   038000   Module 'Obj\main.obj'
+038000:000004 000818   VIPtpl$C::VIPtpl$C::VIPtpl F=4
+   038004   Module 'Obj\main.obj'
+   038074   Module 'Obj\windowsAPI.obj'
+   038078   Module 'Obj\time_api.obj'
+   0380A8   Module 'Obj\systemInformation_api.obj'
+   0380E4   Module 'Obj\string8_api.obj'
+   03810C   Module 'Obj\string_api.obj'
+   03813C   Module 'Obj\runTime_api.obj'
+   038170   Module 'Obj\registry_api.obj'
+   0381AC   Module 'Obj\memory_api.obj'
+   0381BC   Module 'Obj\locale_api.obj'
+   0381C0   Module 'Obj\fileSystem_api.obj'
+   038228   Module 'Obj\exe_api.obj'
+   03825C   Module 'Obj\environment_api.obj'
+   038280   Module 'Obj\console_api.obj'
+   0382AC   Module 'Obj\time.obj'
+   038324   Module 'Obj\string8.obj'
+   038330   Module 'Obj\string.obj'
+   038390   Module 'Obj\stream.obj'
+   0383C0   Module 'Obj\outputStreamSupport.obj'
+   038400   Module 'Obj\inputStreamSupport.obj'
+   038434   Module 'Obj\std.obj'
+   038438   Module 'Obj\registry.obj'
+   03846C   Module 'Obj\programControl.obj'
+   0384A0   Module 'Obj\namedValue.obj'
+   0384CC   Module 'Obj\memory.obj'
+   038500   Module 'Obj\math.obj'
+   038534   Module 'Obj\list.obj'
+   03855C   Module 'Obj\fileSystem.obj'
+   0385EC   Module 'Obj\exceptionDump.obj'
+   038638   Module 'Obj\exception.obj'
+   038684   Module 'Obj\environment.obj'
+   0386B4   Module 'Obj\core.obj'
+   038758   Module 'Obj\console.obj'
+   0387A4   Module 'Obj\binary.obj'
+   0387EC   Module 'Obj\exe.obj'
+038000:00081C 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
+   03881C   Module 'Obj\main.obj'
+
+Frame 039000   Size 000230.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
+039000:000000 000230   PRODBG::PRODBG::PRODBG F=4
+   039000   Module 'Obj\main.obj'
+   039010   Module 'Obj\windowsAPI.obj'
+   039020   Module 'Obj\time_api.obj'
+   039030   Module 'Obj\systemInformation_api.obj'
+   039040   Module 'Obj\string8_api.obj'
+   039050   Module 'Obj\string_api.obj'
+   039060   Module 'Obj\runTime_api.obj'
+   039070   Module 'Obj\registry_api.obj'
+   039080   Module 'Obj\memory_api.obj'
+   039090   Module 'Obj\locale_api.obj'
+   0390A0   Module 'Obj\fileSystem_api.obj'
+   0390B0   Module 'Obj\exe_api.obj'
+   0390C0   Module 'Obj\environment_api.obj'
+   0390D0   Module 'Obj\console_api.obj'
+   0390E0   Module 'Obj\time.obj'
+   0390F0   Module 'Obj\string8.obj'
+   039100   Module 'Obj\string.obj'
+   039110   Module 'Obj\stream.obj'
+   039120   Module 'Obj\outputStreamSupport.obj'
+   039130   Module 'Obj\inputStreamSupport.obj'
+   039140   Module 'Obj\std.obj'
+   039150   Module 'Obj\registry.obj'
+   039160   Module 'Obj\programControl.obj'
+   039170   Module 'Obj\namedValue.obj'
+   039180   Module 'Obj\memory.obj'
+   039190   Module 'Obj\math.obj'
+   0391A0   Module 'Obj\list.obj'
+   0391B0   Module 'Obj\fileSystem.obj'
+   0391C0   Module 'Obj\exceptionDump.obj'
+   0391D0   Module 'Obj\exception.obj'
+   0391E0   Module 'Obj\environment.obj'
+   0391F0   Module 'Obj\core.obj'
+   039200   Module 'Obj\console.obj'
+   039210   Module 'Obj\binary.obj'
+   039220   Module 'Obj\exe.obj'
+
+Frame 03A000   Size 015EA0.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+03A000:000000 0011B0   VIPInter::VIPInter::.rdata F=4
+   03A000   Module 'Obj\main.obj'
+   03A770   Module 'Obj\systemInformation_api.obj'
+   03A930   Module 'Obj\string_api.obj'
+   03AC90   Module 'Obj\time.obj'
+03A000:0011B0 0000AE   VIPSymb::VIPSymb::.rdata F=4
+   03B1B0   Module 'Obj\main.obj'
+03A000:001260 008FA0   VIPClass::VIPClass::.rdata F=4
+   03B260   Module 'Obj\main.obj'
+   03B660   Module 'Obj\windowsAPI.obj'
+   03B6D0   Module 'Obj\time_api.obj'
+   03B9F0   Module 'Obj\systemInformation_api.obj'
+   03C360   Module 'Obj\string8_api.obj'
+   03C490   Module 'Obj\string_api.obj'
+   03C520   Module 'Obj\runTime_api.obj'
+   03C720   Module 'Obj\registry_api.obj'
+   03C950   Module 'Obj\memory_api.obj'
+   03CB80   Module 'Obj\locale_api.obj'
+   03CCA0   Module 'Obj\fileSystem_api.obj'
+   03D350   Module 'Obj\exe_api.obj'
+   03D4E0   Module 'Obj\environment_api.obj'
+   03D590   Module 'Obj\console_api.obj'
+   03D770   Module 'Obj\time.obj'
+   03E3B0   Module 'Obj\string8.obj'
+   03E4A0   Module 'Obj\string.obj'
+   03F240   Module 'Obj\stream.obj'
+   03F520   Module 'Obj\outputStreamSupport.obj'
+   03F770   Module 'Obj\inputStreamSupport.obj'
+   03F940   Module 'Obj\std.obj'
+   03F990   Module 'Obj\registry.obj'
+   03FB70   Module 'Obj\programControl.obj'
+   03FCF0   Module 'Obj\namedValue.obj'
+   03FD60   Module 'Obj\memory.obj'
+   0401C0   Module 'Obj\math.obj'
+   040320   Module 'Obj\list.obj'
+   040370   Module 'Obj\fileSystem.obj'
+   041860   Module 'Obj\exceptionDump.obj'
+   041900   Module 'Obj\exception.obj'
+   0420D0   Module 'Obj\environment.obj'
+   042150   Module 'Obj\core.obj'
+   042B10   Module 'Obj\console.obj'
+   043640   Module 'Obj\binary.obj'
+   0440E0   Module 'Obj\exe.obj'
+03A000:00A200 00BCA0   .rdata::.rdata::.rdata F=4
+   044200   Module 'Obj\main.obj'
+   044270   Module 'Obj\windowsAPI.obj'
+   044300   Module 'Obj\time_api.obj'
+   044770   Module 'Obj\systemInformation_api.obj'
+   044930   Module 'Obj\string8_api.obj'
+   044B10   Module 'Obj\string_api.obj'
+   044BC0   Module 'Obj\runTime_api.obj'
+   0455C0   Module 'Obj\registry_api.obj'
+   045970   Module 'Obj\memory_api.obj'
+   045A50   Module 'Obj\locale_api.obj'
+   045C30   Module 'Obj\fileSystem_api.obj'
+   0460F0   Module 'Obj\exe_api.obj'
+   046270   Module 'Obj\environment_api.obj'
+   046330   Module 'Obj\console_api.obj'
+   0464A0   Module 'Obj\time.obj'
+   047370   Module 'Obj\string8.obj'
+   0474A0   Module 'Obj\string.obj'
+   047F00   Module 'Obj\stream.obj'
+   0487E0   Module 'Obj\outputStreamSupport.obj'
+   048A00   Module 'Obj\inputStreamSupport.obj'
+   048C20   Module 'Obj\std.obj'
+   048CF0   Module 'Obj\registry.obj'
+   0491C0   Module 'Obj\programControl.obj'
+   049320   Module 'Obj\namedValue.obj'
+   0495F0   Module 'Obj\memory.obj'
+   049680   Module 'Obj\math.obj'
+   049BE0   Module 'Obj\list.obj'
+   049E40   Module 'Obj\fileSystem.obj'
+   04B080   Module 'Obj\exceptionDump.obj'
+   04B670   Module 'Obj\exception.obj'
+   04E990   Module 'Obj\environment.obj'
+   04EC70   Module 'Obj\core.obj'
+   04EFD0   Module 'Obj\console.obj'
+   04F5B0   Module 'Obj\binary.obj'
+   04FCA0   Module 'Obj\exe.obj'
+
+Frame 050000   Size 000020.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
+050000:000000 000014   .gcroot::.gcroot::.gcroot F=4
+   050000   Module 'Obj\runTime_api.obj'
+   050004   Module 'Obj\stream.obj'
+   050008   Module 'Obj\console.obj'
+
+Frame 051000   Size 0000C0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+051000:000000 0000B0   .data::DATA::DGROUP F=4
+   051000   Module 'Obj\runTime_api.obj'
+   051014   Module 'Obj\memory_api.obj'
+   051018   Module 'Obj\fileSystem_api.obj'
+   051020   Module 'Obj\time.obj'
+   051048   Module 'Obj\string.obj'
+   051058   Module 'Obj\stream.obj'
+   051060   Module 'Obj\outputStreamSupport.obj'
+   051068   Module 'Obj\inputStreamSupport.obj'
+   051070   Module 'Obj\fileSystem.obj'
+   051088   Module 'Obj\exception.obj'
+   051090   Module 'Obj\console.obj'
+   0510A0   Module 'Obj\binary.obj'
+051000:0000B0 00000C   .bss::BSS::DGROUP F=4
+   0510B0   Module '.\Release\VIPDll.obj'
+
+	     ------- Names by value Map ---------
+Frame 001000   Size 034E00.  Name=<   .text>, 	Chars=60000020h. [CER]
+001000:000000 034E00   .text::CODE::<no group> F=4
+--- From 'Obj\main.obj'
+01:00001000 ?classInfo@main_class@@SAXPAPB_W0@Z  (Idle)
+01:0000101C ?run@main_class@@SAXXZ 
+01:000010DC ?emergent_method@main_class@@SAXPB_W0PAPB_W@Z 
+01:000013A0 ?patient_conscious@main_class@@SAXPB_W@Z 
+01:000013BC ?acid@main_class@@SAXPB_W@Z 
+01:000013E0 ?alkali@main_class@@SAXPB_W@Z 
+01:00001404 ?other@main_class@@SAXPB_W@Z 
+01:00001420 ?oil@main_class@@SAXPB_W@Z 
+01:00001444 ?patient_mad@main_class@@SAXPB_W@Z 
+--- From '.\Release\VIPDll.obj'
+01:00001460 _PROLOG_Goal 
+--- From 'Obj\time_api.obj'
+01:00001480 ?classInfo@time_api_class@@SAXPAPB_W0@Z 
+--- From 'Obj\exception.obj'
+01:0000149C ?_getSystemTimeAsFileTime@time_api_class@@SAXPAPAUunsigned64_struct@core_class@@@Z 
+01:000014CC ?_fileTimeToSystemTime@time_api_class@@SAXPAUunsigned64_struct@core_class@@PAPAUsystemTime_struct@time_native_class@@@Z 
+--- From 'Obj\time.obj'
+01:000015B0 ?_systemTimeToFileTime@time_api_class@@SAXPAUsystemTime_struct@time_native_class@@PAPAUunsigned64_struct@core_class@@@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00001A3C ?_fileTimeToLocalFileTime@time_api_class@@SAXPAUunsigned64_struct@core_class@@PAPAU23@@Z 
+--- From 'Obj\time_api.obj'
+01:00001B20 ?_localFileTimeToFileTime@time_api_class@@SAXPAUunsigned64_struct@core_class@@PAPAU23@@Z  (Idle)
+--- From 'Obj\exception.obj'
+01:00001C04 ?_getDateFormat@time_api_class@@SAXIIPAUsystemTime_struct@time_native_class@@PB_WPAPB_W@Z 
+01:00001DB8 ?_getTimeFormat@time_api_class@@SAXIIPAUsystemTime_struct@time_native_class@@PB_WPAPB_W@Z 
+--- From 'Obj\time.obj'
+01:00001F6C ?_getLocaleInfo@time_api_class@@SAXIIPAPB_W@Z 
+01:00001FF8 ?isLeapYear@time_api_class@@SAXI@Z 
+--- From 'Obj\time_api.obj'
+01:00002068 ?cannotGetDateTimeFormat@time_api_class@@SAXPAXPAPB_W1@Z 
+01:00002090 ?cannotGetLocaleInfo@time_api_class@@SAXPAXPAPB_W1@Z 
+01:000020B8 ?raise_CannotGetDateTimeFormat@time_api_class@@SGXXIIIIIIIIIIPB_WI@Z 
+01:000024AC ?raise_CannotGetLocaleInfo@time_api_class@@SGXXIII@Z 
+--- From 'Obj\systemInformation_api.obj'
+01:000025C0 ?classInfo@systemInformation_api_class@@SAXPAPB_W0@Z 
+01:000025DC ?isVersionWindows98@systemInformation_api_class@@SAXXZ  (Idle)
+--- From 'Obj\environment.obj'
+01:00002628 ?getVersionEx@systemInformation_api_class@@SAXIPAIPAIPAIPAIPAPB_WPA_W66PAE@Z 
+--- From 'Obj\string8_api.obj'
+01:00003D70 ?classInfo@string8_api_class@@SAXPAPB_W0@Z 
+--- From 'Obj\console.obj'
+01:00003D8C ?toWideChar@string8_api_class@@SGXPAUcodePage_struct@core_class@@PADHPB_WH@Z 
+01:00003E1C ?_lenWideChar@string8_api_class@@SAXPAUcodePage_struct@core_class@@PADHPAH@Z 
+01:00003EE4 ?toMultiByte@string8_api_class@@SGXPAUcodePage_struct@core_class@@PB_WHPADH@Z 
+01:00003F7C ?_lenMultiByte@string8_api_class@@SAXPAUcodePage_struct@core_class@@PB_WHPAH@Z 
+--- From 'Obj\string8_api.obj'
+01:0000404C ?_toApiCodePage@string8_api_class@@SAXPAUcodePage_struct@core_class@@PAI@Z 
+--- From 'Obj\runTime_api.obj'
+01:00004090 ?classInfo@runtime_api_class@@SAXPAPB_W0@Z 
+01:000040AC ?_determineOSV5@runtime_api_class@@SAXII_WPAPB_W@Z 
+01:00004350 ?_determineOSV4@runtime_api_class@@SAXII_WPAPB_W@Z 
+01:000043F8 ?_determineOSV6@runtime_api_class@@SAXII_WPAPB_W@Z 
+01:00004458 ?_determineMajorVersion@runtime_api_class@@SAXIII_WPAPB_W@Z 
+01:00004568 ?_determineOSFamily@runtime_api_class@@SAXIPAPB_W@Z 
+--- From 'Obj\environment.obj'
+01:00004728 ?getOSVersion@runtime_api_class@@SAXQAVoutputStream@@@@Z 
+--- From 'Obj\runTime_api.obj'
+01:00005FD4 ?_getSysInfo@runtime_api_class@@SAXPAPB_W@Z 
+01:00006098 ?_getNativeSysInfo@runtime_api_class@@SAXPAPB_W@Z 
+01:000061A0 ?_getRegInfo@runtime_api_class@@SAXPAPB_W@Z 
+01:00006244 ?_getRegInfoK@runtime_api_class@@SAXPB_WPAPB_W@Z 
+01:000062B0 ?_printString@runtime_api_class@@SAXPAUvalue_struct@core_class@@PAPB_W@Z 
+01:00006308 ?_class_facts_initializer@runtime_api_class@@SGXXZ 
+--- From 'Obj\registry.obj'
+01:00006340 ?_regOpenKeyEx@registry_api_class@@SAXIPB_WIPAI@Z 
+01:00006380 ?_regTryOpenKeyEx@registry_api_class@@SAXIPB_WIPAI@Z 
+01:000063AC ?regCloseKey@registry_api_class@@SAXI@Z 
+01:00006438 ?_regCreateKeyEx@registry_api_class@@SAXIPB_WIIPAUsecurityAttr_struct@registry_native_class@@PAIPAI@Z 
+01:00006484 ?regDeleteKey@registry_api_class@@SAXIPB_W@Z 
+01:000064C0 ?_regEnumKeyEx@registry_api_class@@SAXIPAPAU?$__list_struct@Ustring@@@@@Z 
+--- From 'Obj\registry_api.obj'
+01:00006558 ?_regEnumKeyEx1@registry_api_class@@SAXIIPB_WIPAPAU?$__list_struct@Ustring@@@@@Z 
+01:000065DC ?_tryRegEnumKeyExOne@registry_api_class@@SAXIIPB_WIPAPB_W@Z 
+--- From 'Obj\registry.obj'
+01:0000672C ?regSetValueEx@registry_api_class@@SAXIPB_WPAUvalue_struct@core_class@@@Z 
+01:00006794 ?_regQueryValueEx@registry_api_class@@SAXIPB_WPAPAUvalue_struct@core_class@@@Z 
+01:0000680C ?_regTryQueryValueEx@registry_api_class@@SAXIPB_WPAPAUvalue_struct@core_class@@@Z 
+--- From 'Obj\registry_api.obj'
+01:00006878 ?_regQueryValueEx1@registry_api_class@@SAXIPB_WPAUpUnsigned_struct@registry_native_class@@PAPAUvalue_struct@core_class@@@Z 
+--- From 'Obj\registry.obj'
+01:0000691C ?regDeleteValue@registry_api_class@@SAXIPB_W@Z 
+01:00006958 ?_regEnumValue@registry_api_class@@SAXIPAPAU?$__list_struct@UnamedValue@@@@@Z 
+--- From 'Obj\registry_api.obj'
+01:000069F0 ?_regEnumValue1@registry_api_class@@SAXIIPB_WIPAPAU?$__list_struct@UnamedValue@@@@@Z 
+01:00006A74 ?_tryRegEnumValueOne@registry_api_class@@SAXIIPB_WIPAPAUnamedValue_struct@core_class@@@Z 
+01:00006E38 ?_packValue@registry_api_class@@SAXIPAXIPAPAUvalue_struct@core_class@@@Z 
+01:000070E4 ?unpackValue@registry_api_class@@SAXPAUvalue_struct@core_class@@PAIPAPAXPAI@Z 
+01:00007460 ?_convertToStringList@registry_api_class@@SAXPAXPAPAU?$__list_struct@Ustring@@@@@Z 
+01:000074F8 ?_mk_pUnsigned@registry_api_class@@SAXIPAPAUpUnsigned_struct@registry_native_class@@@Z 
+01:00007520 ?_getInteger@registry_api_class@@SAXPAUpUnsigned_struct@registry_native_class@@PAH@Z 
+01:00007548 ?_getUnsigned@registry_api_class@@SAXPAUpUnsigned_struct@registry_native_class@@PAI@Z 
+01:0000755C ?check_name_value@registry_api_class@@SAXIPB_W1PAUvalue_struct@core_class@@@Z 
+01:00007618 ?check_name@registry_api_class@@SAXIPB_W1@Z 
+01:000076D0 ?check@registry_api_class@@SAXIPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+01:00007708 ?classInfo@registry_api_class@@SAXPAPB_W0@Z 
+--- From 'Obj\memory_api.obj'
+01:00007730 GetProcessMemoryInfo  (Idle)
+--- From 'Obj\locale_api.obj'
+01:00007760 ?classInfo@locale_native_class@@SAXPAPB_W0@Z  (Idle)
+01:0000777C ?classInfo@locale_api_class@@SAXPAPB_W0@Z  (Idle)
+01:00007798 ?_makelcid@locale_api_class@@SAXIIPAI@Z  (Idle)
+01:000077C4 ?_makelangid@locale_api_class@@SAXIIPAI@Z  (Idle)
+--- From 'Obj\fileSystem_api.obj'
+01:000077F0 ?classInfo@fileSystem_api_class@@SAXPAPB_W0@Z 
+01:0000780C ?fileAttributeCorrespondence@fileSystem_api_class@@SAXPAUfileAttributeAtom_struct@1@PAI@Z 
+--- From 'Obj\fileSystem.obj'
+01:0000788C ?_toApiAttributes@fileSystem_api_class@@SAXPAU?$__list_struct@UfileAttributeAtom@@@@PAI@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:000078BC ?_toApiAttributes@fileSystem_api_class@@SAXPAU?$__list_struct@UfileAttributeAtom@@@@IPAI@Z 
+--- From 'Obj\fileSystem.obj'
+01:00007920 ?_fromApiAttributes@fileSystem_api_class@@SAXIPAPAU?$__list_struct@UfileAttributeAtom@@@@@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00007984 ?convertToFileAttribute_nd@fileSystem_api_class@@SAXIPAPAUfileAttributeAtom_struct@1@@Z 
+--- From 'Obj\fileSystem.obj'
+01:000079C4 ?_createFile@fileSystem_api_class@@SAXPB_WIPAUaccessPermit_struct@1@IPAU?$__list_struct@UfileAttributeAtom@@@@AAUfileHandle@@@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00007A54 ?_toShareModeAPI@fileSystem_api_class@@SAXPAUaccessPermit_struct@1@PAI@Z 
+--- From 'Obj\fileSystem.obj'
+01:00007A9C ?_getFileSize@fileSystem_api_class@@SAXPBUfileHandle@@PAPAUunsigned64_struct@core_class@@@Z 
+01:00007B3C ?getFileSize@fileSystem_api_class@@SAXPBUfileHandle@@PAIPAI@Z 
+01:00007B6C ?_setFilePointer@fileSystem_api_class@@SAXPBUfileHandle@@PAUinteger64_struct@core_class@@IPAPAUunsigned64_struct@4@@Z 
+01:00007C10 ?_setFilePointer32@fileSystem_api_class@@SAXPBUfileHandle@@HIPAI@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00007C60 ?checkResult_filePointer_Short@fileSystem_api_class@@SAXIPBUfileHandle@@HI@Z 
+01:00007CD8 ?checkResult_fileSize@fileSystem_api_class@@SAXIPBUfileHandle@@@Z 
+01:00007D28 ?checkResult_filePointer@fileSystem_api_class@@SAXIPBUfileHandle@@PAUinteger64_struct@core_class@@I@Z 
+01:00007D80 ?getLastError@fileSystem_api_class@@SAXPAIPAPB_W@Z 
+--- From 'Obj\fileSystem.obj'
+01:00007DA8 ?getVolumeInformation@fileSystem_api_class@@SAXPB_WPAPB_WPAI1@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00007EAC ?cannotCreate@fileSystem_api_class@@SAXPAXPAPB_W1@Z 
+01:00007ED4 ?cannotGetFileSize@fileSystem_api_class@@SAXPAXPAPB_W1@Z 
+01:00007EFC ?cannotSetFilePointer@fileSystem_api_class@@SAXPAXPAPB_W1@Z 
+--- From 'Obj\fileSystem.obj'
+01:00007F24 ?raise_CannotCreate@fileSystem_api_class@@SGXXPB_WI1@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00008034 ?raise_CannotGetFileSize@fileSystem_api_class@@SGXXPBUfileHandle@@IPB_W@Z 
+01:00008144 ?raise_CannotSetFilePointer@fileSystem_api_class@@SGXXPBUfileHandle@@PAUinteger64_struct@core_class@@IIPB_W@Z 
+--- From 'Obj\console.obj'
+01:000082F4 ?crlf_lf@fileSystem_api_class@@SAXPAXHPAUboolean_struct@_builtIn_class@@PAPAXPAIPAPAU?$__list_struct@Uunsigned@@@@PAPAU23@@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00008374 ?prepareSearch@fileSystem_api_class@@SAXIHPAIPAPAUboolean_struct@_builtIn_class@@@Z 
+01:00008448 ?searchCRLF@fileSystem_api_class@@SAXIIIPAIPAPAU?$__list_struct@Uunsigned@@@@PAI@Z 
+01:000085F0 ?_tryGetPositionOfCRLF@fileSystem_api_class@@SAXIHIPAI@Z 
+01:000086E4 ?_convertCRLF_IfNeeded@fileSystem_api_class@@SAXPAUboolean_struct@_builtIn_class@@IIPAU?$__list_struct@Uunsigned@@@@IPAI@Z 
+01:00008950 ?checkFirstPos@fileSystem_api_class@@SAXIPAU?$__list_struct@Uunsigned@@@@IPAIPAIPAPAU?$__list_struct@U2@@@@Z 
+01:000089F8 ?_mem_move@fileSystem_api_class@@SAXIIIPAI@Z 
+01:00008A40 ?_mem_copy@fileSystem_api_class@@SAXIIIPAI@Z 
+01:00008A88 ?convertCRLF_LF@fileSystem_api_class@@SAXXIIIPAU?$__list_struct@Uunsigned@@@@@Z 
+--- From 'Obj\fileSystem.obj'
+01:00008B48 ?crlf_lf@fileSystem_api_class@@SAXPB_W@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00008B6C ?do_CRLF_LF@fileSystem_api_class@@SAXII@Z 
+--- From 'Obj\console.obj'
+01:00008C54 ?lf_crlf@fileSystem_api_class@@SAXPAXHPAPAXPAH@Z 
+--- From 'Obj\fileSystem_api.obj'
+01:00008D04 ?_getSize@fileSystem_api_class@@SAXIHPAH@Z 
+01:00008D6C ?searchLineFeeds@fileSystem_api_class@@SAXIHIPAIPAPAU?$__list_struct@Uunsigned@@@@PAH@Z 
+01:00008EC0 ?_convertToCRLF_IfNeeded@fileSystem_api_class@@SAXPAXHPAU?$__list_struct@Uunsigned@@@@HPAPAX@Z 
+01:00008F20 ?convertToCRLF@fileSystem_api_class@@SAXPAXPAXHPAU?$__list_struct@Uunsigned@@@@@Z 
+01:00008FD0 ?fileAttributeCorrespondence@fileSystem_api_class@@SAXPAPAUfileAttributeAtom_struct@1@I@Z  (Idle)
+01:000090AC ?fileAttributeCorrespondence@fileSystem_api_class@@SAXPAPAUfileAttributeAtom_struct@1@PAI@Z 
+01:000091D8 ?fileAttributeCorrespondence@fileSystem_api_class@@SAXPAUfileAttributeAtom_struct@1@I@Z  (Idle)
+--- From 'Obj\fileSystem.obj'
+01:0000928C SHGetSpecialFolderPathW 
+01:000092B0 GetLongPathNameW 
+--- From 'Obj\exe_api.obj'
+01:000092E0 ?_getModuleNameByAddress@exe_api_class@@SAXPBUhModule@@PAPB_W@Z  (Idle)
+01:0000938C ?_isOSConsoleApplication@exe_api_class@@SAXPB_WPAPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:00009608 ?classInfo@exe_api_class@@SAXPAPB_W0@Z 
+--- From 'Obj\console_api.obj'
+01:00009630 ?classInfo@console_api_class@@SAXPAPB_W0@Z 
+--- From 'Obj\console.obj'
+01:0000964C ?_getStdHandle@console_api_class@@SAXIAAUfileHandle@@@Z 
+--- From 'Obj\time.obj'
+01:000096D0 ?classInfo@calendarInterval_class@@SAXPAPB_W0@Z  (Idle)
+01:000096EC ?new@calendarInterval_class@@SAXQAVcalendarInterval@@@@Z 
+01:000096F4 ?new@calendarInterval_class@@SAXQAVcalendarInterval@@@HHHHHPAN@Z 
+01:00009700 ?setInterval@calendarInterval_class@@SAXQAVcalendarInterval@@@HHHHHPAN@Z 
+01:0000974C ?getInterval@calendarInterval_class@@SAXQAVcalendarInterval@@@PAHPAHPAHPAHPAHPAPAN@Z 
+01:00009788 ?less@calendarInterval_class@@SAXQAVcalendarInterval@@@0QAVgmtTime@@@@Z 
+01:0000980C ?lessOrEqual@calendarInterval_class@@SAXQAVcalendarInterval@@@0QAVgmtTime@@@@Z 
+01:00009890 ?equal@calendarInterval_class@@SAXQAVcalendarInterval@@@0QAVgmtTime@@@@Z 
+01:00009914 ?add@calendarInterval_class@@SAXQAVcalendarInterval@@@0@Z 
+01:00009A10 ?subtract@calendarInterval_class@@SAXQAVcalendarInterval@@@0@Z 
+01:00009B34 ?_new@calendarInterval_class@@SAXPAPAVcalendarInterval@@@@Z  (Idle)
+01:00009B5C ?_new@calendarInterval_class@@SAXHHHHHPANPAPAVcalendarInterval@@@@Z  (Idle)
+01:00009B98 ?_object_facts_initializer@calendarInterval_class@@SGXQAVcalendarInterval@@@@Z 
+01:00009BE8 ?classInfo@gmtTime_class@@SAXPAPB_W0@Z  (Idle)
+01:00009C04 ?new@gmtTime_class@@SAXQAVgmtTime@@@@Z 
+01:00009C2C ?new@gmtTime_class@@SAXQAVgmtTime@@@PAUunsigned64_struct@core_class@@@Z 
+01:00009C40 ?new@gmtTime_class@@SAXQAVgmtTime@@@HHHHHPAN@Z 
+01:00009C5C ?_getGmtTime@gmtTime_class@@SAXQAVgmtTime@@@PAPAUunsigned64_struct@core_class@@@Z 
+01:00009C70 ?setGmtTime@gmtTime_class@@SAXQAVgmtTime@@@PAUunsigned64_struct@core_class@@@Z 
+01:00009C84 ?_getCurrentGmtTimeValue@gmtTime_class@@SAXPAPAUunsigned64_struct@core_class@@@Z 
+01:00009CB4 ?before@gmtTime_class@@SAXQAVgmtTime@@@0@Z 
+01:00009CF4 ?beforeOrSameTime@gmtTime_class@@SAXQAVgmtTime@@@0@Z 
+01:00009D34 ?sameTime@gmtTime_class@@SAXQAVgmtTime@@@0@Z 
+01:00009D6C ?_getInterval@gmtTime_class@@SAXQAVgmtTime@@@0PAPAVtimeInterval@@@@Z 
+01:00009D8C ?addInterval@gmtTime_class@@SAXQAVgmtTime@@@QAVtimeInterval@@@@Z 
+01:00009DE8 ?subtractInterval@gmtTime_class@@SAXQAVgmtTime@@@QAVtimeInterval@@@@Z 
+01:00009E44 ?getGmtDateAndTime@gmtTime_class@@SAXQAVgmtTime@@@PAHPAHPAHPAHPAHPAPAN@Z 
+01:00009F84 ?setGmtDateAndTime@gmtTime_class@@SAXQAVgmtTime@@@HHHHHPAN@Z 
+01:0000A140 ?_new@gmtTime_class@@SAXPAPAVgmtTime@@@@Z  (Idle)
+01:0000A168 ?_new@gmtTime_class@@SAXPAUunsigned64_struct@core_class@@PAPAVgmtTime@@@@Z  (Idle)
+01:0000A194 ?_new@gmtTime_class@@SAXHHHHHPANPAPAVgmtTime@@@@Z  (Idle)
+01:0000A1D0 ?classInfo@time_class@@SAXPAPB_W0@Z 
+01:0000A1EC ?initTimeFormatter@time_class@@SAXQAVtime@@@@Z 
+01:0000A22C ?new@time_class@@SAXQAVtime@@@@Z 
+01:0000A248 ?new@time_class@@SAXQAVtime@@@QAVgmtTime@@@@Z 
+01:0000A274 ?newFromGMT@time_class@@SAXQAVtime@@@PAUunsigned64_struct@core_class@@@Z 
+01:0000A294 ?newFromLocalTime@time_class@@SAXQAVtime@@@PAUunsigned64_struct@core_class@@@Z 
+01:0000A314 ?newFromTimeZone@time_class@@SAXQAVtime@@@PAUunsigned64_struct@core_class@@PAUtimeZone_struct@timeFormatter_class@@@Z 
+01:0000A39C ?new@time_class@@SAXQAVtime@@@HHHHHPAN@Z 
+01:0000A454 ?newDate@time_class@@SAXQAVtime@@@HHH@Z 
+01:0000A4B8 ?newTime@time_class@@SAXQAVtime@@@HHPAN@Z 
+01:0000A588 ?setDate@time_class@@SAXQAVtime@@@HHH@Z 
+01:0000A5FC ?getDate@time_class@@SAXQAVtime@@@PAHPAHPAH@Z 
+01:0000A670 ?setTime@time_class@@SAXQAVtime@@@HHH@Z 
+01:0000A6E4 ?getTime@time_class@@SAXQAVtime@@@PAHPAHPAH@Z 
+01:0000A758 ?setTime_localTimeValue@time_class@@SAXQAVtime@@@PAUunsigned64_struct@core_class@@@Z 
+01:0000A7B8 ?_getTime@time_class@@SAXQAVtime@@@PAPAUunsigned64_struct@core_class@@@Z 
+01:0000A818 ?setTimeDetailed@time_class@@SAXQAVtime@@@HHPAN@Z 
+01:0000A88C ?getTimeDetailed@time_class@@SAXQAVtime@@@PAHPAHPAPAN@Z 
+01:0000A900 ?getWeek@time_class@@SAXQAVtime@@@PAHPAH@Z 
+01:0000A968 ?setWeek@time_class@@SAXQAVtime@@@HH@Z 
+01:0000A9D0 ?setDateAndTime@time_class@@SAXQAVtime@@@HHHHH@Z 
+01:0000AA5C ?getDateAndTime@time_class@@SAXQAVtime@@@PAHPAHPAHPAHPAH@Z 
+01:0000AAE8 ?setDateAndTime@time_class@@SAXQAVtime@@@HHHHHH@Z 
+01:0000AB80 ?getDateAndTime@time_class@@SAXQAVtime@@@PAHPAHPAHPAHPAHPAH@Z 
+01:0000AC18 ?setDateAndTimeDetailed@time_class@@SAXQAVtime@@@HHHHHPAN@Z 
+01:0000ACB0 ?getDateAndTimeDetailed@time_class@@SAXQAVtime@@@PAHPAHPAHPAHPAHPAPAN@Z 
+01:0000AD48 ?setSystemClock@time_class@@SAXQAVtime@@@@Z  (Idle)
+01:0000AF44 ?_formatLongDate@time_class@@SAXQAVtime@@@PAPB_W@Z 
+01:0000AFA4 ?_formatShortDate@time_class@@SAXQAVtime@@@PAPB_W@Z 
+01:0000B004 ?_formatTime@time_class@@SAXQAVtime@@@PAPB_W@Z 
+01:0000B064 ?_toSimpleString@time_class@@SAXQAVtime@@@PAPB_W@Z 
+01:0000B0C4 ?setFromSimpleString@time_class@@SAXQAVtime@@@PB_W@Z 
+01:0000B124 ?_format@time_class@@SAXQAVtime@@@PB_WPAPB_W@Z 
+01:0000B18C ?setFromString@time_class@@SAXQAVtime@@@PB_W1@Z 
+01:0000B1F4 ?setFromString@time_class@@SAXQAVtime@@@PB_W@Z 
+01:0000B254 ?isDaylightTime@time_class@@SAXQAVtime@@@@Z 
+01:0000B2AC ?isLeapYear@time_class@@SAXQAVtime@@@@Z 
+01:0000B304 ?_getDayOfWeek@time_class@@SAXHHHPAI@Z 
+01:0000B420 ?_dayOfYear@time_class@@SAXHHHPAI@Z 
+01:0000B4C4 ?_getDaysInMonth@time_class@@SAXHHPAI@Z 
+01:0000B514 ?_dayOfYearEx@time_class@@SAXIIIPAI@Z 
+01:0000B5AC ?_getDaysInMonthEx@time_class@@SAXHIPAI@Z 
+01:0000B748 ?normalize@time_class@@SAXHHHHHPANPAHPAHPAHPAHPAHPAPAN@Z 
+01:0000B834 ?normalizeDays@time_class@@SAXHHHPAHPAH@Z 
+01:0000B850 ?normalizePositiveDays@time_class@@SAXHHHPAHPAH@Z 
+01:0000B8F8 ?normalizeNegativeDays@time_class@@SAXHHHPAHPAH@Z 
+01:0000B970 ?resolveInteger@time_class@@SAXHHPAHPAH@Z 
+01:0000B9D8 ?resolveSeconds@time_class@@SAXPANIPAHPAPAN@Z 
+01:0000BB94 ?resolveMonth@time_class@@SAXHPAHPAH@Z 
+01:0000BC0C ?addCalendarInterval@time_class@@SAXQAVtime@@@QAVcalendarInterval@@@@Z 
+01:0000BC3C ?subtractCalendarInterval@time_class@@SAXQAVtime@@@QAVcalendarInterval@@@@Z 
+01:0000BC68 ?addCalendarIntervalWithSign@time_class@@SAXQAVtime@@@QAVcalendarInterval@@@H@Z 
+01:0000BE40 ?setTime@time_class@@SAXQAVtime@@@0@Z 
+01:0000BED0 ?setTimeZone@time_class@@SAXQAVtime@@@PAUtimeZone_struct@timeFormatter_class@@@Z 
+01:0000BF04 ?_new@time_class@@SAXPAPAVtime@@@@Z  (Idle)
+01:0000BF2C ?_new@time_class@@SAXQAVgmtTime@@@PAPAVtime@@@@Z 
+01:0000BF58 ?_newFromGMT@time_class@@SAXPAUunsigned64_struct@core_class@@PAPAVtime@@@@Z  (Idle)
+01:0000BF84 ?_newFromLocalTime@time_class@@SAXPAUunsigned64_struct@core_class@@PAPAVtime@@@@Z  (Idle)
+01:0000BFB0 ?_newFromTimeZone@time_class@@SAXPAUunsigned64_struct@core_class@@PAUtimeZone_struct@timeFormatter_class@@PAPAVtime@@@@Z  (Idle)
+01:0000BFE0 ?_new@time_class@@SAXHHHHHPANPAPAVtime@@@@Z  (Idle)
+01:0000C01C ?_newDate@time_class@@SAXHHHPAPAVtime@@@@Z  (Idle)
+01:0000C04C ?_newTime@time_class@@SAXHHPANPAPAVtime@@@@Z  (Idle)
+01:0000C07C ?_object_facts_initializer@time_class@@SGXQAVtime@@@@Z 
+01:0000C098 ?classInfo@timeFormatter_class@@SAXPAPB_W0@Z 
+01:0000C0B4 ?new@timeFormatter_class@@SAXQAVtimeFormatter@@@@Z 
+01:0000C0F8 ?new@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUtimeZone_struct@1@@Z 
+01:0000C128 ?_getDefaultLCID@timeFormatter_class@@SAXPAI@Z 
+01:0000C19C ?getDateAndTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAHPAHPAHPAH@Z 
+01:0000C268 ?setDateAndTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHHHH@Z 
+01:0000C2DC ?getDateAndTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAHPAHPAHPAHPAH@Z 
+01:0000C430 ?setDateAndTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHHHHH@Z 
+01:0000C46C ?getDateAndTimeDetailed@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAHPAHPAHPAHPAPAN@Z 
+01:0000C5A8 ?setDateAndTimeDetailed@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHHHHPAN@Z 
+01:0000C5B4 ?getTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAHPAH@Z 
+01:0000C63C ?setTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHH@Z 
+01:0000C738 ?_getTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPAUunsigned64_struct@core_class@@@Z 
+01:0000C744 ?setTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAUunsigned64_struct@core_class@@@Z 
+01:0000C750 ?getTimeDetailed@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAHPAPAN@Z 
+01:0000C820 ?setTimeDetailed@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHPAN@Z 
+01:0000C8F4 ?getDate@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAHPAH@Z 
+01:0000C97C ?setDate@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHH@Z 
+01:0000CA98 ?isDaylightTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@@Z 
+01:0000CAD0 ?isLeapYear@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@@Z 
+01:0000CB18 ?_getLocalTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPAUunsigned64_struct@core_class@@@Z 
+01:0000CB88 ?_getLocalTimeAsStruct@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPAUsystemTime_struct@time_native_class@@@Z 
+01:0000CBB8 ?setLocalTimeAsStruct@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HHHHHPAN@Z 
+01:0000CD78 ?setLocalTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAUunsigned64_struct@core_class@@@Z 
+01:0000CDD4 ?_correctBias@timeFormatter_class@@SAXPAUunsigned64_struct@core_class@@HPAPAU23@@Z 
+01:0000CE44 ?_correctDayLight@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUunsigned64_struct@core_class@@HPAPAU34@@Z 
+01:0000CEB4 ?_tryGetDaylightBias@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUsystemTime_struct@time_native_class@@PAH@Z 
+01:0000CF3C ?transitionDateAfter@timeFormatter_class@@SAXPAUtransitionDate_struct@1@PAUsystemTime_struct@time_native_class@@@Z 
+01:0000D3FC ?_getDayOfMonth@timeFormatter_class@@SAXHIIPAI@Z 
+01:0000D4D0 ?getMonthByDayOfYear@timeFormatter_class@@SAXIHIPAHPAI@Z 
+01:0000D570 ?getWeek@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAHPAH@Z 
+01:0000D740 ?_getWeekDay@timeFormatter_class@@SAXEEPAE@Z 
+01:0000D7C8 ?_daysBeforeFirstWeek@timeFormatter_class@@SAXPB_WHIPAH@Z 
+01:0000D940 ?setWeek@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@HH@Z 
+01:0000DBCC ?_toSimpleString@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPB_W@Z 
+01:0000DC04 ?setFromSimpleString@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PB_W@Z 
+01:0000DD64 ?format@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PB_WPAPB_W@Z 
+01:0000DDC4 ?_processStringList@timeFormatter_class@@SAXQAVtimeFormatter@@@PAU?$__list_struct@Ustring@@@@PAUsystemTime_struct@time_native_class@@PAPAU?$__list_struct@U3@@@@Z 
+01:0000DE70 ?processTailStringList@timeFormatter_class@@SAXQAVtimeFormatter@@@PAU?$__list_struct@Ustring@@@@PAUsystemTime_struct@time_native_class@@PAPAU?$__list_struct@U3@@@@Z 
+01:0000DF54 ?_processPart@timeFormatter_class@@SAXQAVtimeFormatter@@@PB_WPAUsystemTime_struct@time_native_class@@PAU?$__list_struct@Ustring@@@@PAPB_W@Z 
+01:0000E040 ?_formatFraction@timeFormatter_class@@SAXPAUsystemTime_struct@time_native_class@@PB_WPAPB_W@Z 
+01:0000E1F4 ?_formatLongDate@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPB_W@Z 
+01:0000E254 ?_formatShortDate@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPB_W@Z 
+01:0000E2B4 ?_formatTime@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PAPB_W@Z 
+01:0000E314 ?setFromString@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PB_W@Z 
+01:0000E474 ?isWrongStringException@timeFormatter_class@@SAXPBUtraceId@exception@@@Z 
+01:0000E4D8 ?setFromString@timeFormatter_class@@SAXQAVtimeFormatter@@@QAVgmtTime@@@PB_W2@Z 
+01:0000E82C ?getCommentPositionList@timeFormatter_class@@SAXPB_WHPAPAU?$__list_struct@UdateTimePos@@@@PAPB_W@Z 
+01:0000EABC ?_getNextQuote@timeFormatter_class@@SAXPB_WPAI@Z 
+01:0000EB3C ?checkDoubleQuote@timeFormatter_class@@SAXIHPAI@Z 
+01:0000EB8C ?_addTemplatePosition@timeFormatter_class@@SAXPB_WPAU?$__list_struct@Ustring@@@@PAUdateTime_struct@1@PAU?$__list_struct@UdateTimePos@@@@PAPAU?$__list_struct@U5@@@@Z 
+01:0000EC64 ?_addDayTemplatePosition@timeFormatter_class@@SAXPB_WPAU?$__list_struct@UdateTimePos@@@@PAPAU?$__list_struct@U2@@@@Z 
+01:0000ED80 ?_getOrderedList@timeFormatter_class@@SAXPAU?$__list_struct@UdateTimePos@@@@PAPAU?$__list_struct@U2@@@@Z 
+01:0000EE4C ?_getOrderedListEx@timeFormatter_class@@SAXPAU?$__list_struct@UdateTimePos@@@@PAUdateTimePos_struct@1@0PAPAU?$__list_struct@U2@@@@Z 
+01:0000EF14 ?tryGetValues@timeFormatter_class@@SAXQAVtimeFormatter@@@PAU?$__list_struct@UdateTimePos@@@@PB_WIHHHHHHHPAN2PAUtimeDesignator_struct@1@PAHPAHPAHPAHPAHPAHPAPANPAPB_WPAPAU41@@Z 
+01:0000F050 ?tryGetValueForListItem@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUdateTime_struct@1@PAUtemplateAndPosition_struct@1@PB_WIHHHHHHHPAN3PAUtimeDesignator_struct@1@PAHPAHPAHPAHPAHPAHPAHPAPANPAPB_WPAPAU71@@Z 
+01:0000F3F4 ?checkComment@timeFormatter_class@@SAXPAUtemplateAndPosition_struct@1@PB_WIH@Z 
+01:0000F4C0 ?_tryGetYearValue@timeFormatter_class@@SAXPAUtemplateAndPosition_struct@1@PB_WIHPAH@Z 
+01:0000F528 ?_handlingCentury@timeFormatter_class@@SAXIHPAH@Z 
+01:0000F554 ?_tryGetFractionValue@timeFormatter_class@@SAXPAUtemplateAndPosition_struct@1@PB_WIHPAPAN@Z 
+01:0000F608 ?tryGetValueFromTemplate@timeFormatter_class@@SAXPAUtemplateAndPosition_struct@1@PB_WIHPAHPAH@Z 
+01:0000F68C ?tryGetValueForOneCharTemplate@timeFormatter_class@@SAXPB_WIIHPAHPAH@Z 
+01:0000F774 ?_tryGetValue@timeFormatter_class@@SAXPB_WIIHIPAH@Z 
+01:0000F828 ?tryGetMonthValue@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUtemplateAndPosition_struct@1@PB_WIHPAHPAH@Z 
+01:0000F968 ?tryGetMonthFromString@timeFormatter_class@@SAXQAVtimeFormatter@@@IPB_WIIPAHPAI@Z 
+01:0000FA98 ?tryGetDayValue@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUtemplateAndPosition_struct@1@PB_WIHHPAHPAH@Z 
+01:0000FC7C ?_tryGetDayNameLength@timeFormatter_class@@SAXQAVtimeFormatter@@@IPB_WIIPAI@Z 
+01:0000FD30 ?tryGetTimeMarkerValue@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUtemplateAndPosition_struct@1@PB_WIHPAPAUtimeDesignator_struct@1@PAH@Z 
+01:0000FDD8 ?tryGetTimeMarker@timeFormatter_class@@SAXQAVtimeFormatter@@@PB_WIIHPAPAUtimeDesignator_struct@1@PAI@Z 
+01:0000FE80 ?checkTimeMarker@timeFormatter_class@@SAXPB_WI0IHPAI@Z 
+01:0000FF54 ?_convertTo24FormatIfNeeded@timeFormatter_class@@SAXIPB_WPAUtimeDesignator_struct@1@PAI@Z 
+01:0000FFD0 ?_pm_am@timeFormatter_class@@SAXIPAUtimeDesignator_struct@1@PAI@Z 
+01:00010038 ?_getAvailableTimeZones@timeFormatter_class@@SAXPAPAU?$__list_struct@UtimeZone@@@@@Z  (Idle)
+01:0001007C ?_zoneNameFill@timeFormatter_class@@SAXPAU?$__list_struct@Ustring@@@@PAPAU?$__list_struct@UtimeZone@@@@@Z 
+01:000100F4 ?_getTimeZoneInformation@timeFormatter_class@@SAXPB_WPAPAUtimeZone_struct@1@@Z 
+01:0001016C ?_convertTimeZoneInfo@timeFormatter_class@@SAXIPAUtimeZoneAPI_struct@time_native_class@@PB_WPAPAUtimeZone_struct@1@@Z 
+01:000102E4 ?_getTimeZoneFromRegistry@timeFormatter_class@@SAXPB_WPAPAUtimeZone_struct@1@@Z 
+01:000105C8 ?_getDayLightSavingScheme@timeFormatter_class@@SAXPB_W0H_W_W_W_W_W_W_W_W_W_W_W_WPAPAUdaylightSavingScheme_struct@1@@Z 
+01:00010690 ?_getTransitionDate@timeFormatter_class@@SAX_W_W_W_W_W_WPAPAUtransitionDate_struct@1@@Z 
+01:000107EC ?_getTimeZoneRegistryKey@timeFormatter_class@@SAXPAPB_W@Z 
+01:00010850 ?setTimeZone@timeFormatter_class@@SAXQAVtimeFormatter@@@PAUtimeZone_struct@1@@Z 
+01:00010864 ?_new@timeFormatter_class@@SAXPAPAVtimeFormatter@@@@Z 
+01:0001088C ?_new@timeFormatter_class@@SAXPAUtimeZone_struct@1@PAPAVtimeFormatter@@@@Z 
+01:000108B8 ?classInfo@timeInterval_class@@SAXPAPB_W0@Z  (Idle)
+01:000108D4 ?_get@timeInterval_class@@SAXQAVtimeInterval@@@PAPAUinteger64_struct@core_class@@@Z 
+01:000108E8 ?new@timeInterval_class@@SAXQAVtimeInterval@@@@Z 
+01:000108F0 ?new@timeInterval_class@@SAXQAVtimeInterval@@@PAUinteger64_struct@core_class@@@Z 
+01:00010904 ?new@timeInterval_class@@SAXQAVtimeInterval@@@HHHPAN@Z 
+01:00010910 ?new@timeInterval_class@@SAXQAVtimeInterval@@@QAVgmtTime@@@1@Z 
+01:00010968 ?less@timeInterval_class@@SAXQAVtimeInterval@@@0@Z 
+01:000109A8 ?lessOrEqual@timeInterval_class@@SAXQAVtimeInterval@@@0@Z 
+01:000109E8 ?equal@timeInterval_class@@SAXQAVtimeInterval@@@0@Z 
+01:00010A20 ?add@timeInterval_class@@SAXQAVtimeInterval@@@0@Z 
+01:00010A64 ?subtract@timeInterval_class@@SAXQAVtimeInterval@@@0@Z 
+01:00010AA8 ?multiply@timeInterval_class@@SAXQAVtimeInterval@@@PAN@Z 
+01:00010AE0 ?setInterval@timeInterval_class@@SAXQAVtimeInterval@@@HHHH@Z 
+01:00010B1C ?setIntervalDetailed@timeInterval_class@@SAXQAVtimeInterval@@@HHHPAN@Z 
+01:00010B28 ?getInterval@timeInterval_class@@SAXQAVtimeInterval@@@PAHPAHPAHPAH@Z 
+01:00010B60 ?getIntervalDetailed@timeInterval_class@@SAXQAVtimeInterval@@@PAHPAHPAHPAPAN@Z 
+01:00010B6C ?isPositive@timeInterval_class@@SAXQAVtimeInterval@@@PAUinteger64_struct@core_class@@@Z 
+01:00010BA0 ?isPositiveOrNull@timeInterval_class@@SAXQAVtimeInterval@@@PAUinteger64_struct@core_class@@@Z 
+01:00010BC0 ?getFields@timeInterval_class@@SAXQAVtimeInterval@@@PAHPAHPAHPAPAN@Z 
+01:00010C8C ?setFields@timeInterval_class@@SAXQAVtimeInterval@@@HHHPAN@Z 
+01:00010D54 ?_add64WithInteger@timeInterval_class@@SAXPAUinteger64_struct@core_class@@HPAPAU23@@Z 
+01:00010DFC ?_new@timeInterval_class@@SAXPAPAVtimeInterval@@@@Z  (Idle)
+01:00010E24 ?_new@timeInterval_class@@SAXPAUinteger64_struct@core_class@@PAPAVtimeInterval@@@@Z 
+01:00010E50 ?_new@timeInterval_class@@SAXHHHPANPAPAVtimeInterval@@@@Z  (Idle)
+01:00010E84 ?_new@timeInterval_class@@SAXQAVgmtTime@@@0PAPAVtimeInterval@@@@Z 
+01:00010EB4 ?_object_facts_initializer@timeInterval_class@@SGXQAVtimeInterval@@@@Z 
+01:00010ED0 ?classInfo@time_exception_class@@SAXPAPB_W0@Z 
+01:00010EEC ?partsOutOfRange@time_exception_class@@SAXPAXPAPB_W1@Z 
+01:00010F14 ?wrongStringFormat@time_exception_class@@SAXPAXPAPB_W1@Z 
+01:00010F3C ?cannotGetTimeZoneInformation@time_exception_class@@SAXPAXPAPB_W1@Z 
+01:00010F64 ?raise_PartsOutOfRange@time_exception_class@@SGXXHHHHHN@Z 
+01:00011178 ?raise_WrongStringFormat@time_exception_class@@SGXXPB_W1@Z 
+01:00011238 ?raise_CannotGetTimeZoneInformation@time_exception_class@@SGXXPB_WI@Z 
+01:00011300 ?_initObject@calendarInterval@@QAGXQAV1@H@Z 
+01:0001132C ?@create_object@calendarInterval_class@@SGQAVcalendarInterval@@@XZ 
+01:00011348 ?_InternalFinalizer@calendarInterval@@QAGXQAV1@@Z 
+01:0001135C ?_initObject@gmtTime@@QAGXQAV1@H@Z 
+01:00011378 ?@create_object@gmtTime_class@@SGQAVgmtTime@@@XZ 
+01:00011394 ?_InternalFinalizer@gmtTime@@QAGXQAV1@@Z 
+01:00011468 ?_initObject@time@@QAGXQAV1@H@Z 
+01:000114A8 ?@create_object@time_class@@SGQAVtime@@@XZ 
+01:000114C4 ?_InternalFinalizer@time@@QAGXQAV1@@Z 
+01:000114DC ?_initObject@timeFormatter@@QAGXQAV1@H@Z 
+01:000114F0 ?@create_object@timeFormatter_class@@SGQAVtimeFormatter@@@XZ 
+01:0001150C ?_InternalFinalizer@timeFormatter@@QAGXQAV1@@Z 
+01:00011520 ?_initObject@timeInterval@@QAGXQAV1@H@Z 
+01:00011544 ?@create_object@timeInterval_class@@SGQAVtimeInterval@@@XZ 
+01:00011560 ?_InternalFinalizer@timeInterval@@QAGXQAV1@@Z 
+--- From 'Obj\string8.obj'
+01:00011570 ?classInfo@string8_class@@SAXPAPB_W0@Z  (Idle)
+01:0001158C ?isValidCodePage@string8_class@@SAXI@Z  (Idle)
+01:000115AC ?isValidToRead@string8_class@@SAXPAD@Z  (Idle)
+01:000115D0 ?_mapFromString@string8_class@@SAXPB_WPAPAD@Z 
+01:00011600 ?_mapFromString@string8_class@@SAXPB_WPAUcodePage_struct@core_class@@PAPAD@Z 
+--- From 'Obj\binary.obj'
+01:0001165C ?_mapToString@string8_class@@SAXPADPAPB_W@Z 
+--- From 'Obj\string8.obj'
+01:0001168C ?_mapToString@string8_class@@SAXPADPAUcodePage_struct@core_class@@PAPB_W@Z 
+01:000116E4 ?_mapFromChar@string8_class@@SAX_WPAE@Z  (Idle)
+01:00011718 ?_mapFromChar@string8_class@@SAX_WPAUcodePage_struct@core_class@@PAE@Z 
+01:00011790 ?_mapToChar@string8_class@@SAXEPA_W@Z  (Idle)
+01:000117C0 ?_mapToChar@string8_class@@SAXEPAUcodePage_struct@core_class@@PA_W@Z 
+01:00011830 ?_createCopy@string8_class@@SAXPADPAPAD@Z  (Idle)
+--- From 'Obj\string.obj'
+01:000118B0 ?classInfo@string_class@@SAXPAPB_W0@Z 
+01:000118CC ?_create@string_class@@SAXHPB_WPAPB_W@Z 
+01:00011914 ?_tryCreate@string_class@@SAXHPB_WPAPB_W@Z 
+--- From 'Obj\binary.obj'
+01:00011980 ?_createCopy@string_class@@SAXPB_WPAPB_W@Z 
+--- From 'Obj\string.obj'
+01:000119D0 ?hasPrefix@string_class@@SAXPB_W0PAPB_W@Z  (Idle)
+01:00011A00 ?hasSuffix@string_class@@SAXPB_W0PAPB_W@Z  (Idle)
+01:00011A7C ?hasPrefixPtr@string_class@@SAXPAUcharPtr_struct@1@0PAPAU21@@Z 
+--- From 'Obj\exception.obj'
+01:00011B30 ?_concat@string_class@@SAXPB_W0PAPB_W@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00011BF8 ?_concat@string_class@@SAXPB_W00PAPB_W@Z 
+--- From 'Obj\fileSystem.obj'
+01:00011D08 ?_concat@string_class@@SAXPB_W000PAPB_W@Z 
+--- From 'Obj\string.obj'
+01:00011D60 ?_concat@string_class@@SAXPB_W0000PAPB_W@Z  (Idle)
+01:00011DB8 ?_concat@string_class@@SAXPB_W00000PAPB_W@Z 
+--- From 'Obj\fileSystem.obj'
+01:00011FDC ?_concatList@string_class@@SAXPAU?$__list_struct@Ustring@@@@PAPB_W@Z 
+--- From 'Obj\string.obj'
+01:000120A8 ?_concatWithDelimiter@string_class@@SAXPAU?$__list_struct@Ustring@@@@PB_WPAPB_W@Z  (Idle)
+01:0001222C ?concatListWithDelimiter@string_class@@SAXPAXPAU?$__list_struct@Ustring@@@@PAXHPAU?$__list_struct@UcharCount@core@@@@@Z 
+01:000122F8 ?_copyDelimiterIfNeeded@string_class@@SAXPAXPAU?$__list_struct@Ustring@@@@PAXHPAPAX@Z 
+01:00012334 ?getStringListInfo@string_class@@SAXPAU?$__list_struct@Ustring@@@@IIPAIPAIPAPAU?$__list_struct@UcharCount@core@@@@@Z 
+01:00012404 ?concatStringList@string_class@@SAXPAXPAU?$__list_struct@Ustring@@@@PAU?$__list_struct@UcharCount@core@@@@@Z 
+--- From 'Obj\exception.obj'
+01:00012550 ?equalIgnoreCase@string_class@@SAXPB_W0@Z 
+--- From 'Obj\string.obj'
+01:0001258C ?equalIgnoreCase@string_class@@SAXPB_W0I@Z  (Idle)
+01:000125C4 ?_compareIgnoreCase@string_class@@SAXPB_W0PAPAUcompareResult_struct@_builtIn_class@@@Z  (Idle)
+01:00012754 ?_compareIgnoreCase@string_class@@SAXPB_W0IPAPAUcompareResult_struct@_builtIn_class@@@Z  (Idle)
+01:000128DC ?_adjustRight@string_class@@SAXPB_WHPAPB_W@Z 
+01:00012914 ?_adjustRight@string_class@@SAXPB_WH0PAPB_W@Z 
+01:00012954 ?_adjustRight@string_class@@SAXPB_WH0PAUadjustBehaviour_struct@1@PAPB_W@Z 
+01:000129DC ?_adjustLeft@string_class@@SAXPB_WHPAPB_W@Z 
+01:00012A14 ?_adjustLeft@string_class@@SAXPB_WH0PAPB_W@Z 
+01:00012A54 ?_adjust@string_class@@SAXPB_WHPAUadjustSide_struct@1@PAPB_W@Z  (Idle)
+01:00012A7C ?_adjust@string_class@@SAXPB_WH0PAUadjustSide_struct@1@PAPB_W@Z  (Idle)
+01:00012AA4 ?_adjust@string_class@@SAXPB_WH0PAUadjustBehaviour_struct@1@PAUadjustSide_struct@1@PAPB_W@Z  (Idle)
+01:00012ACC ?_crop@string_class@@SAXPB_WHPAUadjustSide_struct@1@PAUadjustBehaviour_struct@1@PAPB_W@Z 
+01:00012B7C ?_adjustLeft@string_class@@SAXPB_WH0PAUadjustBehaviour_struct@1@PAPB_W@Z 
+01:00012BF8 ?_split@string_class@@SAXPB_W0PAPAU?$__list_struct@Ustring@@@@@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00012C9C ?format@string_class@@SAPB_W0@Z 
+--- From 'Obj\string.obj'
+01:00012CF0 ?write@string_class@@SAPB_WXZ  (Idle)
+--- From 'Obj\exe.obj'
+01:00012D0C ?front@string_class@@SAXPB_WHPAPB_W2@Z 
+--- From 'Obj\string.obj'
+01:00012D7C ?tryFront@string_class@@SAXPB_WHPAPB_W2@Z  (Idle)
+01:00012DE8 ?checkPosition@string_class@@SAXHH@Z 
+01:00012E08 ?trycheckPosition@string_class@@SAXHH@Z 
+--- From 'Obj\exe.obj'
+01:00012E20 ?frontChar@string_class@@SAXPB_WPA_WPAPB_W@Z 
+--- From 'Obj\fileSystem.obj'
+01:00012E5C ?lastChar@string_class@@SAXPB_WPAPB_WPA_W@Z 
+--- From 'Obj\string.obj'
+01:00012EF0 ?_toCharList@string_class@@SAXPB_WPAPAU?$__list_struct@Uchar@@@@@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00012F64 ?frontToken@string_class@@SAXPB_WPAPB_W1@Z 
+--- From 'Obj\string.obj'
+01:00012F9C ?isValidToRead@string_class@@SAXPB_W@Z  (Idle)
+01:00012FC0 ?_replace@string_class@@SAXPB_W00PAUcaseSensitivity_struct@1@PAPB_W@Z  (Idle)
+01:00012FF8 ?_replaceAll@string_class@@SAXPB_W00PAPB_W@Z  (Idle)
+01:00013038 ?_replaceAll@string_class@@SAXPB_W00PAUcaseSensitivity_struct@1@PAPB_W@Z 
+01:00013070 ?_replaceAll@string_class@@SAXPB_W00PAUcaseSensitivity_struct@1@PAIPAPB_W@Z  (Idle)
+01:000130A8 ?_caseToInteger@string_class@@SAXPAUcaseSensitivity_struct@1@PAH@Z 
+01:000130D8 ?_replacePart@string_class@@SAXPB_WHH0PAPB_W@Z 
+01:00013254 ?_tryReplacePart@string_class@@SAXPB_WHH0PAPB_W@Z  (Idle)
+01:000133D0 ?_search@string_class@@SAXPB_W0PAH@Z  (Idle)
+--- From 'Obj\exe.obj'
+01:00013408 ?_search@string_class@@SAXPB_W0PAUcaseSensitivity_struct@1@PAH@Z 
+--- From 'Obj\fileSystem.obj'
+01:0001347C ?_searchLast@string_class@@SAXPB_W0PAUcaseSensitivity_struct@1@PAH@Z 
+--- From 'Obj\string.obj'
+01:000134F0 ?caseHandling@string_class@@SAXPAUcaseSensitivity_struct@1@PB_W1PAPB_W3@Z 
+01:0001353C ?_subString@string_class@@SAXPB_WHHPAPB_W@Z 
+01:000135C8 ?_trySubString@string_class@@SAXPB_WHHPAPB_W@Z  (Idle)
+01:00013654 ?_toUpperCase@string_class@@SAXPB_WPAPB_W@Z 
+01:00013680 ?_toLowerCase@string_class@@SAXPB_WPAPB_W@Z 
+01:000136AC ?isUpperCase@string_class@@SAXPB_W@Z 
+01:000136E8 ?isLowerCase@string_class@@SAXPB_W@Z 
+01:00013724 ?hasDecimalDigits@string_class@@SAXPB_W@Z 
+01:00013740 ?isDecimalDigits@string_class@@SAXPB_W@Z 
+01:00013794 ?decimalDigit@string_class@@SAX_W@Z 
+01:00013804 ?hasAlpha@string_class@@SAXPB_W@Z 
+01:00013844 ?isWhiteSpace@string_class@@SAXPB_W@Z  (Idle)
+--- From 'Obj\fileSystem.obj'
+01:00013850 ?_split_delimiter@string_class@@SAXPB_W0PAPAU?$__list_struct@Ustring@@@@@Z 
+--- From 'Obj\string.obj'
+01:000138A8 ?_splitByString@string_class@@SAXPB_W0HPAPAU?$__list_struct@Ustring@@@@@Z 
+01:00013964 ?_split_length@string_class@@SAXPB_WPAU?$__list_struct@UcharCount@@@@PAPAU?$__list_struct@Ustring@@@@@Z  (Idle)
+01:000139A0 ?_splitByList@string_class@@SAXPB_WHPAU?$__list_struct@UcharCount@core@@@@PAPAU?$__list_struct@Ustring@@@@@Z 
+--- From 'Obj\registry.obj'
+01:00013A8C ?_trim@string_class@@SAXPB_WPAPB_W@Z 
+--- From 'Obj\string.obj'
+01:00013AB4 ?_charToString@string_class@@SAX_WPAPB_W@Z 
+01:00013AE4 ?_charUpper@string_class@@SAX_WPA_W@Z  (Idle)
+01:00013B28 ?_charLower@string_class@@SAX_WPA_W@Z  (Idle)
+01:00013B6C ?splitStringBySeparators@string_class@@SAXPB_W0PAPB_WPA_W2@Z 
+01:00013BE0 ?_getSeparatorList@string_class@@SAXPB_WPAPAU?$__list_struct@Uchar@@@@@Z 
+01:00013C54 ?_getMinPosition@string_class@@SAXPB_WPAU?$__list_struct@Uchar@@@@HPAH@Z 
+01:00013CFC ?isName@string_class@@SAXPB_W@Z  (Idle)
+01:00013D50 ?isLegalFrontCharOfName@string_class@@SAXPB_W@Z 
+01:00013D70 ?isCorrectRemainderOfName@string_class@@SAXPB_W@Z 
+01:00013DC4 ?isCorrectRemainderCharOfName@string_class@@SAXPB_W@Z 
+01:00013DF8 ?isClassIdentifier@string_class@@SAXPB_W0@Z  (Idle)
+01:00013E64 ?isObjectIdentifier@string_class@@SAXPB_W0@Z  (Idle)
+01:00013ED4 ?isCorrectMemberName@string_class@@SAXPB_W@Z 
+01:00013F68 ?keywordString@string_class@@SAXPB_WPAPAUboolean_struct@_builtIn_class@@@Z 
+01:000147F0 ?isCorrectClassFrontChar@string_class@@SAXPB_W@Z 
+01:0001480C ?_searchChar@string_class@@SAXPB_W_WPAH@Z  (Idle)
+--- From 'Obj\fileSystem.obj'
+01:00014848 ?_searchChar@string_class@@SAXPB_W_WPAUcaseSensitivity_struct@1@PAH@Z 
+01:00014874 ?_subchar@string_class@@SAXPB_WHPA_W@Z 
+--- From 'Obj\string.obj'
+01:000148F8 ?_trySubchar@string_class@@SAXPB_WHPA_W@Z  (Idle)
+01:00014978 ?_getCharValue@string_class@@SAX_WPA_W@Z  (Idle)
+01:0001498C ?_getCharFromValue@string_class@@SAX_WPA_W@Z  (Idle)
+01:000149A0 ?listToArray@string_class@@SAXPAU?$__list_struct@Ustring@@@@PAPAXPAI@Z  (Idle)
+01:00014A38 ?_arrayToList@string_class@@SAXPAXIPAPAU?$__list_struct@Ustring@@@@@Z  (Idle)
+01:00014A50 ?fillArray@string_class@@SAXPAXPAU?$__list_struct@Ustring@@@@@Z 
+01:00014AB4 ?_fillList@string_class@@SAXIIPAPAU?$__list_struct@Ustring@@@@@Z 
+01:00014B30 ?_createFromCharList@string_class@@SAXPAU?$__list_struct@Uchar@@@@PAPB_W@Z 
+01:00014B78 ?fillString@string_class@@SAXPB_WPAU?$__list_struct@Uchar@@@@@Z 
+01:00014BF0 ?isWhiteSpace@string_class@@SAX_W@Z  (Idle)
+01:00014BFC ?keywordString@string_class@@SAXPB_WPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:00015558 isWhiteSpace_C 
+01:00015598 isWhiteSpace_S 
+01:000155F4 ?classInfo@inputStream_string_class@@SAXPAPB_W0@Z 
+01:00015610 ?new@inputStream_string_class@@SAXQAVinputStream_string@@@PB_W@Z 
+01:000156A8 ?endOfStream@inputStream_string_class@@SAXQAVinputStream@@@@Z 
+01:00015714 ?setMode@inputStream_string_class@@SGXQAVinputSupport@@@PAUmode_struct@stream_class@@@Z 
+01:00015768 ?makeEven_ifUnicode@inputStream_string_class@@SAXQAVinputStream_string@@@PAUmode_struct@stream_class@@@Z 
+01:00015824 ?close@inputStream_string_class@@SGXQAVstream@@@@Z 
+01:00015840 ?getCRLFconversion@inputStream_string_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00015854 ?setCRLFconversion@inputStream_string_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00015874 ?getPosition@inputStream_string_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:000158DC ?setPosition@inputStream_string_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:000159EC ?checkOddness@inputStream_string_class@@SAXPAUmode_struct@stream_class@@H@Z 
+01:00015A48 ?getBuffer@inputStream_string_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00015A64 ?getBufferLocked@inputStream_string_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00015A80 ?_new@inputStream_string_class@@SAXPB_WPAPAVinputStream@@@@Z  (Idle)
+01:00015AAC ?_object_facts_initializer@inputStream_string_class@@SGXQAVinputStream_string@@@@Z 
+01:00015AC8 ?classInfo@outputStream_string_class@@SAXPAPB_W0@Z 
+01:00015AE4 ?new@outputStream_string_class@@SAXQAVoutputStream_string@@@@Z 
+01:00015BB4 ?setMode@outputStream_string_class@@SGXQAVstream@@@PAUmode_struct@stream_class@@@Z 
+01:00015C08 ?makeEven_ifUnicode@outputStream_string_class@@SAXQAVoutputStream_string@@@PAUmode_struct@stream_class@@@Z 
+01:00015CC4 ?flush@outputStream_string_class@@SGXQAVoutputStream@@@@Z 
+01:00015CD4 ?close@outputStream_string_class@@SGXQAVstream@@@@Z 
+01:00015D78 ?bufferFullCallBack@outputStream_string_class@@SAXQAVoutputStream_string@@@PAPAXPAH@Z 
+01:00015E18 ?get_buffer_from_db@outputStream_string_class@@SAXQAVoutputStream_string@@@IPAPAXPAH@Z 
+01:00015E90 ?_getString@outputStream_string_class@@SAXQAVoutputStream_string@@@PAPB_W@Z 
+01:00016000 ?writeBuffersToString@outputStream_string_class@@SGXQAVoutputStream_string@@@I@Z 
+01:0001608C ?getPosition@outputStream_string_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:00016170 ?setPosition@outputStream_string_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:000161F4 ?checkOddness@outputStream_string_class@@SAXPAUmode_struct@stream_class@@H@Z 
+01:00016250 ?handleSetOffset@outputStream_string_class@@SAXQAVoutputStream_string@@@H@Z 
+01:00016340 ?updateCurrentBuffer@outputStream_string_class@@SAXQAVoutputStream_string@@@@Z 
+01:000164C8 ?findBufferForOffset@outputStream_string_class@@SAXQAVoutputStream_string@@@HPAIPAPAXPAHPAI@Z 
+01:0001659C ?handleBiggerOffset@outputStream_string_class@@SAXQAVoutputStream_string@@@H@Z 
+01:000167C4 ?_newBuffer@outputStream_string_class@@SAXQAVoutputStream_string@@@HPAPAX@Z 
+01:0001687C ?_getSizeBefore@outputStream_string_class@@SAXQAVoutputStream_string@@@PAH@Z 
+01:00016934 ?bufferNotFound_exception@outputStream_string_class@@SGXI@Z 
+01:00016978 ?checkUsePrevBuff@outputStream_string_class@@SAXQAVoutputStream_string@@@@Z 
+01:00016A1C ?getBuffer@outputStream_string_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00016ABC ?getBufferLocked@outputStream_string_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+--- From 'Obj\environment.obj'
+01:00016AD8 ?_new@outputStream_string_class@@SAXPAPAVoutputStream_string@@@@Z 
+--- From 'Obj\string.obj'
+01:00016B00 ?_object_facts_initializer@outputStream_string_class@@SGXQAVoutputStream_string@@@@Z 
+01:00016B2C ?classInfo@string_exception_class@@SAXPAPB_W0@Z 
+01:00016B48 ?emptyString@string_exception_class@@SAXPAXPAPB_W1@Z 
+--- From 'Obj\exception.obj'
+01:00016B70 ?format_exceptionHandler@string_exception_class@@SGXPBUtraceId@exception@@PB_W@Z 
+--- From 'Obj\string.obj'
+01:00016C60 ?outOfBoundaries@string_exception_class@@SAXPAXPAPB_W1@Z 
+01:00016C88 ?oddOffset@string_exception_class@@SAXPAXPAPB_W1@Z 
+01:00016CB0 ?raise_EmptyString@string_exception_class@@SGXX@Z 
+01:00016CCC ?raise_OutOfBoundaries@string_exception_class@@SGXXHH@Z 
+--- From 'Obj\fileSystem.obj'
+01:00016DB8 ?raise_OddOffset@string_exception_class@@SGXXH@Z 
+--- From 'Obj\string.obj'
+01:000170A0 ?_initObject@inputStream_string@@QAGXQAV1@H@Z 
+01:000170D8 ?@create_object@inputStream_string_class@@SGQAVinputStream_string@@@XZ 
+01:000170F4 ?_InternalFinalizer@inputStream_string@@QAGXQAV1@@Z 
+01:00017388 ?_initObject@outputStream_string@@QAGXQAV1@H@Z 
+01:000173C0 ?@create_object@outputStream_string_class@@SGQAVoutputStream_string@@@XZ 
+01:000173DC ?_InternalFinalizer@outputStream_string@@QAGXQAV1@@Z 
+--- From 'Obj\stream.obj'
+01:000173F0 ?classInfo@stdIOState_class@@SAXPAPB_W0@Z 
+01:0001740C ?setInputStream@stdIOState_class@@SAXQAVstdIOState@@@QAVinputStream@@@@Z 
+01:00017458 ?_getInputStream@stdIOState_class@@SAXQAVstdIOState@@@PAPAVinputStream@@@@Z 
+01:000174A4 ?_tryGetInputStream@stdIOState_class@@SAXQAVstdIOState@@@PAPAVinputStream@@@@Z 
+01:000174CC ?setOutputStream@stdIOState_class@@SAXQAVstdIOState@@@QAVoutputStream@@@@Z 
+01:00017518 ?_getOutputStream@stdIOState_class@@SAXQAVstdIOState@@@PAPAVoutputStream@@@@Z 
+01:00017564 ?_tryGetOutputStream@stdIOState_class@@SAXQAVstdIOState@@@PAPAVoutputStream@@@@Z 
+01:0001758C ?setErrorStream@stdIOState_class@@SAXQAVstdIOState@@@QAVoutputStream@@@@Z 
+01:000175D8 ?_getErrorStream@stdIOState_class@@SAXQAVstdIOState@@@PAPAVoutputStream@@@@Z 
+01:00017624 ?_tryGetErrorStream@stdIOState_class@@SAXQAVstdIOState@@@PAPAVoutputStream@@@@Z 
+01:0001764C ?new@stdIOState_class@@SAXQAVstdIOState@@@@Z 
+01:00017654 ?_new@stdIOState_class@@SAXPAPAVstdIOState@@@@Z 
+01:0001767C ?classInfo@stdio_class@@SAXPAPB_W0@Z 
+--- From 'Obj\console.obj'
+01:00017698 ?setInputStream@stdio_class@@SAXQAVinputStream@@@@Z 
+--- From 'Obj\stream.obj'
+01:000176CC ?_getInputStream@stdio_class@@SAXPAPAVinputStream@@@@Z  (Idle)
+01:00017700 ?_tryGetInputStream@stdio_class@@SAXPAPAVinputStream@@@@Z  (Idle)
+--- From 'Obj\console.obj'
+01:00017734 ?setOutputStream@stdio_class@@SAXQAVoutputStream@@@@Z 
+--- From 'Obj\stream.obj'
+01:00017768 ?_getOutputStream@stdio_class@@SAXPAPAVoutputStream@@@@Z  (Idle)
+--- From 'Obj\exceptionDump.obj'
+01:0001779C ?_tryGetOutputStream@stdio_class@@SAXPAPAVoutputStream@@@@Z 
+--- From 'Obj\console.obj'
+01:000177D0 ?setErrorStream@stdio_class@@SAXQAVoutputStream@@@@Z 
+--- From 'Obj\stream.obj'
+01:00017804 ?_getErrorStream@stdio_class@@SAXPAPAVoutputStream@@@@Z  (Idle)
+01:00017838 ?_tryGetErrorStream@stdio_class@@SAXPAPAVoutputStream@@@@Z  (Idle)
+01:0001786C ?write@stdio_class@@SAXXZ 
+01:000178D8 ?nl@stdio_class@@SAXXZ  (Idle)
+01:00017934 ?writef@stdio_class@@SAXPB_W@Z  (Idle)
+01:000179A8 ?writeQuoted@stdio_class@@SAXXZ  (Idle)
+01:00017A14 ?writeBytes@stdio_class@@SAXPAXH@Z  (Idle)
+01:00017A78 ?save@stdio_class@@SAXPBUfactDB@@@Z  (Idle)
+01:00017ADC ?flush@stdio_class@@SAXXZ  (Idle)
+01:00017B38 ?write_error@stdio_class@@SAXXZ  (Idle)
+01:00017BA4 ?writef_error@stdio_class@@SAXPB_W@Z  (Idle)
+01:00017C18 ?writeBytes_error@stdio_class@@SAXPAXH@Z  (Idle)
+01:00017C7C ?writeQuoted_error@stdio_class@@SAXXZ  (Idle)
+01:00017CE8 ?nl_error@stdio_class@@SAXXZ  (Idle)
+01:00017D44 ?save_error@stdio_class@@SAXPBUfactDB@@@Z  (Idle)
+01:00017DA8 ?flush_error@stdio_class@@SAXXZ  (Idle)
+01:00017E04 ?_read@stdio_class@@SAXQAVrTypeLibrary@TypeLibraries@RunTime@VIP@@PAPAX@Z  (Idle)
+01:00017E78 ?_readChar@stdio_class@@SAXPA_W@Z  (Idle)
+01:00017EE4 ?ungetChar@stdio_class@@SAXXZ  (Idle)
+01:00017F44 ?_readLine@stdio_class@@SAXPAPB_W@Z  (Idle)
+01:00017FB0 ?_readString@stdio_class@@SAXHPAPB_W@Z  (Idle)
+01:00018024 ?_readBytes@stdio_class@@SAXHQAPAE@Z  (Idle)
+01:00018098 ?consult@stdio_class@@SAXPBUfactDB@@@Z  (Idle)
+01:00018104 ?endOfStream@stdio_class@@SAXXZ  (Idle)
+01:00018164 ?_getStdIOState@stdio_class@@SAXPAPAVstdIOState@@@@Z 
+01:000181E4 ?setStdIOState@stdio_class@@SAXQAVstdIOState@@@@Z  (Idle)
+01:00018228 ?classInfo@stream_exception_class@@SAXPAPB_W0@Z 
+--- From 'Obj\binary.obj'
+01:00018244 ?raise_EndOfStream@stream_exception_class@@SGXX@Z 
+--- From 'Obj\fileSystem.obj'
+01:00018260 ?raise_notSupportedProperty@stream_exception_class@@SGXX@Z 
+--- From 'Obj\binary.obj'
+01:0001827C ?raise_NoCRLFconversion@stream_exception_class@@SGXX@Z 
+01:00018298 ?raise_WrongMode@stream_exception_class@@SGXXPB_W1@Z 
+--- From 'Obj\stream.obj'
+01:00018358 ?raise_NoStream@stream_exception_class@@SGXXPB_W@Z 
+01:000183CC ?endOfStream@stream_exception_class@@SAXPAXPAPB_W1@Z 
+01:000183F4 ?notSupportedProperty@stream_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001841C ?noCRLFconversion@stream_exception_class@@SAXPAXPAPB_W1@Z 
+01:00018444 ?wrongMode@stream_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001846C ?noStream@stream_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001849C ?_initObject@stdIOState@@QAGXQAV1@H@Z 
+01:000184B4 ?@create_object@stdIOState_class@@SGQAVstdIOState@@@XZ 
+01:000184D0 ?_InternalFinalizer@stdIOState@@QAGXQAV1@@Z 
+--- From 'Obj\outputStreamSupport.obj'
+01:000184E0 ?classInfo@outputSupport_class@@SAXPAPB_W0@Z 
+--- From 'Obj\binary.obj'
+01:000184FC ?new@outputSupport_class@@SAXQAVoutputSupport@@@QAVoutputBuffer@@@PAUmode_struct@stream_class@@PAUboolean_struct@_builtIn_class@@@Z 
+--- From 'Obj\outputStreamSupport.obj'
+01:00018540 ?setMode@outputSupport_class@@SGXQAVstream@@@PAUmode_struct@stream_class@@@Z 
+01:00018578 ?getMode@outputSupport_class@@SGPAUmode_struct@stream_class@@QAVstream@@@@Z 
+01:000185A8 ?flush@outputSupport_class@@SGXQAVoutputStream@@@@Z 
+01:000185CC ?getPosition@outputSupport_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:000185DC ?setPosition@outputSupport_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:000185EC ?getCRLFconversion@outputSupport_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00018600 ?setCRLFconversion@outputSupport_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00018620 ?close@outputSupport_class@@SGXQAVstream@@@@Z 
+01:00018630 ?_getFlushProcedure@outputSupport_class@@SAXQAVoutputSupport@@@PAUboolean_struct@_builtIn_class@@PAX@Z 
+01:00018698 ?doFlush@outputSupport_class@@SAXQAVoutputSupport@@@@Z 
+01:000186A8 ?doNotFlush@outputSupport_class@@SAXQAVoutputSupport@@@@Z 
+01:000186B0 ?write@outputSupport_class@@SAXQAVoutputStream@@@@Z 
+01:0001870C ?writeQuoted@outputSupport_class@@SAXQAVoutputStream@@@@Z 
+01:00018774 ?writef@outputSupport_class@@SAXQAVoutputStream@@@PB_W@Z 
+01:00018814 ?nl@outputSupport_class@@SGXQAVoutputStream@@@@Z 
+01:00018854 ?save@outputSupport_class@@SGXQAVoutputStream@@@PBUfactDB@@@Z 
+01:000188C0 ?writeBytes@outputSupport_class@@SGXQAVoutputStream@@@PAXH@Z 
+01:0001897C ?checkMode_text@outputSupport_class@@SAXQAVoutputSupport@@@PB_W@Z 
+01:000189C0 ?_new@outputSupport_class@@SAXQAVoutputBuffer@@@PAUmode_struct@stream_class@@PAUboolean_struct@_builtIn_class@@PAPAVoutputSupport@@@@Z  (Idle)
+--- From 'Obj\binary.obj'
+01:000189F8 ?_initObject@outputSupport@@QAGXQAV1@H@Z 
+--- From 'Obj\outputStreamSupport.obj'
+01:00018A10 ?@create_object@outputSupport_class@@SGQAVoutputSupport@@@XZ 
+--- From 'Obj\binary.obj'
+01:00018A2C ?_InternalFinalizer@outputSupport@@QAGXQAV1@@Z 
+--- From 'Obj\inputStreamSupport.obj'
+01:00018A40 ?classInfo@inputSupport_class@@SAXPAPB_W0@Z 
+--- From 'Obj\binary.obj'
+01:00018A5C ?new@inputSupport_class@@SAXQAVinputSupport@@@QAVinputBuffer@@@PAUmode_struct@stream_class@@@Z 
+--- From 'Obj\inputStreamSupport.obj'
+01:00018A98 ?setMode@inputSupport_class@@SGXQAVinputSupport@@@PAUmode_struct@stream_class@@@Z 
+01:00018AD0 ?getMode@inputSupport_class@@SGPAUmode_struct@stream_class@@QAVinputSupport@@@@Z 
+01:00018AF0 ?_readChar@inputSupport_class@@SAXQAVinputSupport@@@PA_W@Z 
+01:00018B24 ?ungetChar@inputSupport_class@@SAXQAVinputSupport@@@@Z 
+01:00018B54 ?_readLine@inputSupport_class@@SAXQAVinputSupport@@@PAPB_W@Z 
+01:00018B88 ?_read@inputSupport_class@@SAXQAVinputSupport@@@QAVrTypeLibrary@TypeLibraries@RunTime@VIP@@PAPAX@Z 
+01:00018BB4 ?consult@inputSupport_class@@SAXQAVinputSupport@@@PBUfactDB@@@Z 
+01:00018BE4 ?reconsult@inputSupport_class@@SAXQAVinputSupport@@@PBUfactDB@@@Z 
+01:00018BF8 ?_readBytes@inputSupport_class@@SAXQAVinputSupport@@@HQAPAE@Z 
+01:00018C5C ?_readString@inputSupport_class@@SAXQAVinputSupport@@@HPAPB_W@Z 
+01:00018C94 ?checkMode_text@inputSupport_class@@SAXQAVinputSupport@@@PB_W@Z 
+01:00018CC4 ?_convertMode@inputSupport_class@@SAXPAUmode_struct@stream_class@@PAH@Z 
+01:00018CF0 ?_new@inputSupport_class@@SAXQAVinputBuffer@@@PAUmode_struct@stream_class@@PAPAVinputSupport@@@@Z  (Idle)
+--- From 'Obj\binary.obj'
+01:00018D28 ?_initObject@inputSupport@@QAGXQAV1@H@Z 
+--- From 'Obj\inputStreamSupport.obj'
+01:00018D40 ?@create_object@inputSupport_class@@SGQAVinputSupport@@@XZ 
+--- From 'Obj\binary.obj'
+01:00018D5C ?_InternalFinalizer@inputSupport@@QAGXQAV1@@Z 
+--- From 'Obj\std.obj'
+01:00018D70 ?classInfo@std_class@@SAXPAPB_W0@Z  (Idle)
+--- From 'Obj\exception.obj'
+01:00018D8C ?_fromTo@std_class@@SAXHHPAH@Z 
+--- From 'Obj\std.obj'
+01:00018DE0 ?_downTo@std_class@@SAXHHPAH@Z 
+--- From 'Obj\programControl.obj'
+01:00018E38 ?_between@std_class@@SAXHHPAH@Z 
+--- From 'Obj\std.obj'
+01:00018EE8 ?_fromToInStep@std_class@@SAXHHHPAH@Z 
+01:00018F40 ?_downToInStep@std_class@@SAXHHHPAH@Z 
+--- From 'Obj\programControl.obj'
+01:00018F98 ?_betweenInStep@std_class@@SAXHHHPAH@Z 
+01:00019058 ?_countFrom@std_class@@SAXHPAH@Z 
+01:00019090 ?_countFromInStep@std_class@@SAXHHPAH@Z 
+--- From 'Obj\std.obj'
+01:000190CC ?_countDownFrom@std_class@@SAXHPAH@Z 
+01:0001910C ?_countDownFromInStep@std_class@@SAXHHPAH@Z 
+--- From 'Obj\programControl.obj'
+01:0001914C ?repeat@std_class@@SAXXZ 
+--- From 'Obj\std.obj'
+01:0001916C ?for@std_class@@SAXPAHHH@Z  (Idle)
+01:00019190 ?for@std_class@@SAXPAHHHH@Z  (Idle)
+01:000191BC ?downto@std_class@@SAXPAHHH@Z  (Idle)
+01:000191E0 ?_fromTo@std_class@@SAXIIPAI@Z 
+01:00019238 ?_downTo@std_class@@SAXIIPAI@Z 
+--- From 'Obj\registry.obj'
+01:00019290 ?classInfo@registry_class@@SAXPAPB_W0@Z 
+01:000192AC ?createKey@registry_class@@SAXPAUrootKey_struct@1@PB_W@Z  (Idle)
+01:000192FC ?existKey@registry_class@@SAXPAUrootKey_struct@1@PB_W@Z  (Idle)
+01:00019340 ?deleteKey@registry_class@@SAXPAUrootKey_struct@1@PB_W@Z 
+01:00019390 ?deleteKeyList@registry_class@@SAXPAUrootKey_struct@1@PB_WPAU?$__list_struct@Ustring@@@@@Z 
+01:000193F0 ?setValue@registry_class@@SAXPAUrootKey_struct@1@PB_WPAU?$__list_struct@UnamedValue@@@@@Z  (Idle)
+01:0001950C ?setValuesToKey@registry_class@@SAXIPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0001955C ?_getValue@registry_class@@SAXPAUrootKey_struct@1@PB_W1PAPAUvalue_struct@core_class@@@Z 
+01:00019604 ?_tryGetValue@registry_class@@SAXPAUrootKey_struct@1@PB_W1PAPAUvalue_struct@core_class@@@Z  (Idle)
+01:000196FC ?removeValue@registry_class@@SAXPAUrootKey_struct@1@PB_WPAU?$__list_struct@Ustring@@@@@Z  (Idle)
+01:000197A0 ?removeListValues@registry_class@@SAXIPAU?$__list_struct@Ustring@@@@@Z 
+01:000197EC ?_getSubkeys@registry_class@@SAXPAUrootKey_struct@1@PB_WPAPAU?$__list_struct@Ustring@@@@@Z 
+01:00019890 ?_getAllValues@registry_class@@SAXPAUrootKey_struct@1@PB_WPAPAU?$__list_struct@UnamedValue@@@@@Z  (Idle)
+01:00019934 ?_getRootKeyHandle@registry_class@@SAXPAUrootKey_struct@1@PAI@Z 
+01:00019998 ?classInfo@registry_exception_class@@SAXPAPB_W0@Z 
+01:000199B4 ?wrongValue@registry_exception_class@@SAXPAXPAPB_W1@Z 
+01:000199DC ?noPath@registry_exception_class@@SAXPAXPAPB_W1@Z 
+01:00019A04 ?cannotCreateKey@registry_exception_class@@SAXPAXPAPB_W1@Z 
+01:00019A2C ?raise_WrongValue@registry_exception_class@@SGXXIPAUrootKey_struct@registry_class@@PB_W3@Z  (Idle)
+01:00019BB0 ?raise_noPath@registry_exception_class@@SGXXIPAUrootKey_struct@registry_class@@PB_W3@Z  (Idle)
+01:00019D34 ?raise_CannotCreateKey@registry_exception_class@@SGXXIPAUrootKey_struct@registry_class@@PB_W@Z  (Idle)
+01:00019E68 ?_getSystemDescription@registry_exception_class@@SAXIPAPB_W@Z 
+01:00019EAC ?_getRootKeyName@registry_exception_class@@SAXPAUrootKey_struct@registry_class@@PAPB_W@Z 
+--- From 'Obj\programControl.obj'
+01:00019F20 ?classInfo@programControl_class@@SAXPAPB_W0@Z  (Idle)
+01:00019F3C ?repeat@programControl_class@@SAXXZ  (Idle)
+01:00019F44 ?_sequence_multi@programControl_class@@SAXHHPAH@Z  (Idle)
+01:00019F50 ?_sequence_nd@programControl_class@@SAXHHHPAH@Z  (Idle)
+01:00019F5C ?_sequenceUnlimited_multi@programControl_class@@SAXHPAH@Z  (Idle)
+01:00019F68 ?_sequenceUnlimited_multi@programControl_class@@SAXHHPAH@Z  (Idle)
+01:00019F74 ?_unpackCursor@programControl_class@@SAXPAUpackedCursor_struct@1@PAPAUcursor_struct@1@@Z  (Idle)
+--- From 'Obj\exe.obj'
+01:00019FEC ?setRuntimeExceptionRaiser@programControl_class@@SAXXPAX@Z 
+--- From 'Obj\programControl.obj'
+01:0001A030 ?RemoveMe  (Idle)
+--- From 'Obj\namedValue.obj'
+01:0001A040 ?classInfo@namedValue_class@@SAXPAPB_W0@Z 
+--- From 'Obj\exceptionDump.obj'
+01:0001A05C ?_tryMapLookUp@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUvalue_struct@core_class@@@Z 
+--- From 'Obj\namedValue.obj'
+01:0001A0C0 ?_tryMapLookUpIgnoreCase@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUvalue_struct@core_class@@@Z 
+01:0001A12C ?_mapLookUp@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUvalue_struct@core_class@@@Z 
+01:0001A238 ?nameNotInMap@namedValue_class@@SAXPAXPAPB_W1@Z 
+01:0001A260 ?_mapLookUp@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAUvalue_struct@core_class@@PAPAU34@@Z  (Idle)
+01:0001A29C ?_lookUp_nd@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUvalue_struct@core_class@@@Z 
+01:0001A30C ?_getNamed_integer@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAH@Z  (Idle)
+01:0001A33C ?_tryGetNamed_integer@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAH@Z  (Idle)
+01:0001A380 ?_getNamedDefault_integer@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WHPAH@Z  (Idle)
+01:0001A3D8 ?_getNamed_unsigned@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAI@Z  (Idle)
+01:0001A408 ?_tryGetNamed_unsigned@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAI@Z  (Idle)
+01:0001A44C ?_getNamedDefault_unsigned@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WIPAI@Z  (Idle)
+01:0001A4A4 ?_getNamed_real@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAN@Z  (Idle)
+01:0001A4D4 ?_tryGetNamed_real@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAN@Z  (Idle)
+01:0001A518 ?_getNamedDefault_real@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPANPAPAN@Z  (Idle)
+01:0001A570 ?_getNamed_char@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPA_W@Z  (Idle)
+01:0001A5A0 ?_tryGetNamed_char@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPA_W@Z  (Idle)
+01:0001A5E8 ?_getNamedDefault_char@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_W_WPA_W@Z  (Idle)
+01:0001A648 ?_getNamed_string@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPB_W@Z  (Idle)
+--- From 'Obj\exception.obj'
+01:0001A678 ?_tryGetNamed_string@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPB_W@Z 
+--- From 'Obj\namedValue.obj'
+01:0001A6BC ?_getNamedDefault_string@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_W1PAPB_W@Z  (Idle)
+01:0001A714 ?_getNamed_boolean@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:0001A744 ?_tryGetNamed_boolean@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:0001A788 ?_getNamedDefault_boolean@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAUboolean_struct@_builtIn_class@@PAPAU34@@Z  (Idle)
+01:0001A7E0 ?_getNamed_binary@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WQAPAE@Z  (Idle)
+01:0001A864 ?_tryGetNamed_binary@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WQAPAE@Z  (Idle)
+01:0001A8A8 ?_getNamedDefault_binary@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WQAEQAPAE@Z  (Idle)
+01:0001A8D8 ?_getNamed_object@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAV3@@@Z  (Idle)
+01:0001A95C ?_tryGetNamed_object@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAV3@@@Z  (Idle)
+01:0001A9A0 ?_getNamedDefault_object@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WQAV3@@PAPAV3@@@Z  (Idle)
+01:0001A9D0 ?_getNamed_pointer@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAX@Z  (Idle)
+01:0001AA54 ?_tryGetNamed_pointer@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAX@Z  (Idle)
+01:0001AA98 ?_getNamedDefault_pointer@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAXPAPAX@Z  (Idle)
+01:0001AAF0 ?_getNamed_gmtTimeValue@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:0001AB20 ?_tryGetNamed_gmtTimeValue@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:0001AB64 ?_getNamedDefault_gmtTimeValue@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAUunsigned64_struct@core_class@@PAPAU34@@Z  (Idle)
+01:0001ABBC ?_getNamed_integer64@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUinteger64_struct@core_class@@@Z  (Idle)
+01:0001AC40 ?_tryGetNamed_integer64@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUinteger64_struct@core_class@@@Z  (Idle)
+01:0001AC84 ?_getNamedDefault_integer64@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAUinteger64_struct@core_class@@PAPAU34@@Z  (Idle)
+01:0001ACB4 ?_getNamed_unsigned64@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:0001AD38 ?_tryGetNamed_unsigned64@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:0001AD7C ?_getNamedDefault_unsigned64@namedValue_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAUunsigned64_struct@core_class@@PAPAU34@@Z  (Idle)
+--- From 'Obj\console.obj'
+01:0001ADB0 ?append@memory_class@@SGPAXPAXPAXH@Z 
+--- From 'Obj\exception.obj'
+01:0001ADF8 ?isReadable@memory_class@@SAXPAX@Z 
+01:0001AE20 ?isReadable@memory_class@@SAXPAXH@Z 
+--- From 'Obj\memory.obj'
+01:0001AE44 ?isWritable@memory_class@@SAXPAX@Z  (Idle)
+01:0001AE6C ?isWritable@memory_class@@SAXPAXH@Z 
+01:0001AE90 ?_allocHeap@memory_class@@SAXHPAPAX@Z  (Idle)
+--- From 'Obj\binary.obj'
+01:0001AEC0 ?_allocHeapProfile@memory_class@@SAXHIPAPAX@Z 
+--- From 'Obj\exception.obj'
+01:0001AEF0 ?_allocAtomicHeap@memory_class@@SAXHPAPAX@Z 
+--- From 'Obj\binary.obj'
+01:0001AF0C ?_allocAtomicHeapProfile@memory_class@@SAXHIPAPAX@Z 
+--- From 'Obj\memory.obj'
+01:0001AF28 ?_allocUncollectableHeap@memory_class@@SAXHPAPAX@Z  (Idle)
+01:0001AF58 ?_allocUncollectableHeapProfile@memory_class@@SAXHIPAPAX@Z 
+01:0001AF88 ?_allocString@memory_class@@SAXHPAPB_W@Z  (Idle)
+01:0001AFBC ?_allocStringProfile@memory_class@@SAXHIPAPB_W@Z  (Idle)
+01:0001B038 ?_allocStringBuffer@memory_class@@SAXHPAPB_W@Z 
+--- From 'Obj\exe.obj'
+01:0001B068 ?_allocStringBufferProfile@memory_class@@SAXHIPAPB_W@Z 
+--- From 'Obj\binary.obj'
+01:0001B0A8 ?_getReal@memory_class@@SAXPAXPAPAN@Z 
+01:0001B0D8 ?setReal@memory_class@@SGXPAXN@Z 
+01:0001B114 ?_getInteger8@memory_class@@SAXPAXPAD@Z 
+01:0001B130 ?setInteger8@memory_class@@SGXPAXD@Z 
+01:0001B16C ?_getInteger16@memory_class@@SAXPAXPAF@Z 
+01:0001B188 ?setInteger16@memory_class@@SGXPAXF@Z 
+01:0001B1C4 ?_getInteger32@memory_class@@SAXPAXPAH@Z 
+01:0001B1DC ?setInteger32@memory_class@@SGXPAXH@Z 
+01:0001B218 ?_getInteger@memory_class@@SAXPAXPAH@Z 
+01:0001B230 ?setInteger@memory_class@@SGXPAXH@Z 
+01:0001B26C ?_getInteger64@memory_class@@SAXPAXPAPAUinteger64_struct@core_class@@@Z 
+01:0001B2AC ?setInteger64@memory_class@@SGXPAXPAUinteger64_struct@core_class@@@Z 
+01:0001B2D4 ?_getUnsigned8@memory_class@@SAXPAXPAE@Z 
+01:0001B2F0 ?setUnsigned8@memory_class@@SGXPAXE@Z 
+01:0001B32C ?_getUnsigned16@memory_class@@SAXPAXPA_W@Z 
+01:0001B348 ?setUnsigned16@memory_class@@SGXPAX_W@Z 
+01:0001B384 ?_getUnsigned32@memory_class@@SAXPAXPAI@Z 
+01:0001B39C ?setUnsigned32@memory_class@@SGXPAXI@Z 
+01:0001B3D8 ?_getUnsigned@memory_class@@SAXPAXPAI@Z 
+01:0001B3F0 ?setUnsigned@memory_class@@SGXPAXI@Z 
+01:0001B42C ?_getPointer@memory_class@@SAXPAXPAPAX@Z 
+01:0001B444 ?setPointer@memory_class@@SAXPAXPAX@Z 
+01:0001B474 ?_getUnsigned64@memory_class@@SAXPAXPAPAUunsigned64_struct@core_class@@@Z 
+01:0001B4B4 ?setUnsigned64@memory_class@@SGXPAXPAUunsigned64_struct@core_class@@@Z 
+01:0001B4DC ?_pointerAdd@memory_class@@SAXPAXHPAPAX@Z 
+--- From 'Obj\memory.obj'
+01:0001B510 ?_toPersistentStorage@memory_class@@SAXQAVrTypeLibrary@TypeLibraries@RunTime@VIP@@PAXPAPAX@Z  (Idle)
+01:0001B520 ?_toPersistentStorageWithContext@memory_class@@SAXQAVrTypeLibrary@TypeLibraries@RunTime@VIP@@PAXPAPAX@Z  (Idle)
+01:0001B530 ?_bitOr@bit_class@@SAXIIIPAI@Z  (Idle)
+01:0001B560 ?_bitOr@bit_class@@SAXIIIIPAI@Z  (Idle)
+01:0001B59C ?_bitOr@bit_class@@SAXIIIIIPAI@Z  (Idle)
+01:0001B5E8 ?_bitOrList@bit_class@@SAXPAU?$__list_struct@Uunsigned@@@@PAI@Z  (Idle)
+01:0001B614 ?bitOrList_Tail@bit_class@@SAXPAU?$__list_struct@Uunsigned@@@@IPAI@Z 
+01:0001B664 ?_getLow4of8@bit_class@@SAXEPAE@Z 
+01:0001B6A8 ?_setLow4of8@bit_class@@SAXEEPAE@Z  (Idle)
+01:0001B72C ?_getHigh4of8@bit_class@@SAXEPAE@Z 
+01:0001B784 ?_setHigh4of8@bit_class@@SAXEEPAE@Z  (Idle)
+01:0001B818 ?_swap4of8@bit_class@@SAXEPAE@Z  (Idle)
+01:0001B8A8 ?_getLow8of16@bit_class@@SAX_WPAE@Z 
+01:0001B8F0 ?_setLow8of16@bit_class@@SAX_WEPA_W@Z  (Idle)
+01:0001B960 ?_getHigh8of16@bit_class@@SAX_WPAE@Z 
+01:0001B9B8 ?_setHigh8of16@bit_class@@SAX_WEPA_W@Z  (Idle)
+01:0001BA38 ?_swap8of16@bit_class@@SAX_WPA_W@Z  (Idle)
+--- From 'Obj\fileSystem.obj'
+01:0001BACC ?_getLow16of32@bit_class@@SAXIPA_W@Z 
+--- From 'Obj\memory.obj'
+01:0001BB00 ?_setLow16of32@bit_class@@SAXI_WPAI@Z  (Idle)
+--- From 'Obj\fileSystem.obj'
+01:0001BB48 ?_getHigh16of32@bit_class@@SAXIPA_W@Z 
+--- From 'Obj\memory.obj'
+01:0001BB8C ?_setHigh16of32@bit_class@@SAXI_WPAI@Z  (Idle)
+01:0001BBF8 ?_swap16of32@bit_class@@SAXIPAI@Z 
+01:0001BC74 ?_bitSplit@bit_class@@SAXIPAPAU?$__list_struct@Uunsigned@@@@@Z 
+01:0001BCF0 ?getUnsigned64bytes@bit_class@@SAXPAUunsigned64_struct@core_class@@PAIPAI@Z  (Idle)
+01:0001BD0C ?getInteger64bytes@bit_class@@SAXPAUinteger64_struct@core_class@@PAIPAH@Z  (Idle)
+--- From 'Obj\math.obj'
+01:0001BD30 ?classInfo@math_class@@SAXPAPB_W0@Z 
+01:0001BD4C ?check_asin_nearBounds@math_class@@SAXPAN@Z 
+01:0001BD8C ?_getBoundsForValue@math_class@@SAXPANPAPAN@Z 
+01:0001BDC0 ?_arcsin@math_class@@SAXPANPAPAN@Z 
+01:0001BF14 ?_sinh@math_class@@SAXPANPAPAN@Z 
+01:0001BF84 ?_tryToUnsigned@math_class@@SAXPB_WPAI@Z  (Idle)
+01:0001BFA0 ?_tryToInteger@math_class@@SAXPB_WPAH@Z  (Idle)
+01:0001BFBC ?_tryToReal@math_class@@SAXPB_WPAPAN@Z  (Idle)
+01:0001BFD8 ?_toUnsigned@math_class@@SAXPB_WPAI@Z  (Idle)
+01:0001BFF4 ?_toInteger@math_class@@SAXPB_WPAH@Z  (Idle)
+01:0001C010 ?_toReal@math_class@@SAXPB_WPAPAN@Z  (Idle)
+01:0001C02C ?_prepareResultForBigValue@math_class@@SAXPANPAPAN@Z 
+01:0001C178 ?_arcsinh@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C1C8 ?_arccos@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C214 ?_cosh@math_class@@SAXPANPAPAN@Z 
+01:0001C298 ?_prepareResultForValue@math_class@@SAXPANPAPAN@Z 
+01:0001C3AC ?_arccosh@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C420 ?_get_tanhBoundsForValue@math_class@@SAXPANPAPAN@Z 
+01:0001C478 ?_tanh@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C524 ?_arctanh@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C5D4 ?_cotanh@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C688 ?_arccotanh@math_class@@SAXPANPAPAN@Z  (Idle)
+01:0001C734 ?_power@math_class@@SAXPANPANPAPAN@Z  (Idle)
+01:0001C8E4 ?_sqr@math_class@@SAXPANPAPAN@Z 
+01:0001C934 ?_round@math_class@@SAXPANPAH@Z 
+01:0001C968 ?_trunc@math_class@@SAXPANPAH@Z 
+01:0001C99C ?_ceil@math_class@@SAXPANPAH@Z 
+01:0001C9D4 ?_ceilToReal@math_class@@SAXPANPAPAN@Z 
+01:0001CA7C ?_floor@math_class@@SAXPANPAH@Z  (Idle)
+01:0001CAC8 ?_floorToReal@math_class@@SAXPANPAPAN@Z  (Idle)
+--- From 'Obj\binary.obj'
+01:0001CB2C ?_max@math_class@@SAXHHPAH@Z 
+--- From 'Obj\math.obj'
+01:0001CB50 ?_max@math_class@@SAXHHHPAH@Z  (Idle)
+--- From 'Obj\exe.obj'
+01:0001CB80 ?_min@math_class@@SAXHHPAH@Z 
+--- From 'Obj\math.obj'
+01:0001CBA4 ?_min@math_class@@SAXHHHPAH@Z  (Idle)
+01:0001CBD4 ?_restrict@math_class@@SAXHHHPAH@Z  (Idle)
+01:0001CC0C ?divides_dt@math_class@@SAXHH@Z  (Idle)
+01:0001CC50 ?_max@math_class@@SAXIIPAI@Z 
+01:0001CC74 ?_max@math_class@@SAXPANPANPAPAN@Z 
+01:0001CCAC ?_max@math_class@@SAXIIIPAI@Z  (Idle)
+01:0001CCDC ?_max@math_class@@SAXPANPANPANPAPAN@Z  (Idle)
+01:0001CD0C ?_min@math_class@@SAXIIPAI@Z 
+01:0001CD30 ?_min@math_class@@SAXPANPANPAPAN@Z 
+01:0001CD68 ?_min@math_class@@SAXIIIPAI@Z  (Idle)
+01:0001CD98 ?_min@math_class@@SAXPANPANPANPAPAN@Z  (Idle)
+01:0001CDC8 ?_restrict@math_class@@SAXIIIPAI@Z  (Idle)
+01:0001CE00 ?_restrict@math_class@@SAXPANPANPANPAPAN@Z  (Idle)
+01:0001CE38 ?divides_dt@math_class@@SAXII@Z  (Idle)
+01:0001CE5C ?classInfo@math_exception_class@@SAXPAPB_W0@Z 
+01:0001CE78 ?raise_asinOutOfBounds@math_exception_class@@SGXXN@Z 
+01:0001CF00 ?asinOutOfBounds@math_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001CF28 ?raise_acoshOutOfBounds@math_exception_class@@SGXXN@Z 
+01:0001CFB0 ?acoshOutOfBounds@math_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001CFD8 ?raise_atanhOutOfBounds@math_exception_class@@SGXXN@Z 
+01:0001D060 ?atanhOutOfBounds@math_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001D088 ?raise_acotanhOutOfBounds@math_exception_class@@SGXXN@Z 
+01:0001D110 ?acotanhOutOfBounds@math_exception_class@@SAXPAXPAPB_W1@Z 
+01:0001D138 ?raise_cotanhInfinityResult@math_exception_class@@SGXXN@Z 
+01:0001D1C0 ?cotanhInfinityResult@math_exception_class@@SAXPAXPAPB_W1@Z 
+--- From 'Obj\binary.obj'
+01:0001D1F0 $length$list$predicate$(i,i,o)$ 
+--- From 'Obj\list.obj'
+01:0001D224 $length2$list$predicate$(i,i,i,o)$c$_m3 
+01:0001D280 $isMember$list$predicate$(i,i,i)$_c2 
+01:0001D2D8 $isMemberBy$list$predicate$(i,i,i,i)$_c3 
+--- From 'Obj\exception.obj'
+01:0001D348 $getMember_nd$list$predicate$(i,i,o)$_c4 
+--- From 'Obj\list.obj'
+01:0001D394 $sort$list$predicate$(i,i,o)$_c5 
+01:0001D460 $merge$list$predicate$(i,i,i,o)$c$_m4 
+01:0001D580 $sort$list$predicate$(i,i,i,o)$_c6  (Idle)
+01:0001D5A8 $sort_descending$list$predicate$(i,i,o)$c$_m5 
+01:0001D674 $merge_descending$list$predicate$(i,i,i,o)$c$_m6 
+01:0001D794 $sortBy$list$predicate$(i,i,i,o)$_c7 
+01:0001D870 $sortBy$list$predicate$(i,i,i,i,o)$_c8  (Idle)
+01:0001D898 $sortBy_descending$list$predicate$(i,i,i,o)$c$_m7 
+01:0001D974 $mergeBy$list$predicate$(i,i,i,i,o)$c$_m8 
+01:0001DA98 $mergeBy_descending$list$predicate$(i,i,i,i,o)$c$_m9 
+01:0001DBBC $split2$list$predicate$(i,i,o,o)$c$_m10 
+01:0001DCA8 $append$list$predicate$(i,i,i,o)$_c9 
+01:0001DD18 $append$list$predicate$(i,i,i,i,o)$_c10 
+01:0001DD4C $append$list$predicate$(i,i,i,i,i,o)$_c11 
+01:0001DD80 $append$list$predicate$(i,i,i,i,i,i,o)$_c12  (Idle)
+01:0001DDB4 $appendList$list$predicate$(i,i,o)$_c13 
+01:0001DE44 $reverse$list$predicate$(i,i,o)$_c14  (Idle)
+01:0001DE7C $reverse1$list$predicate$(i,i,i,o)$c$_m11 
+01:0001DED4 $remove$list$predicate$(i,i,i,o)$_c15 
+01:0001DF70 $removeBy$list$predicate$(i,i,i,i,o)$_c16 
+01:0001E018 $removeAll$list$predicate$(i,i,i,o)$_c17 
+01:0001E0C4 $removeAllBy$list$predicate$(i,i,i,i,o)$_c18 
+01:0001E174 $removeDuplicates$list$predicate$(i,i,o)$_c21 
+01:0001E21C $removeDuplicatesBy$list$predicate$(i,i,i,o)$_c22 
+01:0001E2C8 $difference$list$predicate$(i,i,i,o)$_c19 
+01:0001E380 $differenceBy$list$predicate$(i,i,i,i,o)$_c20 
+01:0001E438 $nDuplicates$list$predicate$(i,i,i,o)$_c23 
+01:0001E4A8 $tryGetIndex$list$predicate$(i,i,i,o)$_c24 
+01:0001E540 $tryGetIndexBy$list$predicate$(i,i,i,i,o)$_c25 
+01:0001E5F0 $tryLastItem$list$predicate$(i,i,o)$_c26 
+01:0001E640 $nth$list$predicate$(i,i,i,o)$_c27  (Idle)
+01:0001E6B4 $tryGetNth$list$predicate$(i,i,i,o)$_c28 
+01:0001E738 $setNth$list$predicate$(i,i,i,i,o)$_c29 
+01:0001E888 $split$list$predicate$(i,i,i,o,o)$_c30 
+01:0001E964 $take$list$predicate$(i,i,i,o)$_c31  (Idle)
+01:0001E98C $drop$list$predicate$(i,i,i,o)$_c32  (Idle)
+01:0001E9B4 $maximum$list$predicate$(i,i,o)$_c33 
+01:0001EA60 $maximumBy$list$predicate$(i,i,i,o)$_c34 
+01:0001EB10 $minimum$list$predicate$(i,i,o)$_c35 
+01:0001EBBC $minimumBy$list$predicate$(i,i,i,o)$_c36 
+01:0001EC6C $union$list$predicate$(i,i,i,o)$_c37 
+01:0001ED20 $unionBy$list$predicate$(i,i,i,i,o)$_c38 
+01:0001EDD8 $intersection$list$predicate$(i,i,i,o)$_c39 
+01:0001EE88 $intersectionBy$list$predicate$(i,i,i,i,o)$_c40 
+01:0001EF3C $filter$list$predicate$(i,i,i,o)$_c41  (Idle)
+01:0001EFC4 ?exceptionEmpty@list_class@@SAXPB_W@Z 
+01:0001EFFC ?classInfo@list_class@@SAXPAPB_W0@Z 
+--- From 'Obj\fileSystem.obj'
+01:0001F020 ?classInfo@messageFile_class@@SAXPAPB_W0@Z 
+01:0001F03C ?append@messageFile_class@@SAXQAVmessageFile@@@PB_W@Z 
+01:0001F06C ?append@messageFile_class@@SAXQAVmessageFile@@@PB_WPAUmode_struct@stream_class@@@Z 
+01:0001F08C ?flush@messageFile_class@@SGXQAVoutputStream@@@@Z 
+01:0001F09C ?write@messageFile_class@@SAXQAVoutputStream@@@@Z 
+01:0001F134 ?writef@messageFile_class@@SAXQAVoutputStream@@@PB_W@Z 
+01:0001F1D0 ?writeQuoted@messageFile_class@@SAXQAVoutputStream@@@@Z 
+01:0001F268 ?nl@messageFile_class@@SGXQAVoutputStream@@@@Z 
+01:0001F2FC ?writeBytes@messageFile_class@@SGXQAVoutputStream@@@PAXH@Z 
+01:0001F398 ?save@messageFile_class@@SGXQAVoutputStream@@@PBUfactDB@@@Z 
+01:0001F430 ?setMode@messageFile_class@@SGXQAVstream@@@PAUmode_struct@stream_class@@@Z 
+01:0001F448 ?getMode@messageFile_class@@SGPAUmode_struct@stream_class@@QAVstream@@@@Z 
+01:0001F468 ?getCRLFconversion@messageFile_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:0001F47C ?setCRLFconversion@messageFile_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:0001F49C ?close@messageFile_class@@SGXQAVstream@@@@Z 
+01:0001F4AC ?getPosition@messageFile_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:0001F4BC ?setPosition@messageFile_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:0001F4CC ?_append@messageFile_class@@SAXPB_WPAPAVoutputStream@@@@Z  (Idle)
+01:0001F4F8 ?_append@messageFile_class@@SAXPB_WPAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:0001F528 ?_getPath@fileName_class@@SAXPB_WPAPB_W@Z 
+--- From 'Obj\exe.obj'
+01:0001F548 ?getPathAndName@fileName_class@@SAXPB_WPAPB_W1@Z 
+--- From 'Obj\fileSystem.obj'
+01:0001F5FC ?_getLastDirectory@fileName_class@@SAXPB_WPAPB_W1@Z  (Idle)
+01:0001F6C4 ?_removeLastSlash@fileName_class@@SAXPB_WPAPB_W@Z 
+01:0001F744 ?isSlashStr@fileName_class@@SAXPB_W@Z 
+01:0001F760 ?_getName@fileName_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:0001F798 ?_getExtension@fileName_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:0001F7D0 ?_getExtension@fileName_class@@SAXPB_WPAPB_W1@Z  (Idle)
+01:0001F820 ?_setPath@fileName_class@@SAXPB_W0PAPB_W@Z 
+01:0001F854 ?_inverseList@fileName_class@@SAXPAU?$__list_struct@Ustring@@@@0PAPAU?$__list_struct@U2@@@@Z 
+01:0001F8AC ?_setName@fileName_class@@SAXPB_W0PAPB_W@Z  (Idle)
+01:0001F908 ?_setExtension@fileName_class@@SAXPB_W0PAPB_W@Z  (Idle)
+01:0001F964 ?_reduce@fileName_class@@SAXPB_W0PAPB_W@Z 
+01:0001FAB0 ?_reduceToShort@fileName_class@@SAXPB_W0PAPB_W@Z  (Idle)
+01:0001FAFC ?getFirstDirectory@fileName_class@@SAXPB_WPAPB_W1@Z 
+01:0001FC18 ?getNetName@fileName_class@@SAXPB_W0PAPB_W2@Z 
+01:0001FC8C ?_setTrailSlash@fileName_class@@SAXPB_WPAPB_W@Z 
+01:0001FD20 ?_tryGetLastChar@fileName_class@@SAXPB_WPA_W@Z 
+01:0001FD7C ?getSlashList@fileName_class@@SAXPB_W0HPAPAU?$__list_struct@Uunsigned@@@@@Z 
+01:0001FE74 ?getOrderedList@fileName_class@@SAXPAU?$__list_struct@Uunsigned@@@@0PAPAU?$__list_struct@U2@@@@Z 
+01:0001FF78 ?splitPathString@fileName_class@@SAXPB_WPAU?$__list_struct@Uunsigned@@@@IPAPAU?$__list_struct@Ustring@@@@PAH@Z 
+01:0002006C ?splitOntoPathAndName@fileName_class@@SAXPB_WPAPAU?$__list_struct@Ustring@@@@PAPB_W@Z 
+01:0002015C ?splitFileName@fileName_class@@SAXPB_WPAPB_W1@Z 
+01:000201D8 ?_directoryCompare@fileName_class@@SAXPAU?$__list_struct@Ustring@@@@0PAPB_W@Z 
+01:00020264 ?_glueRest@fileName_class@@SAXPAU?$__list_struct@Ustring@@@@0PAPB_W@Z 
+01:000202B8 ?splitPath@fileName_class@@SAXPB_WPAPAU?$__list_struct@Ustring@@@@PAH@Z 
+01:0002033C ?_nameConcat@fileName_class@@SAXPB_W0PAPB_W@Z 
+01:0002038C ?_createPath@fileName_class@@SAXPB_W0PAPB_W@Z 
+01:000203FC ?_reducePath@fileName_class@@SAXPB_WPAPB_W@Z 
+01:0002047C ?_createPath@fileName_class@@SAX_WPB_W11PAPB_W@Z 
+01:0002053C ?_concatWithSlash@fileName_class@@SAXPB_W0PAPB_W@Z 
+01:000205DC ?_getTypeOfSlash@fileName_class@@SAXPB_W0PAPB_W@Z 
+01:0002068C ?isSlash@fileName_class@@SAX_W@Z 
+01:000206AC ?_checkSecondCharAfterSlash@fileName_class@@SAXPB_W00PAPB_W@Z 
+01:00020788 ?_checkThirdCharAfterColon@fileName_class@@SAXPB_W_W00PAPB_W@Z 
+01:00020864 ?_reducePath@fileName_class@@SAX_WPB_WPAPB_W@Z 
+01:00020894 ?_applyFileName@fileName_class@@SAXPB_WPAU?$__list_struct@Ustring@@@@PAPAU?$__list_struct@U2@@@@Z 
+01:00020988 ?stay_dir@fileName_class@@SAXPB_W@Z 
+01:000209C8 ?up_dir@fileName_class@@SAXPB_W@Z 
+01:00020A10 ?_reducePath_reversed@fileName_class@@SAXPAU?$__list_struct@Ustring@@@@PAPAU?$__list_struct@U2@@@@Z 
+01:00020B04 ?_upOneDir_reversed@fileName_class@@SAXPAU?$__list_struct@Ustring@@@@PAPAU?$__list_struct@U2@@@@Z 
+01:00020C5C ?notDriveOrNetworkVolume@fileName_class@@SAXPB_W@Z 
+01:00020D1C ?_findLast@fileName_class@@SAXPB_W0PAH@Z 
+01:00020D7C ?_findDirDelimPos@fileName_class@@SAXPB_WPAH@Z 
+01:00020DCC ?up_dir@fileName_class@@SAXPAPB_W@Z 
+01:00020DE0 ?classInfo@file_class@@SAXPAPB_W0@Z 
+01:00020DFC ?copy@file_class@@SAXPB_W0@Z  (Idle)
+01:00020E2C ?copy@file_class@@SAXPB_W0PAUoverwrite_struct@1@@Z 
+01:00020EA4 ?move@file_class@@SAXPB_W0@Z  (Idle)
+01:00020ED4 ?move@file_class@@SAXPB_W0PAUoverwrite_struct@1@@Z 
+01:00020F6C ?delete@file_class@@SAXPB_W@Z  (Idle)
+01:00021004 ?existExactFile@file_class@@SAXPB_W@Z  (Idle)
+01:00021040 ?existFile@file_class@@SAXPB_W@Z  (Idle)
+01:00021154 ?tryGetFile@file_class@@SAXPBUfileHandle@@PAX@Z 
+--- From 'Obj\exceptionDump.obj'
+01:0002121C ?_createUniqueName@file_class@@SAXPB_W0PAPB_W@Z 
+--- From 'Obj\fileSystem.obj'
+01:00021328 ?_getPhysicalName@file_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:00021464 ?setAttributes@file_class@@SAXPB_WPAU?$__list_struct@UfileAttributeAtom@@@@PAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:000216DC ?getFileProperties@file_class@@SAXPB_WPAPAU?$__list_struct@UfileAttributeAtom@@@@PAPAUunsigned64_struct@core_class@@222@Z 
+01:00021854 ?setFileTime@file_class@@SAXPB_WPAUunsigned64_struct@core_class@@11@Z  (Idle)
+01:00021A60 ?moveToRecycleBin@file_class@@SAXPB_W@Z  (Idle)
+01:00021BD8 ?_readBinary@file_class@@SAXPB_WQAPAE@Z 
+01:00021CA0 ?_readFile@file_class@@SAXPBUfileHandle@@PAXHPAH@Z 
+01:00021D24 ?_readBinary@file_class@@SAXPB_WPAUunsigned64_struct@core_class@@HQAPAE@Z  (Idle)
+01:00021E70 ?_readString@file_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:00021FB8 ?checkUnicodeSignature@file_class@@SAXPB_WHPAPB_WPAH@Z 
+01:00022030 ?_readString@file_class@@SAXPB_WPAPAUboolean_struct@_builtIn_class@@PAPB_W@Z  (Idle)
+01:00022178 ?_getUnicode@file_class@@SAXPAXHPAPAUboolean_struct@_builtIn_class@@2@Z 
+01:000221EC ?_isUnicode@file_class@@SAXPAXHPAPAUboolean_struct@_builtIn_class@@@Z 
+01:00022248 ?_getString@file_class@@SAXHPAXPAUboolean_struct@_builtIn_class@@2PAPB_W@Z 
+01:00022358 ?_getFileSize@file_class@@SAXPBUfileHandle@@PB_WPAH@Z 
+01:000223B0 ?writeBinary@file_class@@SAXPB_WQAE@Z  (Idle)
+01:0002245C ?writeFile@file_class@@SAXPBUfileHandle@@PAXH@Z 
+01:0002249C ?writeBinary@file_class@@SAXPB_WPAUunsigned64_struct@core_class@@QAE@Z  (Idle)
+01:00022564 ?writeString@file_class@@SAXPB_W0@Z 
+01:0002265C ?appendString@file_class@@SAXPB_W0PAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:00022928 ?writeString@file_class@@SAXPB_W0PAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:00022ABC ?checkResult@file_class@@SAXIPB_W11PAUoverwrite_struct@1@@Z 
+01:0002342C ?fileExists_errorCode@file_class@@SAXI@Z 
+01:00023448 ?hideUnicodeSignature@file_class@@SAXQAEHPAPAXPAH@Z 
+01:000234C8 ?_setDestination@file_class@@SAXPB_W0PAPB_W@Z 
+01:00023524 ?_toApiAttributes@file_class@@SAXPAU?$__list_struct@UfileAttributeAtom@@@@PAI@Z 
+01:0002354C ?checkOnLegal@file_class@@SAXI@Z 
+01:00023584 ?_mixAttributes@file_class@@SAXPAUboolean_struct@_builtIn_class@@IIPAI@Z 
+01:000235D0 ?checkFileHandle@file_class@@SAXPBUfileHandle@@PB_W@Z 
+01:00023614 ?closeFileHandle@file_class@@SAXPBUfileHandle@@@Z 
+01:00023650 ?_getStreamCheckUnicode@file_class@@SAXPB_WPAUboolean_struct@_builtIn_class@@PAPAVoutputStream@@@@Z 
+01:00023678 ?save@file_class@@SAXPB_WPBUfactDB@@@Z  (Idle)
+01:000236A8 ?save@file_class@@SAXPB_WPBUfactDB@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00023730 ?_checkSignature@file_class@@SAXQAVinputStream@@@PAPAUboolean_struct@_builtIn_class@@@Z 
+01:000237FC ?consult@file_class@@SAXPB_WPBUfactDB@@@Z  (Idle)
+01:0002381C ?consult@file_class@@SAXPB_WPBUfactDB@@PAPAUboolean_struct@_builtIn_class@@@Z 
+01:000238BC ?reconsult@file_class@@SAXPB_WPBUfactDB@@@Z  (Idle)
+01:000238DC ?reconsult@file_class@@SAXPB_WPBUfactDB@@PAPAUboolean_struct@_builtIn_class@@@Z 
+01:000238F0 ?_trySearchFileInPath@file_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:00023940 ?classInfo@directory_class@@SAXPAPB_W0@Z 
+01:0002395C ?deleteDirectory@directory_class@@SAXPB_W@Z  (Idle)
+01:000239E8 ?makeDirectory@directory_class@@SAXPB_W@Z 
+01:00023A7C ?makeDirectoryPath@directory_class@@SAXPB_W@Z  (Idle)
+01:00023ACC ?_checkNetPath@directory_class@@SAXPAU?$__list_struct@Ustring@@@@PAPB_WPAPAU?$__list_struct@U2@@@@Z 
+01:00023BC4 ?createDirectory_list@directory_class@@SAXPAU?$__list_struct@Ustring@@@@PB_W@Z 
+01:00023CBC ?setCurrentDirectory@directory_class@@SAXPB_W@Z  (Idle)
+01:00023D60 ?_getCurrentDirectory@directory_class@@SAXPAPB_W@Z 
+01:00023DB8 ?expandShortName@directory_class@@SAXPB_W@Z 
+01:00023ED4 ?moveDirectory@directory_class@@SAXPB_W0@Z  (Idle)
+01:00023FB0 ?setVolumeLabel@directory_class@@SAXPB_W0@Z  (Idle)
+01:0002408C ?existDirectory@directory_class@@SAXPB_W@Z 
+01:000241A0 ?_checkLastChar@directory_class@@SAXPB_WPAPB_W@Z 
+01:00024204 ?getDirectoryProperties@directory_class@@SAXPB_WPAPAU?$__list_struct@UfileAttributeAtom@@@@PAPAUunsigned64_struct@core_class@@22@Z  (Idle)
+01:00024230 ?getVolumeProperties@directory_class@@SAXPB_WPAPAUvolumeType_struct@1@PAPAUunsigned64_struct@core_class@@2PAPB_WPAI@Z  (Idle)
+01:00024324 ?_tryGetLogicalDirectory@directory_class@@SAXHPAPB_W@Z  (Idle)
+01:00024350 ?_getLogicalDirectory@directory_class@@SAXHPAPB_W@Z  (Idle)
+01:0002437C ?_getTemporaryDirectory@directory_class@@SAXPAPB_W@Z  (Idle)
+01:000243AC ?_tryCreateLogicalDirectory@directory_class@@SAXHPAPB_W@Z  (Idle)
+01:000243DC ?_getFilesInDirectory_nd@directory_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:0002440C ?_getFilesInDirectory_nd@directory_class@@SAXPB_W0PAPB_W@Z 
+01:00024444 ?_getFilesInDirectory_nd@directory_class@@SAXPB_W0PAUboolean_struct@_builtIn_class@@PAPB_W@Z 
+01:00024484 ?_getSubDirectories_nd@directory_class@@SAXPB_WPAPB_W@Z 
+01:000244B4 ?_getSubDirectories_nd@directory_class@@SAXPB_W0PAPB_W@Z 
+01:000244F8 ?_getFilesInDirectoryAndSub_nd@directory_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:00024528 ?_getFilesInDirectoryAndSub_nd@directory_class@@SAXPB_W0PAPB_W@Z 
+01:000245D4 ?_find@directory_class@@SAXPB_W0IPAUboolean_struct@_builtIn_class@@PAPB_W@Z 
+01:0002475C ?_addTrailSlash@directory_class@@SAXPB_WPAPB_W@Z 
+01:00024820 ?checkHiddenOrSystem@directory_class@@SAXPB_WPAUboolean_struct@_builtIn_class@@@Z 
+01:00024838 ?isNotHiddenOrSystem@directory_class@@SAXPB_W@Z 
+01:0002488C ?isSlash@directory_class@@SAX_W@Z 
+01:000248AC ?findNext@directory_class@@SAXPBUfileHandle@@PAXI@Z 
+01:00024974 ?_findNext_nd@directory_class@@SAXPBUfileHandle@@PAXIPAPB_W@Z 
+01:00024AB0 ?_createFullName@directory_class@@SAXPB_W0PAPB_W@Z 
+01:00024B60 ?_tryLogicalDirectoryBuff@directory_class@@SAXHHPB_WPAPB_W@Z 
+01:000251C0 ?_logicalDirectoryBuff@directory_class@@SAXHHPB_WPAPB_W@Z 
+01:00025B3C ?_tryLogicalDirectory@directory_class@@SAXHHPAPB_W@Z 
+01:00025B88 ?_logicalDirectory@directory_class@@SAXHHPAPB_W@Z 
+01:00025BD4 ?_addNeedCreateIfNecessary@directory_class@@SAXHHPAH@Z 
+01:00025C10 ?_convertToVolumeType@directory_class@@SAXHPAPAUvolumeType_struct@1@@Z 
+01:00025C90 ?checkResult@directory_class@@SAXHPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+01:00025CF4 ?closeSearchHandle@directory_class@@SAXPBUfileHandle@@@Z 
+01:00025D30 ?_browseForFolder@directory_class@@SAXPBUhwnd@@PB_W1PAUboolean_struct@_builtIn_class@@PAPB_W@Z  (Idle)
+01:00025DE4 ?_getBrowseForFolderFlags@directory_class@@SAXPAUboolean_struct@_builtIn_class@@PAI@Z 
+01:00025E08 ?browseForFolderCallback@directory_class@@SGHPAXIII@Z 
+01:00025E44 ?classInfo@inputStream_file_class@@SAXPAPB_W0@Z 
+01:00025E60 ?openFile@inputStream_file_class@@SAXQAVinputStream_file@@@PB_W@Z 
+01:00025E9C ?openFile8@inputStream_file_class@@SAXQAVinputStream_file@@@PB_W@Z 
+01:00025ED8 ?openFile@inputStream_file_class@@SAXQAVinputStream_file@@@PB_WPAUmode_struct@stream_class@@@Z 
+01:00025F10 ?_halfBufferSize@inputStream_file_class@@SAXQAVinputStream_file@@@PAH@Z 
+01:00025F60 ?commonPartOfConstructors@inputStream_file_class@@SAXQAVinputStream_file@@@PBUfileHandle@@PAUmode_struct@stream_class@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00026024 ?handlingMode@inputStream_file_class@@SAXQAVinputStream_file@@@PAUmode_struct@stream_class@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00026128 ?openFile@inputStream_file_class@@SAXQAVinputStream_file@@@PB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@@Z 
+01:00026168 ?openFile@inputStream_file_class@@SAXQAVinputStream_file@@@PB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@H@Z 
+01:000261C0 ?checkBufferSize@inputStream_file_class@@SAXH@Z 
+01:00026214 ?newHandleFile@inputStream_file_class@@SAXQAVinputStream_file@@@PBUfileHandle@@PAUmode_struct@stream_class@@@Z 
+01:00026264 ?newHandle@inputStream_file_class@@SAXQAVinputStream_file@@@PBUfileHandle@@PAUmode_struct@stream_class@@@Z 
+01:0002629C ?checkUnicodeSignature@inputStream_file_class@@SAXQAVinputStream_file@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00026338 ?getPosition@inputStream_file_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:000263F4 ?_handlingFileMode@inputStream_file_class@@SAXQAVinputStream_file@@@PAUmode_struct@stream_class@@HHPAH@Z 
+01:000264F4 ?_handleTextMode@inputStream_file_class@@SAXQAVinputStream_file@@@PAUmode_struct@stream_class@@HIPAH@Z 
+01:000266EC ?_getPassedConv@inputStream_file_class@@SAXPAU?$__list_struct@Uunsigned@@@@IIHPAI@Z 
+01:0002679C ?setPosition@inputStream_file_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:000268D8 ?_checkMovingIsInsideBuffer@inputStream_file_class@@SAXQAVinputStream_file@@@PAUunsigned64_struct@core_class@@1HHPAH@Z 
+01:00026AC0 ?_handlingSetPosition@inputStream_file_class@@SAXQAVinputStream_file@@@PAUunsigned64_struct@core_class@@PAPAU34@@Z 
+01:00026B3C ?checkOddness@inputStream_file_class@@SAXQAVinputStream_file@@@PAUunsigned64_struct@core_class@@@Z 
+01:00026B88 ?endOfStream@inputStream_file_class@@SAXQAVinputStream@@@@Z 
+01:00026C00 ?isEndOfFile@inputStream_file_class@@SAXQAVinputStream_file@@@II@Z 
+01:00026C78 ?isEndOfFile_WithCurPos@inputStream_file_class@@SAXPAUunsigned64_struct@core_class@@II@Z 
+01:00026CC0 ?close@inputStream_file_class@@SGXQAVstream@@@@Z 
+01:00026CFC ?getCRLFconversion@inputStream_file_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00026D68 ?setCRLFconversion@inputStream_file_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00026E80 ?setMode@inputStream_file_class@@SGXQAVinputSupport@@@PAUmode_struct@stream_class@@@Z 
+01:00026F34 ?_checkModeAndPos@inputStream_file_class@@SAXQAVinputStream_file@@@PAUmode_struct@stream_class@@PAUunsigned64_struct@core_class@@PAPAU56@@Z 
+01:00027064 ?exTextBufferCB@inputStream_file_class@@SAXQAVinputStream_file@@@PAPAXPAH@Z 
+01:000270CC ?exTextLockBufferCB@inputStream_file_class@@SAXQAVinputStream_file@@@PAPAXPAH@Z 
+01:00027144 ?_fillBuffer@inputStream_file_class@@SAXQAVinputStream_file@@@PAUmode_struct@stream_class@@PAH@Z 
+01:00027238 ?_convertToUnicode@inputStream_file_class@@SAXQAVinputStream_file@@@HPAUcodepage_struct@core_class@@PAXPAH@Z 
+01:000272A0 ?convertCRLFtoLF_ifNeeded@inputStream_file_class@@SAXQAVinputStream_file@@@PAUmode_struct@stream_class@@HPAPAXPAH@Z 
+01:000273BC ?handlingBufferLastChar@inputStream_file_class@@SAXQAVinputStream_file@@@HPAPAXPAH@Z 
+01:0002741C ?readFromFile@inputStream_file_class@@SGHQAVinputStream_file@@@PAXH@Z 
+01:00027468 ?getBuffer@inputStream_file_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:0002748C ?getBufferLocked@inputStream_file_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:000274B0 ?_openFile@inputStream_file_class@@SAXPB_WPAPAVinputStream@@@@Z  (Idle)
+01:000274DC ?_openFile8@inputStream_file_class@@SAXPB_WPAPAVinputStream@@@@Z  (Idle)
+01:00027508 ?_openFile@inputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAPAVinputStream@@@@Z 
+01:00027538 ?_openFile@inputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@PAPAVinputStream@@@@Z 
+01:00027568 ?_openFile@inputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@HPAPAVinputStream@@@@Z  (Idle)
+01:0002759C ?_newHandleFile@inputStream_file_class@@SAXPBUfileHandle@@PAUmode_struct@stream_class@@PAPAVinputStream@@@@Z  (Idle)
+01:000275CC ?_newHandle@inputStream_file_class@@SAXPBUfileHandle@@PAUmode_struct@stream_class@@PAPAVinputStream@@@@Z  (Idle)
+01:000275FC ?_commonPartOfConstructors@inputStream_file_class@@SAXPBUfileHandle@@PAUmode_struct@stream_class@@PAUboolean_struct@_builtIn_class@@PAPAVinputStream@@@@Z  (Idle)
+01:0002762C ?_object_facts_initializer@inputStream_file_class@@SGXQAVinputStream_file@@@@Z 
+01:0002765C ?classInfo@outputStream_file_class@@SAXPAPB_W0@Z 
+01:00027678 ?create@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_W@Z 
+01:000276C0 ?create8@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_W@Z 
+01:00027708 ?create@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_WPAUmode_struct@stream_class@@@Z 
+01:0002774C ?create@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@@Z 
+01:0002778C ?create@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@PAU?$__list_struct@UfileAttributeAtom@@@@@Z 
+01:000277D4 ?commonPartOfConstructors@outputStream_file_class@@SAXQAVoutputStream_file@@@PBUfileHandle@@PAUmode_struct@stream_class@@@Z 
+01:00027854 ?handleMode_create@outputStream_file_class@@SAXQAVoutputStream_file@@@PAUmode_struct@stream_class@@@Z 
+01:000278BC ?openFile@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_W@Z 
+01:000278F8 ?openFile8@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_W@Z 
+01:00027934 ?openFile@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_WPAUmode_struct@stream_class@@@Z 
+01:0002796C ?openFile@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@@Z 
+01:000279D0 ?append@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_W@Z 
+01:00027A00 ?append8@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_W@Z 
+01:00027A30 ?append@outputStream_file_class@@SAXQAVoutputStream_file@@@PB_WPAUmode_struct@stream_class@@@Z 
+01:00027AAC ?newHandleFile@outputStream_file_class@@SAXQAVoutputStream_file@@@PBUfileHandle@@PAUmode_struct@stream_class@@@Z 
+01:00027AF8 ?newHandle@outputStream_file_class@@SAXQAVoutputStream_file@@@PBUfileHandle@@PAUmode_struct@stream_class@@@Z 
+01:00027B04 ?checkUnicodeSignature@outputStream_file_class@@SAXQAVoutputStream_file@@@PAUmode_struct@stream_class@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00027B9C ?checkSign@outputStream_file_class@@SAXQAVoutputStream_file@@@HPAUcharPtr_struct@1@PAUboolean_struct@_builtIn_class@@@Z 
+01:00027CF8 ?getCRLFconversion@outputStream_file_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00027D30 ?setCRLFconversion@outputStream_file_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00027D9C ?getPosition@outputStream_file_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:00027E7C ?_handlingGetPosition@outputStream_file_class@@SAXQAVoutputStream_file@@@PAUunsigned64_struct@core_class@@PAPAU34@@Z 
+01:00027EE8 ?setPosition@outputStream_file_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:00027FC8 ?_checkMovingIsInsideBuffer@outputStream_file_class@@SAXQAVoutputStream_file@@@PAUunsigned64_struct@core_class@@1HPAH@Z 
+01:0002814C ?setMaxOffsetUsedInCurrentBuffer@outputStream_file_class@@SAXQAVoutputStream_file@@@H@Z 
+01:00028174 ?_handlingSetPosition@outputStream_file_class@@SAXQAVoutputStream_file@@@PAUunsigned64_struct@core_class@@PAPAU34@@Z 
+01:000281EC ?checkOddness@outputStream_file_class@@SAXPAUunsigned64_struct@core_class@@@Z 
+01:00028238 ?close@outputStream_file_class@@SGXQAVstream@@@@Z 
+01:0002827C ?flush@outputStream_file_class@@SGXQAVoutputStream@@@@Z 
+01:000282C0 ?bufferFullCallBack@outputStream_file_class@@SAXQAVoutputStream_file@@@HPAPAXPAH@Z 
+01:0002839C ?convertLFtoCRLF_IfNeeded@outputStream_file_class@@SAXQAVoutputStream_file@@@PAXHPAPAXPAH@Z 
+01:00028410 ?convertToANSI_IfNeeded@outputStream_file_class@@SAXQAVoutputStream_file@@@PAXHPAPAXPAH@Z 
+01:000284E8 ?getBuffer@outputStream_file_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00028554 ?getBufferLocked@outputStream_file_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00028570 ?_create@outputStream_file_class@@SAXPB_WPAPAVoutputStream@@@@Z 
+--- From 'Obj\fileSystem.obj'
+01:0002859C ?_create8@outputStream_file_class@@SAXPB_WPAPAVoutputStream@@@@Z 
+01:000285C8 ?_create@outputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:000285F8 ?_create@outputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:00028628 ?_create@outputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@PAU?$__list_struct@UfileAttributeAtom@@@@PAPAVoutputStream@@@@Z  (Idle)
+01:0002865C ?_openFile@outputStream_file_class@@SAXPB_WPAPAVoutputStream@@@@Z  (Idle)
+01:00028688 ?_openFile8@outputStream_file_class@@SAXPB_WPAPAVoutputStream@@@@Z  (Idle)
+01:000286B4 ?_openFile@outputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:000286E4 ?_openFile@outputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAUaccessPermit_struct@fileSystem_api_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:00028714 ?_append@outputStream_file_class@@SAXPB_WPAPAVoutputStream@@@@Z  (Idle)
+01:00028740 ?_append8@outputStream_file_class@@SAXPB_WPAPAVoutputStream@@@@Z  (Idle)
+01:0002876C ?_append@outputStream_file_class@@SAXPB_WPAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z 
+01:0002879C ?_newHandleFile@outputStream_file_class@@SAXPBUfileHandle@@PAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:000287CC ?_newHandle@outputStream_file_class@@SAXPBUfileHandle@@PAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:000287FC ?_commonPartOfConstructors@outputStream_file_class@@SAXPBUfileHandle@@PAUmode_struct@stream_class@@PAPAVoutputStream@@@@Z  (Idle)
+01:0002882C ?_object_facts_initializer@outputStream_file_class@@SGXQAVoutputStream_file@@@@Z 
+01:00028864 ?classInfo@fileSystem_exception_class@@SAXPAPB_W0@Z 
+01:00028880 ?raise_FileAlreadyExists@fileSystem_exception_class@@SGXXPB_W@Z 
+01:000288F4 ?raise_WrongAttribute@fileSystem_exception_class@@SGXXI@Z 
+01:00028968 ?raise_FileTooBig@fileSystem_exception_class@@SGXXPB_W@Z 
+01:000289DC ?fileAlreadyExists@fileSystem_exception_class@@SAXPAXPAPB_W1@Z 
+01:00028A04 ?wrongAttribute@fileSystem_exception_class@@SAXPAXPAPB_W1@Z 
+01:00028A2C ?fileTooBig@fileSystem_exception_class@@SAXPAXPAPB_W1@Z 
+01:00028A54 ?checkFileReadResult@fileSystem_exception_class@@SAXXH@Z 
+01:00028AF8 ?classInfo@fileVersion_class@@SAXPAPB_W0@Z 
+01:00028B14 ?_tryVerQueryValue@fileVersion_class@@SAXQAEPB_WPAPAX@Z 
+01:00028B60 ?_getFileVersionInformation@fileVersion_class@@SAXQAEPB_W1PAPB_W@Z 
+01:00028BE4 ?_loadVersionInfo@fileVersion_class@@SAXPB_WQAPAE@Z 
+01:00028CDC ?_getLanguageAndCodePageKey@fileVersion_class@@SAXQAEPAPB_W@Z 
+01:00028D70 ?_getVersionInfo@fileVersion_class@@SAXPB_WPAPAUversionInformation_struct@1@@Z  (Idle)
+01:00028E4C ?_getVersionBuildTime@fileVersion_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:00028EA8 ?_getProductVersion@fileVersion_class@@SAXPB_WPAPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:00028F08 ?_getRootKey@fileVersion_class@@SAXQAEPAPAUvs_fixedfileinfo_struct@1@@Z 
+01:00028F58 ?_getFileVersionInfo@fileVersion_class@@SAXPB_WPAPAUfileVersionInformation_struct@1@@Z  (Idle)
+01:00029018 ?_initObject@messageFile@@QAGXQAV1@H@Z 
+01:0002902C ?@create_object@messageFile_class@@SGQAVmessageFile@@@XZ 
+01:00029048 ?_InternalFinalizer@messageFile@@QAGXQAV1@@Z 
+01:000292B4 ?_initObject@inputStream_file@@QAGXQAV1@H@Z 
+01:000292EC ?@create_object@inputStream_file_class@@SGQAVinputStream_file@@@XZ 
+01:00029308 ?_InternalFinalizer@inputStream_file@@QAGXQAV1@@Z 
+01:000294C0 ?_initObject@outputStream_file@@QAGXQAV1@H@Z 
+01:000294F8 ?@create_object@outputStream_file_class@@SGQAVoutputStream_file@@@XZ 
+01:00029514 ?_InternalFinalizer@outputStream_file@@QAGXQAV1@@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00029530 ?classInfo@exceptionDump_class@@SAXPAPB_W0@Z  (Idle)
+01:0002954C ?dump@exceptionDump_class@@SAXQAVoutputStream@@@PBUtraceId@exception@@@Z 
+--- From 'Obj\exe.obj'
+01:000295B0 ?dumpToStdOutput@exceptionDump_class@@SAXPBUtraceId@exception@@@Z 
+--- From 'Obj\exceptionDump.obj'
+01:00029604 ?dumpToStdOutputInTrap@exceptionDump_class@@SAXPBUtraceId@@@Z 
+01:000296AC ?processErrorOnDumpToStdOut@exceptionDump_class@@SAXPBUtraceID@@@Z 
+01:00029724 ?processErrorOnDumpToStdOutTrapped@exceptionDump_class@@SAXPBUtraceID@@@Z 
+01:00029770 ?_formatTraceInfo@exceptionDump_class@@SAXPAUtraceInfo_struct@exception_class@@PAPB_W@Z  (Idle)
+01:0002981C ?_formatDescriptorList@exceptionDump_class@@SAXPAU?$__list_struct@Udescriptor@exception@@@@PAPB_W@Z  (Idle)
+01:00029874 ?_formatDescriptor@exceptionDump_class@@SAXPAUdescriptor_struct@exception_class@@PAPB_W@Z  (Idle)
+01:000298FC ?_formatExtraInfo@exceptionDump_class@@SAXPAU?$__list_struct@UnamedValue@@@@PAPB_W@Z  (Idle)
+01:00029954 ?_value2String@exceptionDump_class@@SAXPAUvalue_struct@core_class@@PAPB_W@Z 
+01:00029B44 ?_fillUsrMsgTags@exceptionDump_class@@SAXPB_WPAU?$__list_struct@UnamedValue@@@@PAPB_W@Z 
+01:00029C20 ?_substituteTag@exceptionDump_class@@SAXPB_WPAU?$__list_struct@UnamedValue@@@@PAPB_W@Z 
+01:00029C70 ?getUserMsgFromNV_dt@exceptionDump_class@@SAXPAU?$__list_struct@UnamedValue@@@@PAPB_W@Z 
+01:00029D18 ?getUserMsg_dt@exceptionDump_class@@SAXPAUdescriptor_struct@exception_class@@PAPB_W@Z 
+01:00029D34 ?_getUserMsg@exceptionDump_class@@SAXPAU?$__list_struct@Udescriptor@exception@@@@PAPB_W@Z 
+01:00029DE4 ?_tryGetUserMessage@exceptionDump_class@@SAXPBUtraceId@exception@@PAPB_W@Z  (Idle)
+01:00029E50 ?_tryGetUserMessageFromDescriptorList@exceptionDump_class@@SAXPAU?$__list_struct@Udescriptor@exception@@@@PAPB_W@Z 
+01:00029E7C ?writeTraceInfo@exceptionDump_class@@SAXQAVoutputStream@@@PAUtraceInfo_struct@exception_class@@@Z 
+01:00029EC8 ?writeDescriptor_list@exceptionDump_class@@SAXQAVoutputStream@@@PAU?$__list_struct@Udescriptor@@@@@Z 
+01:00029F3C ?writeErrorDescriptorInformation@exceptionDump_class@@SAXQAVoutputStream@@@PAUclassInfoDescriptor_struct@exception_class@@PAUexceptionDescriptor_struct@4@PAUkind_struct@4@PAU?$__list_struct@UnamedValue@@@@PAUunsigned64_struct@core_class@@I@Z 
+01:0002A21C ?section@exceptionDump_class@@SAXQAVoutputStream@@@PB_W@Z 
+01:0002A264 ?writeOSInformation@exceptionDump_class@@SAXQAVoutputStream@@@PB_W@Z 
+01:0002A2DC ?writeLineInfo_list@exceptionDump_class@@SAXQAVoutputStream@@@PAU?$__list_struct@UlineInfo@@@@@Z 
+01:0002A320 ?writeLineInfo@exceptionDump_class@@SAXQAVoutputStream@@@PAUlineInfo_struct@exception_class@@@Z 
+01:0002A3B8 ?writeException@exceptionDump_class@@SAXQAVoutputStream@@@PAUexceptionDescriptor_struct@exception_class@@@Z 
+01:0002A41C ?writeExtraInfo@exceptionDump_class@@SAXQAVoutputStream@@@PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002A498 ?writeClassInfo@exceptionDump_class@@SAXQAVoutputStream@@@PB_W1@Z 
+01:0002A4DC ?writePosition@exceptionDump_class@@SAXQAVoutputStream@@@IPB_W@Z 
+01:0002A520 ?_formatDateTime@exceptionDump_class@@SAXPAUunsigned64_struct@core_class@@PAPB_W@Z 
+01:0002A5AC ?writeCurrentDateTime@exceptionDump_class@@SAXQAVoutputStream@@@@Z 
+01:0002A604 ?writeNamedValue@exceptionDump_class@@SAXQAVoutputStream@@@PAUnamedValue_struct@core_class@@@Z 
+01:0002A6C0 ?writeValue_or_NULL@exceptionDump_class@@SAXQAVoutputStream@@@PB_W@Z 
+01:0002A740 ?writeValue@exceptionDump_class@@SAXQAVoutputStream@@@PAUvalue_struct@core_class@@@Z 
+01:0002AA30 ?writeValue_or_NULL@exceptionDump_class@@SAXQAVoutputStream@@@PAD@Z 
+01:0002AAB0 ?writeValue_or_NULL@exceptionDump_class@@SAXQAVoutputStream@@@QAE@Z 
+01:0002AB30 ?writeValue_or_NULL@exceptionDump_class@@SAXQAVoutputStream@@@QAVobject@@@@Z 
+--- From 'Obj\exception.obj'
+01:0002ABB0 ?classInfo@exception_class@@SAXPAPB_W0@Z 
+01:0002ABCC ?unknownClassInfo@exception_class@@SAXPAPB_W0@Z  (Idle)
+01:0002ABE8 ?equals@exception_class@@SAXXPAUexceptionDescriptor_struct@1@@Z 
+01:0002AC7C ?_tryGetDescriptor@exception_class@@SAXPBUtraceId@@XPAPAUdescriptor_struct@1@@Z 
+01:0002AD8C $findException$exception$predicate$(i,i)$_c19 
+01:0002ADF0 ?_getDescriptor_nd@exception_class@@SAXPBUtraceId@@PAPAUdescriptor_struct@1@@Z 
+01:0002AE18 ?_getDescriptorChain_nd@exception_class@@SAXQAVerrorDescriptorInformation@@@PAPAUdescriptor_struct@1@@Z 
+01:0002AE88 ?_getDescriptorChain1_nd@exception_class@@SAXQAVerrorDescriptorInformation@@@PAPAUdescriptor_struct@1@@Z 
+01:0002AFC0 ?_getDescriptorChainFromPacked_nd@exception_class@@SAXPAU?$__list_struct@UnamedValue@@@@PAPAUdescriptor_struct@1@@Z 
+01:0002B074 ?_getTraceInfo@exception_class@@SAXPBUtraceId@@PAPAUtraceInfo_struct@1@@Z 
+01:0002B16C ?_getStackInfo_nd@exception_class@@SAXQAVtrapInformationObject@@@PAPAUlineInfo_struct@1@@Z 
+01:0002B278 ?_getModuleHandleByAddress@exception_class@@SAXPAXAAUhModule@@@Z 
+01:0002B2D0 ?_getModuleNameByAddress@exception_class@@SAXPAXPAPB_W@Z 
+01:0002B330 ?_tryGetLineInfo@exception_class@@SAXPAXPAPAUlineInfo_struct@1@@Z 
+01:0002B3F0 ?_tryGetExtraInfo@exception_class@@SAXPAUdescriptor_struct@1@PB_WPAPAUvalue_struct@core_class@@@Z 
+01:0002B40C ?_searchInfoList@exception_class@@SAXPAU?$__list_struct@UnamedValue@@@@PB_WPAPAUvalue_struct@core_class@@@Z 
+01:0002B478 ?getExceptionInformation@exception_class@@SAXPAUexceptionDescriptor_struct@1@PAPAUclassInfoDescriptor_struct@1@PAPB_W2@Z  (Idle)
+01:0002B4CC ?clear_fail@exception_class@@SAXPBUtraceId@@@Z  (Idle)
+01:0002B4D8 ?clear@exception_class@@SAXPBUtraceId@@@Z  (Idle)
+01:0002B4E0 ?raise@exception_class@@SAXXX@Z 
+--- From 'Obj\binary.obj'
+01:0002B510 ?raise@exception_class@@SAXXXPAU?$__list_struct@UnamedValue@@@@@Z 
+--- From 'Obj\exception.obj'
+01:0002B54C ?continue@exception_class@@SAXPBUtraceId@@XX@Z  (Idle)
+01:0002B584 ?continue@exception_class@@SAXPBUtraceId@@XXPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002B5AC ?continue1@exception_class@@SAXQAVtrapInformationObject@@@XXPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002B6C8 ?_getTraceID@exception_class@@SAXPAXAAUtraceId@@@Z  (Idle)
+01:0002B6D8 ?_getErrorCode@exception_class@@SAXPBUtraceId@@PAI@Z 
+01:0002B720 ?_tryGetErrorDescriptorInformation@exception_class@@SAXPBUtraceId@@PAPAVerrorDescriptorInformation@@@@Z 
+01:0002B748 ?_tryGetErrorDescriptorInformation1@exception_class@@SAXQAVtrapInformationObject@@@PAPAVerrorDescriptorInformation@@@@Z 
+01:0002B778 ?_getTrapInformationObject@exception_class@@SAXPBUtraceId@@PAPAVtrapInformationObject@@@@Z 
+01:0002B85C ?_tryGetTrapInformationObject@exception_class@@SAXPBUtraceId@@PAPAVtrapInformationObject@@@@Z 
+01:0002B90C ?classInfo@common_exception_class@@SAXPAPB_W0@Z 
+01:0002B928 ?internal@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002B950 ?couldNotCreate@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002B978 ?removeListener@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002B9A0 ?exceptionInListener@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002B9C8 ?nativeCallException@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002B9F0 ?unsupportedPredicate@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002BA18 ?unknown@common_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002BA40 ?overloadingExpected@common_exception_class@@SAXPAXPAPB_W1@Z 
+--- From 'Obj\binary.obj'
+01:0002BA68 ?raise_error@common_exception_class@@SAXXPB_W@Z 
+--- From 'Obj\exception.obj'
+01:0002BB34 ?raise_user@common_exception_class@@SAXXPB_W1@Z  (Idle)
+01:0002BB6C ?raise_user@common_exception_class@@SAXXPB_W1PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002BBAC ?raise_user@common_exception_class@@SAXXXPB_W2PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002BC60 ?raise_definiteUser@common_exception_class@@SAXXPB_W1@Z  (Idle)
+01:0002BC98 ?raise_definiteUser@common_exception_class@@SAXXPB_W1PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002BCD8 ?raise_definiteUser@common_exception_class@@SAXXXPB_W2PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002BDA4 ?raise_packed@common_exception_class@@SAXPAUtraceInfo_struct@3@XPB_W@Z  (Idle)
+01:0002BED8 ?raise_errorf@common_exception_class@@SAXXPB_W1@Z  (Idle)
+01:0002BFDC ?raise_CouldNotCreate@common_exception_class@@SAXXPB_WPAU?$__list_struct@UnamedValue@@@@@Z  (Idle)
+01:0002C048 ?raise_RemoveListener@common_exception_class@@SAXXPB_W@Z  (Idle)
+--- From 'Obj\console.obj'
+01:0002C0C8 ?raise_NativeCallException@common_exception_class@@SAXXPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+--- From 'Obj\exception.obj'
+01:0002C0D4 ?raise_NativeCallExceptionPosition@common_exception_class@@SAXXPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+--- From 'Obj\exe.obj'
+01:0002C1F4 ?raise_NativeCallExceptionPosition@common_exception_class@@SAXXPB_WI1PAU?$__list_struct@UnamedValue@@@@@Z 
+--- From 'Obj\exception.obj'
+01:0002C300 ?raise_UnsupportedPredicate@common_exception_class@@SAXXPB_W@Z  (Idle)
+01:0002C380 ?raise_OverloadingExpected@common_exception_class@@SAXX@Z  (Idle)
+01:0002C3B4 ?continue_ExceptionInListener@common_exception_class@@SAXPBUtraceId@exception@@XPB_W@Z  (Idle)
+--- From 'Obj\console.obj'
+01:0002C43C ?continue_Unknown@common_exception_class@@SAXPBUtraceId@exception@@XPB_W@Z 
+--- From 'Obj\exception.obj'
+01:0002C508 ?continue_User@common_exception_class@@SAXPBUtraceId@exception@@XPB_W2@Z  (Idle)
+01:0002C548 ?continue_User@common_exception_class@@SAXPBUtraceId@exception@@XPB_W2PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002C594 ?continue_User@common_exception_class@@SAXPBUtraceId@exception@@XXPB_W3PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002C648 ?continue_definiteUser@common_exception_class@@SAXPBUtraceId@exception@@XPB_W2@Z  (Idle)
+01:0002C688 ?continue_definiteUser@common_exception_class@@SAXPBUtraceId@exception@@XPB_W2PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002C6D4 ?continue_definiteUser@common_exception_class@@SAXPBUtraceId@exception@@XXPB_W3PAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002C7A0 ?isDefiniteUserError@common_exception_class@@SAXPBUtraceId@exception@@@Z  (Idle)
+--- From 'Obj\exe.obj'
+01:0002C7DC ?checkNonZeroResult@common_exception_class@@SAXXHPB_W@Z 
+--- From 'Obj\exception.obj'
+01:0002C814 ?checkNonZeroResult@common_exception_class@@SAXXHPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002C874 ?checkNoApiException@common_exception_class@@SAXXIPB_W@Z  (Idle)
+01:0002C8AC ?checkNoApiException@common_exception_class@@SAXXIPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002C908 ?checkNoApiException@common_exception_class@@SAXXIPB_W2PAU?$__list_struct@UnamedValue@@@@@Z 
+--- From 'Obj\exe.obj'
+01:0002C944 ?getLastError@common_exception_class@@SAXPAIPAPB_W@Z 
+--- From 'Obj\exception.obj'
+01:0002C998 ?_getLastErrorDescription@common_exception_class@@SAXIPAPB_W@Z 
+01:0002C9DC ?classInfo@runtime_exception_class@@SAXPAPB_W0@Z 
+01:0002C9F8 ?internalError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CA20 ?exceptionUnderException@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CA48 ?fromString@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CA70 ?fromBinary@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CA98 ?mismatchVersion@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CAC0 ?ctrlC@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CAE8 ?ctrlBreak@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CB10 ?closeApplication@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CB38 ?logOff@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CB60 ?shutDown@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CB88 ?expectedSymbolFromToTerm@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CBB0 ?wrongNumberArgumentForFormat@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CBD8 ?notSupport64bits@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CC00 ?objectConversion@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CC28 ?invalidFormat@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CC50 ?invalidTerm@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CC78 ?integerExpected@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CCA0 ?arithmeticOverflow@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CCC8 ?noRangeNumber@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CCF0 ?functorNotFound@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CD18 ?functorNameExpected@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CD40 ?cyclicInheritance@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CD68 ?parserUnexpectedEOS@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CD90 ?determFact@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CDB8 ?realOverflow@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CDE0 ?negZero@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CE08 ?unGetChar@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CE30 ?vip6runInternalError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CE58 ?notSupportFunction@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CE80 ?unsupportedFormat@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CEA8 ?invalidTermRepresentation@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CED0 ?consult_WrongComment@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CEF8 ?consult_WrongUsageOfKeyword@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CF20 ?retractSingleFact@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CF48 ?expectedChar@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CF70 ?threadCreation@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CF98 ?systemException@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CFC0 ?osError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002CFE8 ?gcAbend@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D010 ?gcError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D038 ?heapOverflow@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D060 ?freeVariable@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D088 ?singleFactHasNoValue@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D0B0 ?accessToNotInitializedFact@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D0D8 ?chainDB_DBAlreadyOpen@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D100 ?chainDB_InvalidDBFileName@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D128 ?chainDB_NotOpenDB@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D150 ?chainDB_ExistsBTree@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D178 ?chainDB_ExistsDBInPlace@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D1A0 ?chainDB_InvalidOrderValue@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D1C8 ?chainDB_InvalidKeyValue@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D1F0 ?chainDB_UnableOpenDB@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D218 ?chainDB_InvalidDB@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D240 ?chainDB_UnableDeleteDB@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D268 ?chainDB_InvalidRefVal@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D290 ?chainDB_AbsentChain@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D2B8 ?chainDB_AbsentBTree@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D2E0 ?chainDB_InvalidBTreeSel@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D308 ?chainDB_DeleteOpenBTree@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D330 ?chainDB_NotFoundKeyAndRef@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D358 ?chainDB_IncorrectDBVersion@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D380 ?chainDB_NotInTransaction@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D3A8 ?chainDB_WriteROTransaction@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D3D0 ?chainDB_AlreadyOpenTransaction@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D3F8 ?chainDB_UpdatingROTransaction@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D420 ?chainDB_TimeOutTransaction@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D448 ?chainDB_DuplicateKey@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D470 ?chainDB_WrongChainToDeleteTerm@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D498 ?chainDB_ReadWrongNumberBytes@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D4C0 ?chainDB_WriteWrongNumberBytes@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D4E8 ?chainDB_OSNativeError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D510 ?binary_invalidBlock@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D538 ?binary_invalidFormat@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D560 ?binary_DecodeInternalError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D588 ?cannotLoadLibrary@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D5B0 ?cannotGetProcAddress@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D5D8 ?odbc_unidentifiedError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D600 ?sql_invalidHandle@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D628 ?sql_stillExecuting@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D650 ?sql_needData@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D678 ?sql_noDataFound@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D6A0 ?sql_error@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002D6C8 ?odbc_error@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+--- From 'Obj\exe.obj'
+01:0002D6F0 ?runtimeExceptionRaiser@runtime_exception_class@@SAXPBUtraceId@exception@@@Z 
+--- From 'Obj\exception.obj'
+01:0002D808 ?_exceptionFromErrorCode@runtime_exception_class@@SAXIPAX@Z 
+01:0002E068 ?notYetHandledError@runtime_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002E090 ?classInfo@exception_exception_class@@SAXPAPB_W0@Z 
+01:0002E0AC ?externalError@exception_exception_class@@SAXPAXPAPB_W1@Z 
+01:0002E0D4 ?raise_ExternalError@exception_exception_class@@SGXXIPAU?$__list_struct@UnamedValue@@@@@Z  (Idle)
+01:0002E144 ?new@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAUclassInfoDescriptor_struct@exception_class@@PAUexceptionDescriptor_struct@4@PAUkind_struct@4@PAU?$__list_struct@UnamedValue@@@@PAUunsigned64_struct@core_class@@PB_WI@Z 
+01:0002E19C ?_getExceptionDescriptor@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPAUexceptionDescriptor_struct@exception_class@@@Z 
+01:0002E1B0 ?_getClassInfoDescriptor@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPAUclassInfoDescriptor_struct@exception_class@@@Z 
+01:0002E1C4 ?_getKind@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPAUkind_struct@exception_class@@@Z 
+01:0002E1D8 ?_getExtraInfo@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0002E1EC ?_getGMTTime@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPAUunsigned64_struct@core_class@@@Z 
+01:0002E200 ?_getGMTTimeFormatted@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPB_W@Z 
+01:0002E21C ?_getExceptionDescription@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPB_W@Z 
+01:0002E230 ?_getThreadId@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAI@Z 
+01:0002E244 ?_tryGetContinueException@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@PAPAV2@@@Z 
+01:0002E26C ?setContinueException@errorDescriptorInformation_class@@SAXQAVerrorDescriptorInformation@@@0@Z 
+01:0002E2B8 ?_createDescriptorInfo@errorDescriptorInformation_class@@SAXXXPAUkind_struct@exception_class@@PAU?$__list_struct@UnamedValue@@@@PAPAVerrorDescriptorInformation@@@@Z 
+01:0002E400 ?_formatDateTime@errorDescriptorInformation_class@@SAXPAUunsigned64_struct@core_class@@PAPB_W@Z 
+01:0002E478 ?_new@errorDescriptorInformation_class@@SAXPAUclassInfoDescriptor_struct@exception_class@@PAUexceptionDescriptor_struct@3@PAUkind_struct@3@PAU?$__list_struct@UnamedValue@@@@PAUunsigned64_struct@core_class@@PB_WIPAPAVerrorDescriptorInformation@@@@Z 
+01:0002E4BC ?_initObject@errorDescriptorInformation@@QAGXQAV1@H@Z 
+01:0002E4D4 ?@create_object@errorDescriptorInformation_class@@SGQAVerrorDescriptorInformation@@@XZ 
+01:0002E4F0 ?_InternalFinalizer@errorDescriptorInformation@@QAGXQAV1@@Z 
+--- From 'Obj\environment.obj'
+01:0002E500 ?classInfo@environment_class@@SAXPAPB_W0@Z 
+01:0002E51C ?_expand@environment_class@@SAXPB_WPAPB_W@Z  (Idle)
+01:0002E5A0 ?_getVariable@environment_class@@SAXPB_WPAPB_W@Z 
+01:0002E650 ?_tryGetVariable@environment_class@@SAXPB_WPAPB_W@Z 
+01:0002E6A4 ?setVariable@environment_class@@SAXPB_W0@Z 
+01:0002E6E4 ?deleteVariable@environment_class@@SAXPB_W@Z  (Idle)
+01:0002E758 ?_getAllVariables@environment_class@@SAXPAPAU?$__list_struct@UnamedValue@@@@@Z  (Idle)
+01:0002E7FC ?getVariableList@environment_class@@SAXPB_WPAPAU?$__list_struct@UnamedValue@core@@@@@Z 
+01:0002E984 ?checkGetEnvResult@environment_class@@SAXH@Z 
+01:0002E9C8 ?getOSVersion@environment_class@@SAXPAIPAIPAPAUboolean_struct@_builtIn_class@@PAPB_W@Z  (Idle)
+01:0002EA2C ?_getSystemInfo@environment_class@@SAXPAPB_W@Z 
+01:0002EA94 ?undefinedEnvironmentVariable@environment_class@@SAXPAXPAPB_W1@Z 
+--- From 'Obj\core.obj'
+01:0002EAC0 ?_booleanValue@core_class@@SAXPAUvalue_struct@1@PAPAUboolean_struct@_builtIn_class@@@Z 
+01:0002EB04 ?_unsigned64Value@core_class@@SAXPAUvalue_struct@1@PAPAUunsigned64_struct@1@@Z 
+01:0002EB48 ?_integer64Value@core_class@@SAXPAUvalue_struct@1@PAPAUinteger64_struct@1@@Z 
+01:0002EB8C ?_unsignedValue@core_class@@SAXPAUvalue_struct@1@PAI@Z 
+01:0002EBD0 ?_integerValue@core_class@@SAXPAUvalue_struct@1@PAH@Z 
+01:0002EC14 ?_realValue@core_class@@SAXPAUvalue_struct@1@PAPAN@Z 
+01:0002EC58 ?_charValue@core_class@@SAXPAUvalue_struct@1@PA_W@Z 
+01:0002ECA0 ?_stringValue@core_class@@SAXPAUvalue_struct@1@PAPB_W@Z 
+01:0002ECE4 ?_binaryValue@core_class@@SAXPAUvalue_struct@1@QAPAE@Z 
+01:0002ED28 ?_objectValue@core_class@@SAXPAUvalue_struct@1@PAPAVobject@@@@Z 
+01:0002ED6C ?_gmtTimeValueValue@core_class@@SAXPAUvalue_struct@1@PAPAUunsigned64_struct@1@@Z 
+01:0002EDB0 ?_localTimeValueValue@core_class@@SAXPAUvalue_struct@1@PAPAUunsigned64_struct@1@@Z  (Idle)
+01:0002EDF4 ?_pointerValue@core_class@@SAXPAUvalue_struct@1@PAPAX@Z  (Idle)
+01:0002EE38 ?unexpectedValueKind@core_class@@SAXPAXPAPB_W1@Z 
+01:0002EE60 ?classInfo@core_class@@SAXPAPB_W0@Z 
+01:0002EE7C $extract$core$predicate$(i,boolean(o),i)$c$_m3 
+01:0002EF4C $extract$core$predicate$(i,unsigned64(o),i)$c$_m3 
+01:0002F01C $extract$core$predicate$(i,integer64(o),i)$c$_m3 
+01:0002F0EC $extract$core$predicate$(i,unsigned(o),i)$c$_m3 
+01:0002F1BC $extract$core$predicate$(i,integer(o),i)$c$_m3 
+01:0002F28C $extract$core$predicate$(i,real(o),i)$c$_m3 
+01:0002F35C $extract$core$predicate$(i,char(o),i)$c$_m3 
+01:0002F430 $extract$core$predicate$(i,string(o),i)$c$_m3 
+01:0002F500 $extract$core$predicate$(i,binary(o),i)$c$_m3 
+01:0002F5D0 $extract$core$predicate$(i,object(o),i)$c$_m3 
+01:0002F6A0 $extract$core$predicate$(i,gmttimevalue(o),i)$c$_m3 
+01:0002F770 $extract$core$predicate$(i,localtimevalue(o),i)$c$_m3 
+01:0002F840 $extract$core$predicate$(i,pointer(o),i)$c$_m3 
+--- From 'Obj\console.obj'
+01:0002F910 ?classInfo@console_class@@SAXPAPB_W0@Z 
+01:0002F92C ?_readChar@console_class@@SAXPA_W@Z  (Idle)
+01:0002F960 ?_readLine@console_class@@SAXPAPB_W@Z  (Idle)
+01:0002F994 ?_read@console_class@@SAXQAVrTypeLibrary@TypeLibraries@RunTime@VIP@@PAPAX@Z  (Idle)
+01:0002F9D0 ?write@console_class@@SAXXZ  (Idle)
+01:0002FA04 ?writef@console_class@@SAXPB_W@Z  (Idle)
+01:0002FA40 ?nl@console_class@@SAXXZ  (Idle)
+01:0002FA64 ?isModeLine@console_class@@SAXXZ  (Idle)
+01:0002FA98 ?setModeLine@console_class@@SAXPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:0002FAE0 ?isModeEcho@console_class@@SAXXZ  (Idle)
+01:0002FB14 ?setModeEcho@console_class@@SAXPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:0002FB5C ?isModeProcessed@console_class@@SAXXZ  (Idle)
+01:0002FBB4 ?setModeProcessed@console_class@@SAXPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:0002FC18 ?isModeWrap@console_class@@SAXXZ  (Idle)
+01:0002FC4C ?setModeWrap@console_class@@SAXPAUboolean_struct@_builtIn_class@@@Z  (Idle)
+01:0002FC8C ?checkConsoleMode@console_class@@SAXPBUfileHandle@@I@Z 
+01:0002FCC8 ?setConsoleMode@console_class@@SAXPAUboolean_struct@_builtIn_class@@PBUfileHandle@@I@Z 
+01:0002FD1C ?_toApiMode@console_class@@SAXPAUboolean_struct@_builtIn_class@@IIPAI@Z 
+01:0002FD6C ?clearInput@console_class@@SAXXZ  (Idle)
+01:0002FDBC ?clearOutput@console_class@@SAXXZ  (Idle)
+01:0002FE7C ?_getLocation@console_class@@SAXPAPAUlocation_struct@1@@Z  (Idle)
+01:0002FED4 ?setLocation@console_class@@SAXPAUlocation_struct@1@@Z 
+01:0002FF78 ?_getConsoleInputStream@console_class@@SAXPAPAVinputStream@@@@Z 
+01:0002FFF8 ?_getConsoleOutputStream@console_class@@SAXPAPAVoutputStream@@@@Z 
+01:0003007C ?_getErrorStream@console_class@@SAXPAPAVoutputStream@@@@Z 
+01:00030100 ?close@console_class@@SAXXZ  (Idle)
+01:00030128 ?_getConsoleWidth@console_class@@SAXPA_W@Z  (Idle)
+01:00030150 ?_getConsoleTitle@console_class@@SAXPAPB_W@Z  (Idle)
+01:0003019C ?setConsoleTitle@console_class@@SAXPB_W@Z  (Idle)
+01:000301CC ?_getConsoleMode@console_class@@SAXPBUfileHandle@@PAI@Z 
+01:000301F4 ?_getConsoleScreenBufferInfo@console_class@@SAXPAPAUconsoleScreenBufferInfo_struct@console_native_class@@@Z 
+01:00030250 ?checkBOOL@console_class@@SAXHPB_W@Z 
+01:00030280 ?init@console_class@@SAXXZ 
+01:000302EC ?checkConsolePresence@console_class@@SAXXZ 
+01:00030358 ?classInfo@inputStream_console_class@@SAXPAPB_W0@Z 
+01:00030374 ?new@inputStream_console_class@@SAXQAVinputStream_console@@@@Z 
+01:0003040C ?getCRLFconversion@inputStream_console_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00030444 ?setCRLFconversion@inputStream_console_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:0003049C ?setMode@inputStream_console_class@@SGXQAVinputSupport@@@PAUmode_struct@stream_class@@@Z 
+01:00030570 ?exTextBufferCB@inputStream_console_class@@SAXQAVinputStream_console@@@PAPAXPAH@Z 
+01:000305D8 ?exTextBufferCBLock@inputStream_console_class@@SAXQAVinputStream_console@@@PAPAXPAH@Z 
+01:00030634 ?handlingBufferLastChar@inputStream_console_class@@SAXQAVinputStream_console@@@HPAPAXPAH@Z 
+01:00030694 ?converCRLF2LF_ifNeeded@inputStream_console_class@@SAXQAVinputStream_console@@@HPAPAXPAH@Z 
+01:0003074C ?_readFromStdIn@inputStream_console_class@@SAXQAVinputStream_console@@@PAUmode_struct@stream_class@@PBUfileHandle@@PAH@Z 
+01:00030964 ?_readFromFile@inputStream_console_class@@SAXQAVinputStream_console@@@PBUfileHandle@@PAXHPAH@Z 
+01:00030A2C ?endOfStream@inputStream_console_class@@SAXQAVinputStream@@@@Z 
+01:00030A54 ?setPosition@inputStream_console_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:00030A64 ?getPosition@inputStream_console_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:00030A78 ?close@inputStream_console_class@@SGXQAVstream@@@@Z 
+01:00030AAC ?getBuffer@inputStream_console_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00030AD0 ?getBufferLocked@inputStream_console_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00030AF4 ?_new@inputStream_console_class@@SAXPAPAVinputStream@@@@Z 
+01:00030B1C ?_object_facts_initializer@inputStream_console_class@@SGXQAVinputStream_console@@@@Z 
+01:00030B44 ?classInfo@outputStream_console_class@@SAXPAPB_W0@Z 
+01:00030B60 ?new@outputStream_console_class@@SAXQAVoutputStream_console@@@I@Z 
+01:00030BE4 ?write@outputStream_console_class@@SAXQAVoutputStream@@@@Z 
+01:00030C40 ?writeQuoted@outputStream_console_class@@SAXQAVoutputStream@@@@Z 
+01:00030C9C ?writef@outputStream_console_class@@SAXQAVoutputStream@@@PB_W@Z 
+01:00030CFC ?nl@outputStream_console_class@@SGXQAVoutputStream@@@@Z 
+01:00030D3C ?save@outputStream_console_class@@SGXQAVoutputStream@@@PBUfactDB@@@Z 
+01:00030D9C ?writeBytes@outputStream_console_class@@SGXQAVoutputStream@@@PAXH@Z 
+01:00030DFC ?errorHandler@outputStream_console_class@@SGXQAVoutputStream_console@@@PBUtraceId@exception@@@Z 
+01:00030E38 ?getCRLFconversion@outputStream_console_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00030E70 ?setCRLFconversion@outputStream_console_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00030EC8 ?bufferFullCB@outputStream_console_class@@SAXQAVoutputStream_console@@@PAPAXPAH@Z 
+01:00030F5C ?convertLF2CRLF_ifNeeded@outputStream_console_class@@SAXQAVoutputStream_console@@@PAXHPAPAXPAH@Z 
+01:00030FD0 ?writeToStdDevice@outputStream_console_class@@SAXPAUmode_struct@stream_class@@PBUfileHandle@@PAXH@Z 
+01:000310D4 ?convert_ifAnsi@outputStream_console_class@@SAXPAUmode_struct@stream_class@@PAXHPAPAXPAH@Z 
+01:000311A8 ?setPosition@outputStream_console_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:000311B8 ?getPosition@outputStream_console_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:000311CC ?close@outputStream_console_class@@SGXQAVstream@@@@Z 
+01:000311DC ?getBuffer@outputStream_console_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00031200 ?getBufferLocked@outputStream_console_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:0003121C ?_new@outputStream_console_class@@SAXIPAPAVoutputStream@@@@Z 
+01:00031248 ?_object_facts_initializer@outputStream_console_class@@SGXQAVoutputStream_console@@@@Z 
+01:000314D8 ?_initObject@inputStream_console@@QAGXQAV1@H@Z 
+01:00031510 ?@create_object@inputStream_console_class@@SGQAVinputStream_console@@@XZ 
+01:0003152C ?_InternalFinalizer@inputStream_console@@QAGXQAV1@@Z 
+01:000316C0 ?_initObject@outputStream_console@@QAGXQAV1@H@Z 
+01:000316F8 ?@create_object@outputStream_console_class@@SGQAVoutputStream_console@@@XZ 
+01:00031714 ?_InternalFinalizer@outputStream_console@@QAGXQAV1@@Z 
+--- From 'Obj\binary.obj'
+01:00031730 ?classInfo@binary_class@@SAXPAPB_W0@Z 
+01:0003174C ?_create0binary@binary_class@@SAXQAPAE@Z 
+01:00031768 ?_create@binary_class@@SAXHQAPAE@Z 
+01:00031800 ?_create@binary_class@@SAXHHQAPAE@Z  (Idle)
+01:0003183C ?_createAtomic@binary_class@@SAXHQAPAE@Z 
+01:000318D4 ?_createAtomic@binary_class@@SAXHHQAPAE@Z  (Idle)
+01:00031910 ?_makeBinaryFromPtr@binary_class@@SAXPAXIQAPAE@Z 
+01:00031944 ?_createCopy@binary_class@@SAXQAEQAPAE@Z  (Idle)
+01:000319DC ?_createCopyAtomic@binary_class@@SAXQAEQAPAE@Z  (Idle)
+01:00031A74 ?_createFromPointer@binary_class@@SAXPAXHQAPAE@Z 
+01:00031AC4 ?_createFromPointerAtomic@binary_class@@SAXPAXHQAPAE@Z  (Idle)
+01:00031B14 ?_createFromIntegerList@binary_class@@SAXPAU?$__list_struct@Uinteger@@@@QAPAE@Z  (Idle)
+01:00031B8C ?_getSize@binary_class@@SAXQAEPAH@Z 
+01:00031C08 ?_reSize@binary_class@@SAXQAEHQAPAE@Z 
+01:00031C74 ?_reSizeAtomic@binary_class@@SAXQAEHQAPAE@Z 
+01:00031CE0 ?_concat@binary_class@@SAXQAEQAEQAPAE@Z  (Idle)
+01:00031D6C ?_concatAtomic@binary_class@@SAXQAEQAEQAPAE@Z  (Idle)
+01:00031DF8 ?_insert@binary_class@@SAXQAEHQAEQAPAE@Z  (Idle)
+01:00031EFC ?_delete@binary_class@@SAXQAEHHQAPAE@Z  (Idle)
+01:00031FEC ?_getIndexed_unsigned8@binary_class@@SAXQAEHPAE@Z  (Idle)
+01:0003204C ?_getIndexed_unsigned16@binary_class@@SAXQAEHPA_W@Z 
+01:000320AC ?_getIndexed_unsigned32@binary_class@@SAXQAEHPAI@Z  (Idle)
+01:00032114 ?_getIndexed_unsigned64@binary_class@@SAXQAEHPAPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:00032188 ?_getIndexed_integer8@binary_class@@SAXQAEHPAD@Z  (Idle)
+01:000321E8 ?_getIndexed_integer16@binary_class@@SAXQAEHPAF@Z  (Idle)
+01:00032248 ?_getIndexed_integer32@binary_class@@SAXQAEHPAH@Z  (Idle)
+01:000322B0 ?_getIndexed_integer64@binary_class@@SAXQAEHPAPAUinteger64_struct@core_class@@@Z  (Idle)
+01:00032324 ?_getIndexed_unsigned@binary_class@@SAXQAEHPAI@Z 
+01:0003238C ?_getIndexed_integer@binary_class@@SAXQAEHPAH@Z 
+01:000323F4 ?_getIndexed_real@binary_class@@SAXQAEHPAPAN@Z  (Idle)
+01:0003245C ?_getIndexed_pointer@binary_class@@SAXQAEHPAPAX@Z  (Idle)
+01:000324C4 ?setIndexed_unsigned8@binary_class@@SAXQAEHE@Z  (Idle)
+01:00032520 ?setIndexed_unsigned16@binary_class@@SAXQAEH_W@Z  (Idle)
+01:00032580 ?setIndexed_unsigned32@binary_class@@SAXQAEHI@Z 
+01:000325E0 ?setIndexed_unsigned64@binary_class@@SAXQAEHPAUunsigned64_struct@core_class@@@Z  (Idle)
+01:00032650 ?setIndexed_integer8@binary_class@@SAXQAEHD@Z  (Idle)
+01:000326AC ?setIndexed_integer16@binary_class@@SAXQAEHF@Z  (Idle)
+01:0003270C ?setIndexed_integer32@binary_class@@SAXQAEHH@Z  (Idle)
+01:0003276C ?setIndexed_integer64@binary_class@@SAXQAEHPAUinteger64_struct@core_class@@@Z  (Idle)
+01:000327DC ?setIndexed_integer@binary_class@@SAXQAEHH@Z 
+01:0003283C ?setIndexed_unsigned@binary_class@@SAXQAEHI@Z  (Idle)
+01:0003289C ?setIndexed_real@binary_class@@SAXQAEHPAN@Z  (Idle)
+01:00032908 ?setIndexed_pointer@binary_class@@SAXQAEHPAX@Z  (Idle)
+01:00032970 ?_getBinary@binary_class@@SAXQAEHHQAPAE@Z 
+01:000329EC ?_getBinaryAtomic@binary_class@@SAXQAEHHQAPAE@Z 
+01:00032A68 ?setBinary@binary_class@@SGXQAEHQAE@Z  (Idle)
+01:00032AEC ?setValue@binary_class@@SGXQAEHPAUvalue_struct@core_class@@@Z  (Idle)
+01:00032F34 $getValue$binary$predicate$(i,i,unsigned64(o))$_c49  (Idle)
+01:00032F84 ?_getString@binary_class@@SAXPAXHPAPB_W@Z 
+01:000330EC ?checkOffsetForSetGetValue@binary_class@@SAXQAEHH@Z 
+01:00033130 ?fillFromIntegerList@binary_class@@SAXQAEHPAU?$__list_struct@Uinteger@@@@@Z 
+01:000331A0 ?copyTailIfNeeded@binary_class@@SAXQAEHHQAEI@Z 
+01:00033228 ?splitBinary@binary_class@@SAXQAEHQAPAE2@Z  (Idle)
+01:00033284 ?splitBinaryAtomic@binary_class@@SAXQAEHQAPAE2@Z  (Idle)
+01:000332E0 ?_binaryToStringList@binary_class@@SAXQAEPAPAU?$__list_struct@Ustring@@@@@Z  (Idle)
+01:00033330 ?_getStringList@binary_class@@SAXPAXIPAPAU?$__list_struct@Ustring@@@@@Z 
+01:00033560 ?_search@binary_class@@SAXQAEQAEPAH@Z  (Idle)
+01:000335A8 ?_binary8ToStringList@binary_class@@SAXQAEPAPAU?$__list_struct@Ustring@@@@@Z  (Idle)
+01:000335E4 ?_getStringListForBinary8@binary_class@@SAXPAXHPAPAU?$__list_struct@Ustring@@@@@Z 
+01:00033770 $getValue$binary$predicate$(i,i,unsigned(o))$_c50  (Idle)
+01:000337C0 $getValue$binary$predicate$(i,i,integer64(o))$_c51  (Idle)
+01:00033810 $getValue$binary$predicate$(i,i,integer(o))$_c52 
+01:00033860 $getValue$binary$predicate$(i,i,real(o))$_c53  (Idle)
+01:000338B0 $getValue$binary$predicate$(i,i,pointer(o))$_c54  (Idle)
+01:00033904 $getValue$binary$predicate$(i,i,object(o))$_c55  (Idle)
+01:00033958 $getValue$binary$predicate$(i,i,char(o))$_c56  (Idle)
+01:000339AC $getValue$binary$predicate$(i,i,string(o))$_c57  (Idle)
+01:00033A30 $getValue$binary$predicate$(i,i,localtimevalue(o))$_c58  (Idle)
+01:00033A80 $getValue$binary$predicate$(i,i,gmttimevalue(o))$_c59  (Idle)
+01:00033AD0 $getValue$binary$predicate$(i,i,binary(o))$_c60  (Idle)
+01:00033B44 ?classInfo@binary_exception_class@@SAXPAPB_W0@Z 
+01:00033B60 ?invalidCompressionFormat@binary_exception_class@@SAXPAXPAPB_W1@Z 
+01:00033B88 ?internalDecodeError@binary_exception_class@@SAXPAXPAPB_W1@Z 
+01:00033BB0 ?wrongBinaryFormat@binary_exception_class@@SAXPAXPAPB_W1@Z 
+01:00033BD8 ?indexOutOfRange@binary_exception_class@@SAXPAXPAPB_W1@Z 
+01:00033C00 ?raise_InvalidCompressionFormat@binary_exception_class@@SGXXQAE@Z  (Idle)
+01:00033C74 ?raise_InternalDecodeError@binary_exception_class@@SGXXQAE@Z  (Idle)
+01:00033CE8 ?raise_IndexOutOfRange@binary_exception_class@@SGXXH@Z 
+01:00033D70 ?raise_WrongBinaryFormat@binary_exception_class@@SGXXQAE@Z 
+01:00033DE4 ?classInfo@inputStream_binary_class@@SAXPAPB_W0@Z 
+01:00033E00 ?new@inputStream_binary_class@@SAXQAVinputStream_binary@@@QAE@Z 
+01:00033E98 ?endOfStream@inputStream_binary_class@@SAXQAVinputStream@@@@Z 
+01:00033F04 ?setMode@inputStream_binary_class@@SGXQAVinputSupport@@@PAUmode_struct@stream_class@@@Z 
+01:00033F44 ?close@inputStream_binary_class@@SGXQAVstream@@@@Z 
+01:00033F60 ?getCRLFconversion@inputStream_binary_class@@SGPAUboolean_struct@_builtIn_class@@QAVstream@@@@Z 
+01:00033F74 ?setCRLFconversion@inputStream_binary_class@@SGXQAVstream@@@PAUboolean_struct@_builtIn_class@@@Z 
+01:00033F94 ?getPosition@inputStream_binary_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:00033FFC ?setPosition@inputStream_binary_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:000340DC ?getBuffer@inputStream_binary_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:000340F8 ?getBufferLocked@inputStream_binary_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00034114 ?_new@inputStream_binary_class@@SAXQAEPAPAVinputStream@@@@Z  (Idle)
+01:00034140 ?_object_facts_initializer@inputStream_binary_class@@SGXQAVinputStream_binary@@@@Z 
+01:0003415C ?classInfo@outputStream_binary_class@@SAXPAPB_W0@Z 
+01:00034178 ?new@outputStream_binary_class@@SAXQAVoutputStream_binary@@@@Z 
+01:00034248 ?setMode@outputStream_binary_class@@SGXQAVstream@@@PAUmode_struct@stream_class@@@Z 
+01:00034288 ?flush@outputStream_binary_class@@SGXQAVoutputStream@@@@Z 
+01:00034298 ?close@outputStream_binary_class@@SGXQAVstream@@@@Z 
+01:0003433C ?bufferFullCallBack@outputStream_binary_class@@SAXQAVoutputStream_binary@@@PAPAXPAH@Z 
+01:000343DC ?get_buffer_from_db@outputStream_binary_class@@SAXQAVoutputStream_binary@@@IPAPAXPAH@Z 
+01:00034454 ?_getBinary@outputStream_binary_class@@SAXQAVoutputStream_binary@@@QAPAE@Z 
+01:00034530 ?writeBuffersToBinary@outputStream_binary_class@@SAXQAVoutputStream_binary@@@QAE@Z 
+01:000345AC ?writeSingleBufferToBinary@outputStream_binary_class@@SGXQAVoutputStream_binary@@@IIPAXH@Z 
+01:000345E0 ?getPosition@outputStream_binary_class@@SGPAUunsigned64_struct@core_class@@QAVstream@@@@Z 
+01:000346C4 ?setPosition@outputStream_binary_class@@SGXQAVstream@@@PAUunsigned64_struct@core_class@@@Z 
+01:00034714 ?handleSetOffset@outputStream_binary_class@@SAXQAVoutputStream_binary@@@H@Z 
+01:00034804 ?updateCurrentBuffer@outputStream_binary_class@@SAXQAVoutputStream_binary@@@@Z 
+01:0003498C ?findBufferForOffset@outputStream_binary_class@@SAXQAVoutputStream_binary@@@HPAIPAPAXPAHPAI@Z 
+01:00034A60 ?handleBiggerOffset@outputStream_binary_class@@SAXQAVoutputStream_binary@@@H@Z 
+01:00034C4C ?_newBuffer@outputStream_binary_class@@SAXQAVoutputStream_binary@@@HPAPAX@Z 
+01:00034D0C ?_getSizeBefore@outputStream_binary_class@@SAXQAVoutputStream_binary@@@IPAH@Z 
+01:00034DB4 ?bufferNotFound_exception@outputStream_binary_class@@SGXI@Z 
+01:00034DF8 ?checkUsePrevBuff@outputStream_binary_class@@SAXQAVoutputStream_binary@@@@Z 
+01:00034E9C ?getBuffer@outputStream_binary_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00034F3C ?getBufferLocked@outputStream_binary_class@@SGXQAVbufferSupport@@@PAPAXPAH@Z 
+01:00034F58 ?_new@outputStream_binary_class@@SAXPAPAVoutputStream_binary@@@@Z  (Idle)
+01:00034F80 ?_object_facts_initializer@outputStream_binary_class@@SGXQAVoutputStream_binary@@@@Z 
+01:000351FC ?_initObject@inputStream_binary@@QAGXQAV1@H@Z 
+01:00035234 ?@create_object@inputStream_binary_class@@SGQAVinputStream_binary@@@XZ 
+01:00035250 ?_InternalFinalizer@inputStream_binary@@QAGXQAV1@@Z 
+01:000354D4 ?_initObject@outputStream_binary@@QAGXQAV1@H@Z 
+01:0003550C ?@create_object@outputStream_binary_class@@SGQAVoutputStream_binary@@@XZ 
+01:00035528 ?_InternalFinalizer@outputStream_binary@@QAGXQAV1@@Z 
+--- From 'Obj\exe.obj'
+01:00035540 ?classInfo@mainExe_class@@SAXPAPB_W0@Z 
+01:0003555C ?run@mainExe_class@@SAXX@Z 
+01:00035634 ?runCom@mainExe_class@@SAXXPAU?$__list_struct@Ucoinit@@@@@Z 
+01:0003572C ?runCom@mainExe_class@@SAXX@Z  (Idle)
+01:00035754 ?runOle@mainExe_class@@SAXX@Z  (Idle)
+01:000357E0 ?_toCoInitFlag@mainExe_class@@SAXPAU?$__list_struct@Ucoinit@@@@PAI@Z 
+01:00035844 ?_coInitMap@mainExe_class@@SAXPAUcoinit_struct@1@PAI@Z 
+01:00035880 ?checkResult@mainExe_class@@SAXIPB_WPAU?$__list_struct@UnamedValue@@@@@Z 
+01:0003593C ?_getCommandLine@mainExe_class@@SAXPAPB_W@Z  (Idle)
+01:000359AC ?_parseCommandLine@mainExe_class@@SAXPB_W_W0PAPB_W@Z 
+01:00035B18 ?_getPosition@mainExe_class@@SAXPB_W0PAH@Z 
+01:00035B58 ?getFileName@mainExe_class@@SAXPAPB_W0@Z  (Idle)
+01:00035B94 ?_getFileName@mainExe_class@@SAXPAPB_W@Z 
+01:00035BF4 ?_getCurrentHinstance@mainExe_class@@SAXAAUhModule@@@Z  (Idle)
+--- From '.\Release\VIPMain.obj'
+01:00035C30 _VIPStartUp@0  (Idle)
+--- From '.\Release\VIPDll.obj'
+01:00035CA0 _VIPSetDllHook@4  (Idle)
+01:00035CC0 ?tryCallHook@VIPDllHook@RunTime@VIP@@QBEHPAXK0@Z 
+01:00035D10 ?VIPDllGetHandleModule@RunTime@VIP@@YAPAXXZ 
+01:00035D20 _VIPDllMain@12  (Idle)
+Frame 036000   Size 000600.  Name=<  VIPini>, 	Chars=40000040h. [IR]
+036000:000000 000004   VIPini$A::VIPini$A::VIPini F=4
+--- From 'Obj\main.obj'
+02:00036000 _VIPStartOfClassDescriptors 
+036000:000004 00017C   VIPini$C::VIPini$C::VIPini F=4
+036000:000180 000008   VIPini$E::VIPini$E::VIPini F=4
+Frame 037000   Size 000040.  Name=<  VIPsym>, 	Chars=40000040h. [IR]
+037000:000000 000004   VIPsym$A::VIPsym$A::VIPsym F=4
+--- From 'Obj\main.obj'
+03:00037000 _VIPStartOfSymbols 
+037000:000004 000034   VIPsym$C::VIPsym$C::VIPsym F=4
+037000:000038 000008   VIPsym$E::VIPsym$E::VIPsym F=4
+Frame 038000   Size 000830.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
+038000:000000 000004   VIPtpl$A::VIPtpl$A::VIPtpl F=4
+--- From 'Obj\main.obj'
+04:00038000 _VIPStartOfTypeLibraries 
+038000:000004 000818   VIPtpl$C::VIPtpl$C::VIPtpl F=4
+038000:00081C 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
+Frame 039000   Size 000230.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
+039000:000000 000230   PRODBG::PRODBG::PRODBG F=4
+Frame 03A000   Size 015EA0.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+03A000:000000 0011B0   VIPInter::VIPInter::.rdata F=4
+--- From 'Obj\exe.obj'
+06:0003A000 $offsetPtr$bufferSupport$0$domain$$type_library$  (Idle)
+06:0003A01C $offsetPtr$bufferSupport$0$domain$ 
+06:0003A060 $bufferSupport$_global$0$domain$$type_library$  (Idle)
+06:0003A070 $bufferSupport$_global$0$domain$ 
+06:0003A0A0 interface$bufferSupport 
+06:0003A110 $outputStream$_global$0$domain$$type_library$ 
+06:0003A120 $outputStream$_global$0$domain$ 
+06:0003A150 interface$outputStream 
+06:0003A1C0 $inputStream$_global$0$domain$$type_library$ 
+06:0003A1D0 $inputStream$_global$0$domain$ 
+06:0003A200 interface$inputStream 
+06:0003A270 $mode$stream$0$domain$$type_library$ 
+06:0003A29C $mode$stream$0$domain$ 
+06:0003A2F0 $stream$_global$0$domain$$type_library$  (Idle)
+06:0003A300 $stream$_global$0$domain$ 
+06:0003A320 interface$stream 
+06:0003A380 $stdIOState$_global$0$domain$$type_library$ 
+06:0003A390 $stdIOState$_global$0$domain$ 
+06:0003A3C0 interface$stdIOState 
+06:0003A430 $runtimeLinkNamesRun$_global$0$domain$$type_library$  (Idle)
+06:0003A440 $runtimeLinkNamesRun$_global$0$domain$ 
+06:0003A480 interface$runtimeLinkNamesRun 
+06:0003A500 $errorDescriptorInformation$_global$0$domain$$type_library$ 
+06:0003A510 $errorDescriptorInformation$_global$0$domain$ 
+06:0003A560 interface$errorDescriptorInformation 
+06:0003A610 $trapInformationObject$_global$0$domain$$type_library$  (Idle)
+06:0003A620 $trapInformationObject$_global$0$domain$ 
+06:0003A660 interface$trapInformationObject 
+--- From 'Obj\core.obj'
+06:0003A700 $object$_global$0$domain$$type_library$ 
+--- From 'Obj\exceptionDump.obj'
+06:0003A710 $object$_global$0$domain$ 
+--- From 'Obj\binary.obj'
+06:0003A730 interface$object 
+--- From 'Obj\exe.obj'
+06:0003A770 $outputStream_string$_global$0$domain$$type_library$  (Idle)
+06:0003A780 $outputStream_string$_global$0$domain$ 
+06:0003A7C0 interface$outputStream_string 
+--- From 'Obj\binary.obj'
+06:0003A850 $outputStream_binary$_global$0$domain$$type_library$  (Idle)
+06:0003A860 $outputStream_binary$_global$0$domain$ 
+06:0003A8A0 interface$outputStream_binary 
+06:0003A930 $outputBuffer$_global$0$domain$$type_library$ 
+06:0003A940 $outputBuffer$_global$0$domain$ 
+06:0003A970 interface$outputBuffer 
+06:0003AA10 $outputSupport$_global$0$domain$$type_library$  (Idle)
+06:0003AA20 $outputSupport$_global$0$domain$ 
+06:0003AA50 interface$outputSupport 
+06:0003AAF0 $inputBuffer$_global$0$domain$$type_library$ 
+06:0003AB00 $inputBuffer$_global$0$domain$ 
+06:0003AB30 interface$inputBuffer 
+06:0003ABC0 $inputSupport$_global$0$domain$$type_library$  (Idle)
+06:0003ABD0 $inputSupport$_global$0$domain$ 
+06:0003AC00 interface$inputSupport 
+--- From 'Obj\exceptionDump.obj'
+06:0003AC90 $timeInterval$_global$0$domain$$type_library$  (Idle)
+06:0003ACA0 $timeInterval$_global$0$domain$ 
+06:0003ACD0 interface$timeInterval 
+06:0003AD40 $timeZone$timeFormatter$0$domain$$type_library$ 
+06:0003AD64 $timeZone$timeFormatter$0$domain$ 
+06:0003ADA0 $daylightSavingScheme$timeFormatter$0$domain$$type_library$ 
+06:0003ADD4 $daylightSavingScheme$timeFormatter$0$domain$ 
+06:0003AE60 $transitionDate$timeFormatter$0$domain$$type_library$ 
+06:0003AEA4 $transitionDate$timeFormatter$0$domain$ 
+06:0003AF20 $timeFormatter$_global$0$domain$$type_library$ 
+06:0003AF30 $timeFormatter$_global$0$domain$ 
+06:0003AF60 interface$timeFormatter 
+06:0003AFD0 $time$_global$0$domain$$type_library$  (Idle)
+06:0003AFE0 $time$_global$0$domain$ 
+06:0003B000 interface$time 
+06:0003B050 $gmtTime$_global$0$domain$$type_library$  (Idle)
+06:0003B060 $gmtTime$_global$0$domain$ 
+06:0003B080 interface$gmtTime 
+06:0003B0E0 $calendarInterval$_global$0$domain$$type_library$  (Idle)
+06:0003B0F0 $calendarInterval$_global$0$domain$ 
+06:0003B130 interface$calendarInterval 
+03A000:0011B0 0000AE   VIPSymb::VIPSymb::.rdata F=4
+--- From 'Obj\main.obj'
+06:0003B1B0 $$symbol$$mad$$ 
+06:0003B1B8 $$symbol$$turpentine$$ 
+06:0003B1CE $$symbol$$petrol$$ 
+06:0003B1DC $$symbol$$$$ 
+06:0003B1DE $$symbol$$turnwhite$$ 
+06:0003B1F2 $$symbol$$nh$$ 
+06:0003B1F8 $$symbol$$i$$ 
+06:0003B1FC $$symbol$$can't drink$$ 
+06:0003B214 $$symbol$$can't vomit$$ 
+06:0003B22C $$symbol$$vomit$$ 
+06:0003B238 $$symbol$$drink$$ 
+06:0003B244 $$symbol$$br$$ 
+06:0003B24A $$symbol$$conscious$$ 
+03A000:001260 008FA0   VIPClass::VIPClass::.rdata F=4
+--- From 'Obj\main.obj'
+06:0003B260 class$_builtIn 
+--- From 'Obj\binary.obj'
+06:0003B27C $integer$_builtIn$0$domain$ 
+--- From 'Obj\core.obj'
+06:0003B294 $integer$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\binary.obj'
+06:0003B298 $unsigned$_builtIn$0$domain$ 
+--- From 'Obj\exe.obj'
+06:0003B2B0 $unsigned$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\binary.obj'
+06:0003B2B4 $real$_builtIn$0$domain$ 
+--- From 'Obj\core.obj'
+06:0003B2D8 $real$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\main.obj'
+06:0003B2DC $$byte$_builtIn$0$domain$ 
+06:0003B2F4 $$byte$_builtIn$0$domain$$type_library$  (Idle)
+--- From 'Obj\binary.obj'
+06:0003B2F8 $string$_builtIn$0$domain$ 
+--- From 'Obj\core.obj'
+06:0003B304 $string$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\main.obj'
+06:0003B308 $symbol$_builtIn$0$domain$ 
+06:0003B314 $symbol$_builtIn$0$domain$$type_library$  (Idle)
+--- From 'Obj\exceptionDump.obj'
+06:0003B318 $string8$_builtIn$0$domain$ 
+--- From 'Obj\core.obj'
+06:0003B324 $string8$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\exceptionDump.obj'
+06:0003B328 $char$_builtIn$0$domain$ 
+--- From 'Obj\console.obj'
+06:0003B334 $char$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\exceptionDump.obj'
+06:0003B338 $binary$_builtIn$0$domain$ 
+--- From 'Obj\core.obj'
+06:0003B344 $binary$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\exceptionDump.obj'
+06:0003B348 $pointer$_builtIn$0$domain$ 
+--- From 'Obj\binary.obj'
+06:0003B354 $pointer$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\main.obj'
+06:0003B358 $prolog$arrowtype$$_builtIn$0$domain$ 
+--- From 'Obj\outputStreamSupport.obj'
+06:0003B364 $prolog$arrowtype$$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\main.obj'
+06:0003B368 $arrowtype$$_builtIn$0$domain$ 
+--- From 'Obj\programControl.obj'
+06:0003B374 $arrowtype$$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\main.obj'
+06:0003B378 $factdb$_builtIn$0$domain$ 
+06:0003B384 $factdb$_builtIn$0$domain$$type_library$  (Idle)
+--- From 'Obj\exception.obj'
+06:0003B3A0 $*$_builtIn$1$domain$ 
+--- From 'Obj\main.obj'
+06:0003B3C4 $domEmptyTypeLib$_builtIn$0$domain$ 
+06:0003B3DC $domEmptyTypeLib$_builtIn$0$domain$$type_library$  (Idle)
+--- From 'Obj\exceptionDump.obj'
+06:0003B3E0 $boolean$_builtIn$0$domain$ 
+--- From 'Obj\console.obj'
+06:0003B3FC $boolean$_builtIn$0$domain$$type_library$ 
+--- From 'Obj\main.obj'
+06:0003B400 $compareResult$_builtIn$0$domain$ 
+06:0003B420 $compareResult$_builtIn$0$domain$$type_library$  (Idle)
+--- From 'Obj\exe.obj'
+06:0003B5E0 class$_global 
+--- From 'Obj\main.obj'
+06:0003B620 class$main 
+--- From 'Obj\windowsAPI.obj'
+06:0003B660 class$windowsAPI 
+--- From 'Obj\time_api.obj'
+06:0003B6D0 class$time_api 
+06:0003B750 class$time_native 
+--- From 'Obj\time.obj'
+06:0003B7AC $systemTime$time_native$0$domain$ 
+--- From 'Obj\time_api.obj'
+06:0003B7C4 $systemTime$time_native$0$domain$$type_library$  (Idle)
+06:0003B908 $timeZoneAPI$time_native$0$domain$ 
+06:0003B920 $timeZoneAPI$time_native$0$domain$$type_library$  (Idle)
+--- From 'Obj\systemInformation_api.obj'
+06:0003B9F0 class$systemInformation_native 
+06:0003BA5C $system_Info$systemInformation_native$0$domain$ 
+06:0003BA74 $system_Info$systemInformation_native$0$domain$$type_library$  (Idle)
+06:0003BDA4 $osVersionInfo$systemInformation_native$0$domain$ 
+06:0003BDBC $osVersionInfo$systemInformation_native$0$domain$$type_library$  (Idle)
+06:0003C10C $osVersionInfoEX$systemInformation_native$0$domain$ 
+06:0003C124 $osVersionInfoEX$systemInformation_native$0$domain$$type_library$  (Idle)
+06:0003C290 class$systemInformation_api 
+--- From 'Obj\string8_api.obj'
+06:0003C360 class$string8_native 
+06:0003C400 class$string8_api 
+--- From 'Obj\string_api.obj'
+06:0003C490 class$string_native 
+--- From 'Obj\runTime_api.obj'
+06:0003C520 class$runtime_api 
+--- From 'Obj\registry_api.obj'
+06:0003C720 class$registry_native 
+06:0003C748 $pUnsigned$registry_native$0$domain$ 
+06:0003C760 $pUnsigned$registry_native$0$domain$$type_library$  (Idle)
+06:0003C778 $securityAttr$registry_native$0$domain$ 
+06:0003C790 $securityAttr$registry_native$0$domain$$type_library$  (Idle)
+06:0003C870 class$registry_api 
+--- From 'Obj\memory_api.obj'
+06:0003C950 class$memory_native 
+06:0003C99C $process_memory_counters$memory_native$0$domain$ 
+06:0003C9B4 $process_memory_counters$memory_native$0$domain$$type_library$  (Idle)
+06:0003C9DC $memory_basic_information$memory_native$0$domain$ 
+06:0003C9F4 $memory_basic_information$memory_native$0$domain$$type_library$  (Idle)
+06:0003CA40 $memoryStatusEx$memory_native$0$domain$ 
+06:0003CA58 $memoryStatusEx$memory_native$0$domain$$type_library$  (Idle)
+--- From 'Obj\locale_api.obj'
+06:0003CB80 class$locale_api 
+06:0003CC10 class$locale_native 
+--- From 'Obj\fileSystem_api.obj'
+06:0003CCA0 class$fileSystem_native 
+06:0003CCC8 $pointerToI32$fileSystem_native$0$domain$ 
+06:0003CCE0 $pointerToI32$fileSystem_native$0$domain$$type_library$  (Idle)
+06:0003CCF8 $securityAttributes$fileSystem_native$0$domain$ 
+06:0003CD10 $securityAttributes$fileSystem_native$0$domain$$type_library$  (Idle)
+06:0003CD50 $fileInfo$fileSystem_native$0$domain$ 
+06:0003CD68 $fileInfo$fileSystem_native$0$domain$$type_library$  (Idle)
+06:0003CD98 $fileAttributesInfo$fileSystem_native$0$domain$ 
+06:0003CDB0 $fileAttributesInfo$fileSystem_native$0$domain$$type_library$  (Idle)
+--- From 'Obj\fileSystem.obj'
+06:0003CDDC $shFileOpStruct$fileSystem_native$0$domain$ 
+--- From 'Obj\fileSystem_api.obj'
+06:0003CDF4 $shFileOpStruct$fileSystem_native$0$domain$$type_library$  (Idle)
+--- From 'Obj\fileSystem.obj'
+06:0003CE20 $browseinfo$fileSystem_native$0$domain$ 
+--- From 'Obj\fileSystem_api.obj'
+06:0003CE38 $browseinfo$fileSystem_native$0$domain$$type_library$  (Idle)
+06:0003CE54 $file_notify_information$fileSystem_native$0$domain$ 
+06:0003CE6C $file_notify_information$fileSystem_native$0$domain$$type_library$  (Idle)
+06:0003CE8C $overlapped$fileSystem_native$0$domain$ 
+06:0003CEA4 $overlapped$fileSystem_native$0$domain$$type_library$  (Idle)
+06:0003D0C0 class$fileSystem_api 
+06:0003D0DC $fileAttributeAtom$fileSystem_api$0$domain$ 
+06:0003D114 $fileAttributeAtom$fileSystem_api$0$domain$$type_library$  (Idle)
+06:0003D118 $accessPermit$fileSystem_api$0$domain$ 
+06:0003D13C $accessPermit$fileSystem_api$0$domain$$type_library$  (Idle)
+--- From 'Obj\exe_api.obj'
+06:0003D350 class$exe_native 
+06:0003D3B0 $shellExecuteInfo$exe_native$0$domain$ 
+06:0003D3C8 $shellExecuteInfo$exe_native$0$domain$$type_library$  (Idle)
+06:0003D470 class$exe_api 
+--- From 'Obj\environment_api.obj'
+06:0003D4E0 class$environment_native 
+--- From 'Obj\console_api.obj'
+06:0003D590 class$console_api 
+06:0003D620 class$console_native 
+06:0003D68C $consoleScreenBufferInfo$console_native$0$domain$ 
+06:0003D6A4 $consoleScreenBufferInfo$console_native$0$domain$$type_library$  (Idle)
+--- From 'Obj\time.obj'
+06:0003D770 class$time_exception 
+06:0003D7E0 class$timeInterval 
+06:0003D844 class$timeInterval$vtable$ 
+06:0003D940 class$timeFormatter 
+06:0003DAE4 class$timeFormatter$vtable$ 
+06:0003DD80 class$time 
+06:0003DF04 class$time$vtable$ 
+06:0003E050 class$gmtTime 
+06:0003E0B4 class$gmtTime$vtable$ 
+06:0003E190 class$calendarInterval 
+06:0003E26C class$calendarInterval$vtable$ 
+--- From 'Obj\string8.obj'
+06:0003E3B0 class$string8 
+--- From 'Obj\string.obj'
+06:0003E4A0 class$string_exception 
+06:0003E520 class$outputStream_string 
+06:0003E7D4 class$outputStream_string$vtable$  (Idle)
+06:0003EA80 class$inputStream_string 
+06:0003ECDC class$inputStream_string$vtable$  (Idle)
+06:0003EF00 class$string_local 
+06:0003EF70 class$string 
+06:0003EF8C $caseSensitivity$string$0$domain$ 
+06:0003EFAC $caseSensitivity$string$0$domain$$type_library$  (Idle)
+06:0003EFB0 $adjustBehaviour$string$0$domain$ 
+06:0003EFD0 $adjustBehaviour$string$0$domain$$type_library$  (Idle)
+06:0003EFD4 $adjustSide$string$0$domain$ 
+06:0003EFF0 $adjustSide$string$0$domain$$type_library$  (Idle)
+--- From 'Obj\stream.obj'
+06:0003F240 class$stream_exception 
+06:0003F2C0 class$stdio 
+06:0003F380 class$stdIOState 
+06:0003F414 class$stdIOState$vtable$ 
+--- From 'Obj\binary.obj'
+06:0003F520 class$outputSupport 
+06:0003F5CC class$outputSupport$vtable$ 
+06:0003F770 class$inputSupport 
+06:0003F804 class$inputSupport$vtable$ 
+--- From 'Obj\std.obj'
+06:0003F940 class$std 
+--- From 'Obj\registry.obj'
+06:0003F990 class$registry_exception 
+06:0003FA20 class$registry 
+06:0003FA3C $rootKey$registry$0$domain$ 
+06:0003FA6C $rootKey$registry$0$domain$$type_library$  (Idle)
+--- From 'Obj\programControl.obj'
+06:0003FB70 class$programControl 
+06:0003FB9C $packedCursor$programControl$0$domain$ 
+06:0003FBB4 $packedCursor$programControl$0$domain$$type_library$  (Idle)
+06:0003FBCC $cursor$programControl$0$domain$ 
+06:0003FBE4 $cursor$programControl$0$domain$$type_library$  (Idle)
+--- From 'Obj\namedValue.obj'
+06:0003FCF0 class$namedValue 
+--- From 'Obj\memory.obj'
+06:0003FD60 class$bit 
+06:0003FD7C $unsigned4$bit$0$domain$ 
+06:0003FD94 $unsigned4$bit$0$domain$$type_library$  (Idle)
+06:0003FDE0 class$memory 
+06:0003FE14 $contextMap$memory$0$domain$ 
+06:0003FE2C $contextMap$memory$0$domain$$type_library$  (Idle)
+--- From 'Obj\math.obj'
+06:000401C0 class$math_exception 
+06:00040230 class$math 
+06:0004024C $inCircle$math$0$domain$ 
+06:00040270 $inCircle$math$0$domain$$type_library$  (Idle)
+06:00040274 $aPeriod$math$0$domain$ 
+06:00040298 $aPeriod$math$0$domain$$type_library$  (Idle)
+06:0004029C $uReal$math$0$domain$ 
+06:000402C0 $uReal$math$0$domain$$type_library$  (Idle)
+--- From 'Obj\list.obj'
+06:00040320 class$list 
+--- From 'Obj\fileSystem.obj'
+06:00040370 class$fileVersion 
+06:000403A4 $versionInformation$fileVersion$0$domain$ 
+06:000403BC $versionInformation$fileVersion$0$domain$$type_library$  (Idle)
+06:000403D8 $fileVersionInformation$fileVersion$0$domain$ 
+06:000403F0 $fileVersionInformation$fileVersion$0$domain$$type_library$  (Idle)
+06:000406F0 class$fileSystem_exception 
+06:00040790 class$outputStream_file 
+06:00040A04 class$outputStream_file$vtable$  (Idle)
+06:00040CB0 class$inputStream_file 
+06:00041014 class$inputStream_file$vtable$  (Idle)
+06:00041340 class$directory 
+06:0004135C $volumeType$directory$0$domain$ 
+06:00041388 $volumeType$directory$0$domain$$type_library$  (Idle)
+06:000414E0 class$file 
+06:000414FC $overwrite$file$0$domain$ 
+06:00041520 $overwrite$file$0$domain$$type_library$  (Idle)
+06:00041650 class$fileName 
+06:000416C0 class$messageFile 
+06:0004173C class$messageFile$vtable$ 
+--- From 'Obj\exceptionDump.obj'
+06:00041860 class$exceptionDump 
+--- From 'Obj\exception.obj'
+06:00041900 class$errorDescriptorInformation 
+06:00041A14 class$errorDescriptorInformation$vtable$ 
+06:00041C30 class$exception_exception 
+06:00041CC0 class$runtime_exception 
+06:00041D50 class$common_exception 
+06:00041DE0 class$exception 
+06:00041DFC $kind$exception$0$domain$ 
+06:00041E18 $kind$exception$0$domain$$type_library$ 
+06:00041E2C $classInfoDescriptor$exception$0$domain$ 
+06:00041E44 $classInfoDescriptor$exception$0$domain$$type_library$ 
+06:00041E5C $exceptionDescriptor$exception$0$domain$ 
+06:00041E74 $exceptionDescriptor$exception$0$domain$$type_library$ 
+06:00041EA4 $descriptor$exception$0$domain$ 
+06:00041EBC $descriptor$exception$0$domain$$type_library$ 
+06:00041EE4 $traceInfo$exception$0$domain$ 
+06:00041EFC $traceInfo$exception$0$domain$$type_library$  (Idle)
+06:00041F20 $lineInfo$exception$0$domain$ 
+06:00041F3C $lineInfo$exception$0$domain$$type_library$ 
+--- From 'Obj\environment.obj'
+06:000420D0 class$environment 
+--- From 'Obj\core.obj'
+06:00042150 class$core 
+06:0004216C $unsigned8$core$0$domain$ 
+06:00042184 $unsigned8$core$0$domain$$type_library$ 
+--- From 'Obj\console.obj'
+06:00042188 $unsigned16$core$0$domain$ 
+06:000421A0 $unsigned16$core$0$domain$$type_library$ 
+--- From 'Obj\binary.obj'
+06:000421A4 $unsigned32$core$0$domain$ 
+--- From 'Obj\console.obj'
+06:000421BC $unsigned32$core$0$domain$$type_library$ 
+--- From 'Obj\binary.obj'
+06:000421D0 $unsigned64$core$0$domain$ 
+--- From 'Obj\core.obj'
+06:000421E8 $unsigned64$core$0$domain$$type_library$ 
+06:000421EC $integer8$core$0$domain$ 
+06:00042204 $integer8$core$0$domain$$type_library$ 
+06:00042208 $integer16$core$0$domain$ 
+06:00042220 $integer16$core$0$domain$$type_library$ 
+06:00042224 $integer32$core$0$domain$ 
+06:0004223C $integer32$core$0$domain$$type_library$ 
+06:00042250 $integer64$core$0$domain$ 
+06:00042268 $integer64$core$0$domain$$type_library$ 
+--- From 'Obj\exe.obj'
+06:0004227C $namedValue$core$0$domain$ 
+--- From 'Obj\core.obj'
+06:00042294 $namedValue$core$0$domain$$type_library$ 
+06:000422B4 $codePage$core$0$domain$ 
+--- From 'Obj\exe.obj'
+06:000422D4 $codePage$core$0$domain$$type_library$ 
+--- From 'Obj\core.obj'
+06:00042328 $nativeGuid$core$0$domain$ 
+06:00042340 $nativeGuid$core$0$domain$$type_library$  (Idle)
+06:00042344 $byteCountOptional$core$0$domain$ 
+06:0004235C $byteCountOptional$core$0$domain$$type_library$  (Idle)
+--- From 'Obj\binary.obj'
+06:00042360 $byteCount$core$0$domain$ 
+06:00042378 $byteCount$core$0$domain$$type_library$ 
+--- From 'Obj\console.obj'
+06:0004237C $charCountOptional$core$0$domain$ 
+--- From 'Obj\core.obj'
+06:00042394 $charCountOptional$core$0$domain$$type_library$  (Idle)
+--- From 'Obj\exe.obj'
+06:00042398 $charCount$core$0$domain$ 
+--- From 'Obj\core.obj'
+06:000423B0 $charCount$core$0$domain$$type_library$  (Idle)
+06:000423B4 $positiveOptional$core$0$domain$ 
+06:000423CC $positiveOptional$core$0$domain$$type_library$  (Idle)
+--- From 'Obj\binary.obj'
+06:000423D0 $positive$core$0$domain$ 
+--- From 'Obj\core.obj'
+06:000423E8 $positive$core$0$domain$$type_library$  (Idle)
+06:000423FC $tuple$core$2$domain$ 
+06:00042428 $tuple$core$3$domain$ 
+06:00042458 $tuple$core$4$domain$ 
+06:0004248C $tuple$core$5$domain$ 
+06:000424C4 $tuple$core$6$domain$ 
+06:00042500 $tuple$core$7$domain$ 
+06:00042540 $tuple$core$8$domain$ 
+06:00042584 $tuple$core$9$domain$ 
+06:000425CC $tuple$core$10$domain$ 
+06:00042618 $tuple$core$11$domain$ 
+06:00042668 $tuple$core$12$domain$ 
+06:00042694 $optional$core$1$domain$ 
+06:000426B0 $sortOrder$core$0$domain$ 
+06:000426CC $sortOrder$core$0$domain$$type_library$  (Idle)
+--- From 'Obj\exe.obj'
+06:00042780 $value$core$0$domain$ 
+--- From 'Obj\core.obj'
+06:000427D0 $value$core$0$domain$$type_library$ 
+--- From 'Obj\console.obj'
+06:00042B10 class$outputStream_console 
+06:00042CDC class$outputStream_console$vtable$  (Idle)
+06:00042F10 class$inputStream_console 
+06:0004320C class$inputStream_console$vtable$  (Idle)
+06:000434D0 class$console 
+06:00043508 $location$console$0$domain$ 
+06:00043520 $location$console$0$domain$$type_library$  (Idle)
+--- From 'Obj\binary.obj'
+06:00043640 class$outputStream_binary 
+06:000438E8 class$outputStream_binary$vtable$  (Idle)
+06:00043B90 class$inputStream_binary 
+06:00043DE0 class$inputStream_binary$vtable$  (Idle)
+06:00044000 class$binary_exception 
+06:00044080 class$binary 
+--- From 'Obj\exe.obj'
+06:000440E0 class$mainExe 
+06:000440FC $coinit$mainExe$0$domain$ 
+06:00044120 $coinit$mainExe$0$domain$$type_library$  (Idle)
+03A000:00A200 00BCA0   .rdata::.rdata::.rdata F=4
+--- From '.\Release\VIPDll.obj'
+06:00044238 _VIPStartOfDictionary 
+Frame 050000   Size 000020.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
+050000:000000 000014   .gcroot::.gcroot::.gcroot F=4
+Frame 051000   Size 0000C0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+051000:000000 0000B0   .data::DATA::DGROUP F=4
+051000:0000B0 00000C   .bss::BSS::DGROUP F=4
+--- Total Cnt   =  2001 --------
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _CopyFileW@12 
+[import] 'Obj\exception.obj' KERNEL32.dll. _GetLastError@0 
+[import] 'Obj\exception.obj' VIP7Run.dll. ?format2String@RunTime@VIP@@YGQBGQBGQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegSetValueExW@24 
+[import] 'Obj\string.obj' KERNEL32.dll. _CompareStringW@24 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegDeleteValueW@8 
+[import] 'Obj\binary.obj' VIP7Kernel.dll. ?OSZeroMemory@Kernel@VIP@@YAXPAXI@Z 
+[import] 'Obj\console.obj' KERNEL32.dll. _ReadConsoleW@20 
+[import] 'Obj\binary.obj' VIP7Kernel.dll. ?Run_Fail@Kernel@VIP@@YAXXZ 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegEnumKeyExW@32 
+[import] 'Obj\string.obj' VIP7Run.dll. ?create@RunTime@VIP@@YGPBGIPBG@Z 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?ConvertIU@RunTime@VIP@@YGIPBV?$rNumericTypeDescriptor@H@12@PBV?$rNumericTypeDescriptor@I@12@H@Z 
+[import] 'Obj\console.obj' VIP7Run.dll. ?Error_DetermFactIsAlreadyAsserted@RunTime@VIP@@YAXQBVrTypeLibrary@12@I@Z 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?VIP_ErrorExit7@Kernel@VIP@@YGXPBVtrapInfo_interface@12@@Z 
+[import] 'Obj\outputStreamSupport.obj' VIP7Run.dll. ?writeBytes2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@QBEI@Z 
+[import] 'Obj\environment.obj' KERNEL32.dll. _ExpandEnvironmentStringsW@12 
+[import] 'Obj\outputStreamSupport.obj' VIP7Run.dll. ?saveDatabase@RunTime@VIP@@YGXQBVfactDbValue@12@QAVROutputStreamImpl@12@@Z 
+[import] 'Obj\exception.obj' VIP7Kernel.dll. ?MEM_alloc_nil@Kernel@VIP@@YGPBEXZ 
+[import] 'Obj\outputStreamSupport.obj' VIP7Run.dll. ?format2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@QBGQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\console.obj' VIP7Run.dll. ?bitAnd@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\outputStreamSupport.obj' VIP7Run.dll. ?write2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@IIQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\console.obj' KERNEL32.dll. _GetConsoleMode@8 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?ParseString@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@I@Z 
+[import] 'Obj\console.obj' KERNEL32.dll. _SetConsoleTitleW@4 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?ParseBytes@RunTime@VIP@@YGPBVTBinary@@QAVRInputStreamImpl@12@I@Z 
+[import] 'Obj\console.obj' KERNEL32.dll. _GetConsoleTitleW@8 
+[import] 'Obj\fileSystem.obj' VIP7Run.dll. ?RetractFactDataBase@RunTime@VIP@@YGXQBVfactDbValue@12@@Z 
+[import] 'Obj\runTime_api.obj' KERNEL32.dll. _GetCurrentProcess@0 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?consultDatabase@RunTime@VIP@@YGXQBVfactDbValue@12@QAVRInputStreamImpl@12@@Z 
+[import] 'Obj\environment.obj' KERNEL32.dll. _GetEnvironmentVariableW@12 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?ParseFromStream@RunTime@VIP@@YGPBXQBVrTypeLibrary@12@QAVRInputStreamImpl@12@I@Z 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?StkTrap@Kernel@VIP@@YAXXZ 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?ParseLine@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?LocalCut2@Kernel@VIP@@YAXPAE@Z 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?ungetChar@RunTime@VIP@@YGXQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\exception.obj' VIP7Run.dll. ?toString@RunTime@VIP@@YGPBGQBVrTypeLibrary@12@PBX@Z 
+[import] 'Obj\inputStreamSupport.obj' VIP7Run.dll. ?ParseChar@RunTime@VIP@@YGGQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\console.obj' KERNEL32.dll. _FillConsoleOutputCharacterW@20 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?searchForChar@RunTime@VIP@@YGIPBGGI@Z 
+[import] 'Obj\environment.obj' KERNEL32.dll. _FreeEnvironmentStringsW@4 
+[import] 'Obj\exception.obj' KERNEL32.dll. _FormatMessageW@28 
+[import] 'Obj\exe.obj' KERNEL32.dll. _GetModuleFileNameW@12 
+[import] 'Obj\exceptionDump.obj' VIP7Kernel.dll. ?Run_Succeed@Kernel@VIP@@YGXXZ 
+[import] 'Obj\console.obj' KERNEL32.dll. _GetStdHandle@4 
+[import] 'Obj\programControl.obj' VIP7Kernel.dll. ?SetPrologExceptionPredicate@Kernel@VIP@@YGXQBVRPrologExceptionPredicateStruct@12@PAPAV312@@Z 
+[import] 'Obj\exception.obj' KERNEL32.dll. _VirtualQuery@12 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?binarySearch@RunTime@VIP@@YAIPBEI0I@Z 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?AllocateObject@RunTime@VIP@@YGPAEQBVRObjectClassDescriptorInfo@12@PAP6GXPAX@Z@Z 
+[import] 'Obj\memory.obj' VIP7Run.dll. ?bitXor@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\time.obj' VIP7Run.dll. ?int64div32@RunTime@VIP@@YAXPB_JHAAPA_JPAH@Z 
+[import] 'Obj\console.obj' VIP7Run.dll. ?bitLeft@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\time.obj' KERNEL32.dll. _GetTimeZoneInformation@4 
+[import] 'Obj\memory.obj' VIP7Run.dll. ?bitRight@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\string8_api.obj' KERNEL32.dll. _MultiByteToWideChar@24 
+[import] 'Obj\memory.obj' VIP7Kernel.dll. ?AllocUncollectableHeap@Kernel@VIP@@YGPAEI@Z 
+[import] 'Obj\time.obj' VIP7Run.dll. ?Power@RunTime@VIP@@YGNNN@Z 
+[import] 'Obj\memory.obj' VIP7Kernel.dll. ?memProf_ContextClose@Kernel@VIP@@YGXI@Z 
+[import] 'Obj\time.obj' VIP7Run.dll. ?subInteger64@RunTime@VIP@@YAPA_JPB_J0@Z 
+[import] 'Obj\memory.obj' VIP7Kernel.dll. ?AllocHeap@Kernel@VIP@@YGPAEI@Z 
+[import] 'Obj\time.obj' VIP7Run.dll. ?int64xReal@RunTime@VIP@@YAPA_JPB_JN@Z 
+[import] 'Obj\memory.obj' VIP7Kernel.dll. ?memProf_ContextOpen@Kernel@VIP@@YGIII@Z 
+[import] 'Obj\time.obj' VIP7Run.dll. ?abs_iu@RunTime@VIP@@YAIH@Z 
+[import] 'Obj\memory.obj' KERNEL32.dll. _IsBadWritePtr@8 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?ConvertIR@RunTime@VIP@@YGNPBV?$rNumericTypeDescriptor@H@12@PBV?$rNumericTypeDescriptor@N@12@H@Z 
+[import] 'Obj\memory.obj' KERNEL32.dll. _IsBadReadPtr@8 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?Error_SingleFactHasNoValue@RunTime@VIP@@YAXQBVrTypeLibrary@12@I@Z 
+[import] 'Obj\math.obj' VIP7Run.dll. ?trunc@RunTime@VIP@@YANN@Z 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegCreateKeyExW@36 
+[import] 'Obj\math.obj' VIP7Run.dll. ?roundToInteger@RunTime@VIP@@YGHN@Z 
+[import] 'Obj\exception.obj' VIP7Run.dll. ?Unify@RunTime@VIP@@YGXQBVrTypeLibrary@12@PAX1@Z 
+[import] 'Obj\math.obj' VIP7Run.dll. ?round@RunTime@VIP@@YANN@Z 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegOpenKeyExW@20 
+[import] 'Obj\exception.obj' KERNEL32.dll. _GetCurrentThreadId@0 
+[import] 'Obj\fileSystem_api.obj' KERNEL32.dll. _SetFilePointer@16 
+[import] 'Obj\math.obj' VIP7Run.dll. ?ln@RunTime@VIP@@YANN@Z 
+[import] 'Obj\environment.obj' VIP7Run.dll. ?FirstBranchConvertObject@RunTime@VIP@@YGQBVRObject@12@QBVRInterfaceDescriptor@12@QBV312@@Z 
+[import] 'Obj\exception.obj' VIP7Run.dll. ?tryString2Term@RunTime@VIP@@YGPBXQBVrTypeLibrary@12@PBG@Z 
+[import] 'Obj\string8.obj' KERNEL32.dll. _IsValidCodePage@4 
+[import] 'Obj\math.obj' VIP7Run.dll. ?exp@RunTime@VIP@@YANN@Z 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?FinishRetract@RunTime@VIP@@YGXPAVrFactItem@12@PAPAV312@@Z 
+[import] 'Obj\math.obj' VIP7Run.dll. ?arctan@RunTime@VIP@@YANN@Z 
+[import] 'Obj\time.obj' KERNEL32.dll. _GetSystemTimeAsFileTime@4 
+[import] 'Obj\math.obj' VIP7Run.dll. ?sqrt@RunTime@VIP@@YANN@Z 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?MEM_alloc_listElementWithContext@Kernel@VIP@@YGPBU?$__list_struct@E@@XZ 
+[import] 'Obj\math.obj' VIP7Run.dll. ?ConvertRR@RunTime@VIP@@YGNPBV?$rNumericTypeDescriptor@N@12@0N@Z 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?AllocHeapWithContext@Kernel@VIP@@YGQAEIII@Z 
+[import] 'Obj\math.obj' VIP7Run.dll. ?abs_rr@RunTime@VIP@@YANN@Z 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _SystemTimeToFileTime@8 
+[import] 'Obj\list.obj' VIP7Run.dll. ?compareTerms@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@QBVrTypeLibrary@12@PBX1@Z 
+[import] 'Obj\console.obj' VIP7Run.dll. ?ConvertUU@RunTime@VIP@@YGIPBV?$rNumericTypeDescriptor@I@12@0I@Z 
+[import] 'Obj\console.obj' USER32.dll. _MessageBoxW@16 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _FileTimeToLocalFileTime@8 
+[import] 'Obj\fileSystem.obj' VERSION.dll. _GetFileVersionInfoW@16 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _GetDateFormatW@24 
+[import] 'Obj\fileSystem.obj' VERSION.dll. _GetFileVersionInfoSizeW@8 
+[import] 'Obj\exe.obj' VIP7Run.dll. ?ErrorRangeSigned@RunTime@VIP@@YGXQBV?$rNumericTypeDescriptor@H@12@H@Z 
+[import] 'Obj\fileSystem.obj' VERSION.dll. _VerQueryValueW@16 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _GetTimeFormatW@24 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _FlushFileBuffers@4 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?Cut_Prolog@Kernel@VIP@@YAXXZ 
+[import] 'Obj\fileSystem.obj' VIP7Run.dll. ?addUnsigned64@RunTime@VIP@@YAPA_KPB_K0@Z 
+[import] 'Obj\string.obj' VIP7Run.dll. ?isAlpha@RunTime@VIP@@YG_NPBG@Z 
+[import] 'Obj\fileSystem.obj' VIP7Run.dll. ?subUnsigned64@RunTime@VIP@@YAPA_KPB_K0@Z 
+[import] 'Obj\string.obj' USER32.dll. _CharUpperW@4 
+[import] 'Obj\console.obj' VIP7Run.dll. ?InitInputParser@RunTime@VIP@@YGPAVRInputStreamImpl@12@QAVRROBufferProvider@12@@Z 
+[import] 'Obj\string.obj' VIP7Run.dll. ?replace@RunTime@VIP@@YGPBGPBG00H_NAAI@Z 
+[import] 'Obj\fileSystem.obj' USER32.dll. _SendMessageW@16 
+[import] 'Obj\string.obj' KERNEL32.dll. _IsBadStringPtrW@8 
+[import] 'Obj\fileSystem.obj' OLE32.dll. _CoTaskMemFree@4 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?Stkb2@Kernel@VIP@@YAXXZ 
+[import] 'Obj\fileSystem.obj' SHELL32.dll. _SHGetPathFromIDListW@8 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegQueryValueExW@24 
+[import] 'Obj\fileSystem.obj' SHELL32.dll. _SHBrowseForFolderW@4 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?ConvertUI@RunTime@VIP@@YGHPBV?$rNumericTypeDescriptor@I@12@PBV?$rNumericTypeDescriptor@H@12@I@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetWindowsDirectoryA@8 
+[import] 'Obj\binary.obj' KERNEL32.dll. _lstrlenA@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetWindowsDirectoryW@8 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _CreateFileW@28 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetSystemDirectoryA@8 
+[import] 'Obj\console.obj' KERNEL32.dll. _GetConsoleScreenBufferInfo@8 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetSystemDirectoryW@8 
+[import] 'Obj\exe.obj' KERNEL32.dll. _GetModuleHandleW@4 
+[import] 'Obj\exceptionDump.obj' KERNEL32.dll. _GetTempPathW@8 
+[import] 'Obj\console.obj' KERNEL32.dll. _FreeConsole@0 
+[import] 'Obj\fileSystem.obj' shfolder.dll. _SHGetFolderPathW@20 
+[import] 'Obj\console.obj' KERNEL32.dll. _SetConsoleCursorPosition@8 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetDiskFreeSpaceExW@16 
+[import] 'Obj\environment.obj' KERNEL32.dll. _SetEnvironmentVariableW@8 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetDriveTypeW@4 
+[import] 'Obj\console.obj' KERNEL32.dll. _FlushConsoleInputBuffer@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _SetVolumeLabelW@8 
+[import] 'Obj\time.obj' VIP7Run.dll. ?ConvertObject@RunTime@VIP@@YGQBVRObject@12@QBVRInterfaceDescriptor@12@QBV312@@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetCurrentDirectoryW@8 
+[import] 'Obj\exception.obj' VIP7Kernel.dll. ?VIP_ErrorExitCreate@Kernel@VIP@@YGPAVtrapInfo_interface@12@I@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _SetCurrentDirectoryW@4 
+[import] 'Obj\exceptionDump.obj' VIP7Run.dll. ?create@RunTime@VIP@@YAPBGI@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _CreateDirectoryW@8 
+[import] 'Obj\exceptionDump.obj' VIP7Run.dll. ?string2Term@RunTime@VIP@@YGPBXQBVrTypeLibrary@12@PBG@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _RemoveDirectoryW@4 
+[import] 'Obj\string.obj' KERNEL32.dll. _GetUserDefaultLCID@0 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _SearchPathW@24 
+[import] 'Obj\time.obj' KERNEL32.dll. _GetSystemTime@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _CloseHandle@4 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?ConvertUR@RunTime@VIP@@YGNPBV?$rNumericTypeDescriptor@I@12@PBV?$rNumericTypeDescriptor@N@12@I@Z 
+[import] 'Obj\console.obj' VIP7Run.dll. ?bitNot@RunTime@VIP@@YAII@Z 
+[import] 'Obj\fileSystem_api.obj' VIP7Run.dll. ?LoadProcAddress@RunTime@VIP@@YGP6GHXZQBGQBDPAP6GHXZ@Z 
+[import] 'Obj\binary.obj' VIP7Kernel.dll. ?MEM_alloc_nullfunctor@Kernel@VIP@@YGPBEI@Z 
+[import] 'Obj\string8.obj' KERNEL32.dll. _IsBadStringPtrA@8 
+[import] 'Obj\console.obj' KERNEL32.dll. _WriteFile@20 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?InitWrite@RunTime@VIP@@YGPAVROutputStreamImpl@12@QAVRBufferProvider@12@@Z 
+[import] 'Obj\fileSystem_api.obj' VIP7Kernel.dll. ?OSMoveMemory@Kernel@VIP@@YAXPAXPBXI@Z 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?AssertZNonDetermFact_WithContext@RunTime@VIP@@YGXTRTerm@12@PAVrFactList@12@II@Z 
+[import] 'Obj\binary.obj' VIP7Kernel.dll. ?OSCopyMemory@Kernel@VIP@@YAXPAXPBXI@Z 
+[import] 'Obj\binary.obj' VIP7Run.dll. ?InitInputParser@RunTime@VIP@@YGPAVRInputStreamImpl@12@QAVRROBufferProvider@12@QAEI@Z 
+[import] 'Obj\string.obj' VIP7Run.dll. ?search@RunTime@VIP@@YG_NPBG0QAI@Z 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _LocalFileTimeToFileTime@8 
+[import] 'Obj\fileSystem.obj' ADVAPI32.dll. _IsTextUnicode@12 
+[import] 'Obj\fileSystem_api.obj' KERNEL32.dll. _GetVolumeInformationW@32 
+[import] 'Obj\console.obj' KERNEL32.dll. _ReadFile@20 
+[import] 'Obj\exe.obj' VIP7Run.dll. ?trimFront@RunTime@VIP@@YAPBGPBG@Z 
+[import] 'Obj\fileSystem.obj' SHELL32.dll. _SHFileOperationW@4 
+[import] 'Obj\string.obj' VIP7Run.dll. ?searchBack@RunTime@VIP@@YG_NPBG0QAI@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetFullPathNameW@16 
+[import] 'Obj\string.obj' VIP7Run.dll. ?frontToken@RunTime@VIP@@YG_NPBGAAPAG1@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _SetFileTime@16 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegEnumValueW@32 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetFileAttributesExW@12 
+[import] 'Obj\fileSystem_api.obj' KERNEL32.dll. _GetFileSize@8 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _SetFileAttributesW@8 
+[import] 'Obj\console.obj' VIP7Run.dll. ?bitOr@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\exe.obj' KERNEL32.dll. _GetCommandLineW@0 
+[import] 'Obj\runTime_api.obj' KERNEL32.dll. _GetSystemInfo@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetShortPathNameW@12 
+[import] 'Obj\environment.obj' KERNEL32.dll. _GetEnvironmentStringsW@0 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetTempFileNameW@16 
+[import] 'Obj\exception.obj' VIP7Kernel.dll. ?GetLineFromAddrProlog@Kernel@VIP@@YGXPBXPAIPAPBG@Z 
+[import] 'Obj\exe.obj' OLE32.dll. _OleUninitialize@0 
+[import] 'Obj\string8_api.obj' KERNEL32.dll. _WideCharToMultiByte@32 
+[import] 'Obj\exe.obj' OLE32.dll. _OleInitialize@4 
+[import] 'Obj\time.obj' KERNEL32.dll. _SetLocalTime@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _FindNextFileW@8 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegCloseKey@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _FindClose@4 
+[import] 'Obj\binary.obj' VIP7Kernel.dll. ?Stkb3@Kernel@VIP@@YAXXZ 
+[import] 'Obj\exe.obj' OLE32.dll. _CoUninitialize@0 
+[import] 'Obj\console.obj' KERNEL32.dll. _WriteConsoleW@20 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _FindFirstFileW@8 
+[import] 'Obj\string.obj' VIP7Run.dll. ?trimLast@RunTime@VIP@@YAPBGPBG@Z 
+[import] 'Obj\exe.obj' OLE32.dll. _CoInitializeEx@8 
+[import] 'Obj\string.obj' USER32.dll. _CharLowerW@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _GetFileAttributesW@4 
+[import] 'Obj\exception.obj' VIP7Run.dll. ?write2String@RunTime@VIP@@YGQBGIIQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?GarbageCollector@Kernel@VIP@@YAXXZ 
+[import] 'Obj\runTime_api.obj' USER32.dll. _GetSystemMetrics@4 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _DeleteFileW@4 
+[import] 'Obj\fileSystem.obj' VIP7Kernel.dll. ?ReleaseHeap@Kernel@VIP@@YGXPAE@Z 
+[import] '.\Release\VIPMain.obj' KERNEL32.dll. __imp__ExitProcess@4 
+[import] 'Obj\time.obj' VIP7Run.dll. ?addInteger64@RunTime@VIP@@YAPA_JPB_J0@Z 
+[import] '.\Release\VIPMain.obj' VIP7Kernel.dll. __imp_?ExeTermination@Kernel@VIP@@YAXH@Z 
+[import] 'Obj\registry_api.obj' ADVAPI32.dll. _RegDeleteKeyW@8 
+[import] '.\Release\VIPDll.obj' VIP7Kernel.dll. __imp_?KernelUnitTermination@Kernel@VIP@@YAXPAX@Z 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _FileTimeToSystemTime@8 
+[import] '.\Release\VIPDll.obj' VIP7Run.dll. __imp_?RunUnitTermination@RunTime@VIP@@YGXPAX@Z 
+[import] 'Obj\time_api.obj' KERNEL32.dll. _GetLocaleInfoW@16 
+[import] '.\Release\VIPDll.obj' VIP7Kernel.dll. __imp_?RunGoal@Kernel@VIP@@YGIQ6AIXZ@Z 
+[import] 'Obj\exe.obj' KERNEL32.dll. _lstrlenW@4 
+[import] '.\Release\VIPMain.obj' VIP7Kernel.dll. __imp_?ExeInitialization@Kernel@VIP@@YAHXZ 
+[import] 'Obj\console.obj' KERNEL32.dll. _SetConsoleMode@8 
+[import] '.\Release\VIPDll.obj' VIP7Run.dll. __imp_?InitializationDictionaries@RunTime@VIP@@YGHPBVdicofdic@12@@Z 
+[import] 'Obj\time.obj' KERNEL32.dll. _CompareFileTime@8 
+[import] '.\Release\VIPDll.obj' VIP7Run.dll. __imp_?RunUnitInitialization@RunTime@VIP@@YGHPAX@Z 
+[import] 'Obj\runTime_api.obj' KERNEL32.dll. _GetVersionExW@4 
+[import] 'Obj\exe.obj' VIP7Kernel.dll. ?AllocAtomicHeapWithContext@Kernel@VIP@@YGQAEIII@Z 
+[import] 'Obj\runTime_api.obj' KERNEL32.dll. _GetProcAddress@8 
+[import] '.\Release\VIPDll.obj' VIP7Kernel.dll. __imp_?KernelUnitInitialization@Kernel@VIP@@YGHPAX@Z 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _MoveFileW@8 
+[import] 'Obj\fileSystem.obj' KERNEL32.dll. _MoveFileExW@12 
+[import] 'Obj\string.obj' VIP7Run.dll. ?replace@RunTime@VIP@@YGPBGPBG00H_N@Z 
+--- Total Names =  2219 --------
+--- Total Cnt   =  2219 --------
+--------------------------------
+
