@@ -1,0 +1,132 @@
+Microsoft (R) Macro Assembler Version 5.10                  12/28/16 17:11:4
+                                                             Page     1-1
+
+
+ 0000				DATA SEGMENT
+ 0000  0A 14 1E 28 32 2D	BUF DB 10,20,30,40,50,45,35,25,15,5,4,3,2,1,9,8
+				,7,6,14,13,12,11,19,18,17,16,24,23,22,21,29,28,
+				27,26,34,33,32,31,39,38,37,36,44,43,42,41,49,48
+				,47,46
+       23 19 0F 05 04 03	
+       02 01 09 08 07 06	
+       0E 0D 0C 0B 13 12	
+       11 10 18 17 16 15	
+       1D 1C 1B 1A 22 21	
+       20 1F 27 26 25 24	
+       2C 2B 2A 29 31 30	
+       2F 2E			
+ 0032				DATA ENDS
+				
+ 0000				CODE SEGMENT
+				ASSUME CS:CODE DS:DATA
+sort.asm(6): warning A4001: Extra characters on line
+ 0000				START:
+ 0000  E8 002C R			CALL DISP
+ 0003  B9 0032				MOV CX, 50
+ 0006  49				DEC CX
+ 0007				LP1:
+ 0007  8B F9				MOV DI, CX
+ 0009  33 DB				XOR BX, BX
+ 000B				LP2:
+ 000B  8A 87 0000 R			MOV AL, BUF[BX]
+sort.asm(15): error A2068: Cannot address with segment register
+ 000F  3A 87 0001 R			CMP AL, BUF[BX+1]
+sort.asm(16): error A2068: Cannot address with segment register
+ 0013  76 08				JBE CONTINUE
+ 0015  86 87 0001 R			XCHG AL, BUF[BX+1]
+sort.asm(18): error A2068: Cannot address with segment register
+ 0019  88 87 0000 R			MOV BUF[BX], AL
+sort.asm(19): error A2068: Cannot address with segment register
+ 001D				CONTINUE:
+ 001D  43				INC BX
+ 001E  E2 EB				LOOP LP2
+ 0020  8B CF				MOV CX, DI
+ 0022  E2 E3				LOOP LP1
+					
+ 0024  E8 002C R			CALL DISP
+ 0027  B8 4C00				MOV AX, 4C00H
+ 002A  CD 21				INT 21H
+				
+ 002C				DISP PROC NEAR
+ 002C  50				PUSH AX
+ 002D  53				PUSH BX
+ 002E  51				PUSH CX
+ 002F  52				PUSH DX
+ 0030  57				PUSH DI
+ 0031  B9 0005				MOV CX, 5
+ 0034  33 DB				XOR BX, BX
+ 0036				LP3:
+ 0036  8B F9				MOV DI, CX
+ 0038				LP4:
+ 0038  B4 02				MOV AH, 02H
+ 003A  8A 97 0000 R			MOV DL, BUF[BX]
+sort.asm(42): error A2068: Cannot address with segment register
+ 003E  CD 21				INT 21H
+Microsoft (R) Macro Assembler Version 5.10                  12/28/16 17:11:4
+                                                             Page     1-2
+
+
+ 0040  B4 02				MOV AH, 02H
+ 0042  B2 20				MOV DL, ' '
+ 0044  CD 21				INT 21H
+ 0046  43				INC BX
+ 0047  E2 EF				LOOP LP4
+ 0049  B2 0D				MOV DL, 0DH
+ 004B  B4 02				MOV AH, 02H
+ 004D  CD 21				INT 21H
+ 004F  B2 0A				MOV DL, 0AH
+ 0051  B4 02				MOV AH, 02H
+ 0053  CD 21				INT 21H
+ 0055  8B CF				MOV CX, DI
+ 0057  E2 DD				LOOP LP3
+ 0059  5F				POP DI
+ 005A  5A				POP DX
+ 005B  59				POP CX
+ 005C  5B				POP BX
+ 005D  58				POP AX
+ 005E  C3				RET
+ 005F				DISP ENDP
+				
+ 005F				CODE ENDS
+				END START	
+Microsoft (R) Macro Assembler Version 5.10                  12/28/16 17:11:4
+                                                             Symbols-1
+
+
+Segments and Groups:
+
+                N a m e         	Length	 Align	Combine Class
+
+CODE . . . . . . . . . . . . . .  	005F	PARA	NONE	
+DATA . . . . . . . . . . . . . .  	0032	PARA	NONE	
+
+Symbols:            
+
+                N a m e         	Type	 Value	 Attr
+
+BUF  . . . . . . . . . . . . . .  	L BYTE	0000	DATA
+
+CONTINUE . . . . . . . . . . . .  	L NEAR	001D	CODE
+
+DISP . . . . . . . . . . . . . .  	N PROC	002C	CODE	Length = 0033
+
+LP1  . . . . . . . . . . . . . .  	L NEAR	0007	CODE
+LP2  . . . . . . . . . . . . . .  	L NEAR	000B	CODE
+LP3  . . . . . . . . . . . . . .  	L NEAR	0036	CODE
+LP4  . . . . . . . . . . . . . .  	L NEAR	0038	CODE
+
+START  . . . . . . . . . . . . .  	L NEAR	0000	CODE
+
+@CPU . . . . . . . . . . . . . .  	TEXT  0101h		
+@FILENAME  . . . . . . . . . . .  	TEXT  sort		
+@VERSION . . . . . . . . . . . .  	TEXT  510		
+
+
+     66 Source  Lines
+     66 Total   Lines
+     15 Symbols
+
+  47816 + 461475 Bytes symbol space free
+
+      1 Warning Errors
+      5 Severe  Errors
